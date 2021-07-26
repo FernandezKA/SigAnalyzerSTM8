@@ -1,4 +1,4 @@
 #include "gpio.h"
-void vGPIO_Config(void){
+void vLED_Config(void){
   
 }

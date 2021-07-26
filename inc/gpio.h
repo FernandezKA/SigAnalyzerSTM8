@@ -1,4 +1,6 @@
 #ifndef _gpio_h_
 #define _gpio_h_
-void vGPIO_Config(void);
+#include "general.h"
+//This function config GPIO for indicate
+void vLED_Config(void);
 #endif
