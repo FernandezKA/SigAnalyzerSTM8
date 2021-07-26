@@ -1,6 +1,7 @@
-main.pbi: C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_gpio.h \
-  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_clk.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+main.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\main.c \
   C:\dev\MCU\STM8\SigAnalyzer\inc\stm8s_conf.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s.h \
-  C:\dev\MCU\STM8\SigAnalyzer\src\main.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_clk.h \
+  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc/stm8s.h \
+  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_gpio.h

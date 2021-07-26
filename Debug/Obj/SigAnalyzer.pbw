@@ -31128,7 +31128,7 @@
     "display": "void ITC_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "80",
+      "line": "81",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "ITC_DeInit",
@@ -31142,7 +31142,7 @@
     "display": "uint8_t ITC_GetSoftIntStatus(void)",
     "location": {
       "column": "9",
-      "line": "97",
+      "line": "98",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "ITC_GetSoftIntStatus",
@@ -31156,7 +31156,7 @@
     "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
     "location": {
       "column": "27",
-      "line": "107",
+      "line": "108",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "ITC_GetSoftwarePriority",
@@ -31164,13 +31164,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_itc.c@3588@F@ITC_GetSoftwarePriority@Value",
+    "ID": "c:stm8s_itc.c@3601@F@ITC_GetSoftwarePriority@Value",
     "What": "Variable",
     "defdec": "Def",
     "display": "Value",
     "location": {
       "column": "11",
-      "line": "109",
+      "line": "110",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "Value",
@@ -31178,13 +31178,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_itc.c@3610@F@ITC_GetSoftwarePriority@Mask",
+    "ID": "c:stm8s_itc.c@3623@F@ITC_GetSoftwarePriority@Mask",
     "What": "Variable",
     "defdec": "Def",
     "display": "Mask",
     "location": {
       "column": "11",
-      "line": "110",
+      "line": "111",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "Mask",
@@ -31198,7 +31198,7 @@
     "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
     "location": {
       "column": "6",
-      "line": "220",
+      "line": "221",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "ITC_SetSoftwarePriority",
@@ -31206,13 +31206,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_itc.c@7531@F@ITC_SetSoftwarePriority@Mask",
+    "ID": "c:stm8s_itc.c@7544@F@ITC_SetSoftwarePriority@Mask",
     "What": "Variable",
     "defdec": "Def",
     "display": "Mask",
     "location": {
       "column": "11",
-      "line": "222",
+      "line": "223",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "Mask",
@@ -31220,13 +31220,13 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_itc.c@7552@F@ITC_SetSoftwarePriority@NewPriority",
+    "ID": "c:stm8s_itc.c@7565@F@ITC_SetSoftwarePriority@NewPriority",
     "What": "Variable",
     "defdec": "Def",
     "display": "NewPriority",
     "location": {
       "column": "11",
-      "line": "223",
+      "line": "224",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_itc.c"
     },
     "name": "NewPriority",
@@ -45640,6 +45640,48 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_wwdg.h"
     },
     "name": "WWDG_SetWindowValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGPIO_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGPIO_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
+    },
+    "name": "vGPIO_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@26@macro@_gpio_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_gpio_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "_gpio_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGPIO_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vGPIO_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vGPIO_Config",
     "origin": "user_include",
     "scope": null
   },

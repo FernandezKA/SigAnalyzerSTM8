@@ -2156,6 +2156,9 @@
     <group>
         <name>inc</name>
         <file>
+            <name>$PROJ_DIR$\inc\gpio.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\inc\stm8s_conf.h</name>
         </file>
     </group>
@@ -2332,9 +2335,27 @@
     </group>
     <group>
         <name>RTOS</name>
+        <file>
+            <name>$PROJ_DIR$\osa\osa.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\osa\osa.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\osa\port\stm8\osa_stm8_iar.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\osa\port\stm8\osa_stm8_iar.s</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\osa\OSAcfg.h</name>
+        </file>
     </group>
     <group>
         <name>src</name>
+        <file>
+            <name>$PROJ_DIR$\src\gpio.c</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\src\main.c</name>
         </file>
