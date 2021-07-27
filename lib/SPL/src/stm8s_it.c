@@ -119,13 +119,10 @@ INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_BRK_IRQHandler, 11)
 }
 #endif
 
-#ifndef TIM1_CAP_COM_IRQ 
+//#ifndef TIM1_CAP_COM_IRQ 
 //Timer1 Capture/Compare Interrupt routine.
-INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
-{
-	while (1){};
-}
-#endif
+
+//#endif
 
 #if defined (STM8S903) || defined (STM8AF622x)
 #ifndef TIM5_UPD_OVF_BRK_TRG_IRQ 
@@ -288,13 +285,10 @@ INTERRUPT_HANDLER(TIM6_UPD_OVF_TRG_IRQHandler, 23)
 }
 #endif
 #else /* STM8S208 or STM8S207 or STM8S105 or STM8S103 or STM8AF52Ax or STM8AF62Ax or STM8AF626x */
-#ifndef TIM4_UPD_OVF_IRQ
+//#ifndef TIM4_UPD_OVF_IRQ
 //Timer4 Update/Overflow Interrupt routine.
-INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
-{
-	while (1){};
-}
-#endif
+
+//#endif
 #endif /* (STM8S903) || (STM8AF622x)*/
 
 #ifndef EEPROM_EEC_IRQ 

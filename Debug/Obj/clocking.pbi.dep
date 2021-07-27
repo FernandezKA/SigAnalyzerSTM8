@@ -1,5 +1,5 @@
-timers.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\timers.c \
-  C:\dev\MCU\STM8\SigAnalyzer\inc\timers.h \
+clocking.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\clocking.c \
+  C:\dev\MCU\STM8\SigAnalyzer\inc\clocking.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/general.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/stm8s_conf.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s.h \

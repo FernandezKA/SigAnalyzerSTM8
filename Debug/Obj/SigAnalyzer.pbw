@@ -21494,6 +21494,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@assert_failed",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void assert_failed(uint8_t *, uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "197",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\stm8s_conf.h"
+    },
+    "name": "assert_failed",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm8s_adc1.h@1278@macro@__STM8S_ADC1_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -27532,6 +27546,970 @@
     "scope": null
   },
   {
+    "ID": "c:stm8s_flash.h@1292@macro@__STM8S_FLASH_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_FLASH_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "__STM8S_FLASH_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@1565@macro@FLASH_PROG_START_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_PROG_START_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_PROG_START_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3407@macro@FLASH_PROG_END_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_PROG_END_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "10",
+      "line": "62",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_PROG_END_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3508@macro@FLASH_PROG_BLOCKS_NUMBER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_PROG_BLOCKS_NUMBER",
+    "location": {
+      "column": "10",
+      "line": "63",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_PROG_BLOCKS_NUMBER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3620@macro@FLASH_DATA_START_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_DATA_START_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "10",
+      "line": "64",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_DATA_START_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3727@macro@FLASH_DATA_END_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_DATA_END_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "10",
+      "line": "65",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_DATA_END_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3832@macro@FLASH_DATA_BLOCKS_NUMBER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_DATA_BLOCKS_NUMBER",
+    "location": {
+      "column": "10",
+      "line": "66",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_DATA_BLOCKS_NUMBER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@3948@macro@FLASH_BLOCK_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_BLOCK_SIZE",
+    "location": {
+      "column": "10",
+      "line": "67",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_BLOCK_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@4148@macro@FLASH_RASS_KEY1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_RASS_KEY1",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_RASS_KEY1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@4212@macro@FLASH_RASS_KEY2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_RASS_KEY2",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_RASS_KEY2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@4279@macro@OPTION_BYTE_START_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OPTION_BYTE_START_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "OPTION_BYTE_START_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@4343@macro@OPTION_BYTE_END_PHYSICAL_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OPTION_BYTE_END_PHYSICAL_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "OPTION_BYTE_END_PHYSICAL_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@4407@macro@FLASH_OPTIONBYTE_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_OPTIONBYTE_ERROR",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_OPTIONBYTE_ERROR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_MemType_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_MemType_TypeDef@FLASH_MEMTYPE_PROG",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_MEMTYPE_PROG",
+        "location": {
+          "column": "5",
+          "line": "91",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_MEMTYPE_PROG",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_MemType_TypeDef@FLASH_MEMTYPE_DATA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_MEMTYPE_DATA",
+        "location": {
+          "column": "5",
+          "line": "92",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_MEMTYPE_DATA",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_ProgramMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_ProgramMode_TypeDef@FLASH_PROGRAMMODE_STANDARD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_PROGRAMMODE_STANDARD",
+        "location": {
+          "column": "5",
+          "line": "99",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_PROGRAMMODE_STANDARD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_ProgramMode_TypeDef@FLASH_PROGRAMMODE_FAST",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_PROGRAMMODE_FAST",
+        "location": {
+          "column": "5",
+          "line": "100",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_PROGRAMMODE_FAST",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_ProgramTime_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_ProgramTime_TypeDef@FLASH_PROGRAMTIME_STANDARD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_PROGRAMTIME_STANDARD",
+        "location": {
+          "column": "5",
+          "line": "107",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_PROGRAMTIME_STANDARD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_ProgramTime_TypeDef@FLASH_PROGRAMTIME_TPROG",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_PROGRAMTIME_TPROG",
+        "location": {
+          "column": "5",
+          "line": "108",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_PROGRAMTIME_TPROG",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_LPMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_POWERDOWN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_LPMODE_POWERDOWN",
+        "location": {
+          "column": "5",
+          "line": "115",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_LPMODE_POWERDOWN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_STANDBY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_LPMODE_STANDBY",
+        "location": {
+          "column": "5",
+          "line": "116",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_LPMODE_STANDBY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_POWERDOWN_STANDBY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_LPMODE_POWERDOWN_STANDBY",
+        "location": {
+          "column": "5",
+          "line": "117",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_LPMODE_POWERDOWN_STANDBY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_STANDBY_POWERDOWN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_LPMODE_STANDBY_POWERDOWN",
+        "location": {
+          "column": "5",
+          "line": "118",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_LPMODE_STANDBY_POWERDOWN",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@FLASH_LPMode_TypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FLASH_LPMode_TypeDef",
+    "location": {
+      "column": "1",
+      "line": "120",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_LPMode_TypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_Status_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_SUCCESSFUL_OPERATION",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_STATUS_SUCCESSFUL_OPERATION",
+        "location": {
+          "column": "3",
+          "line": "130",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_STATUS_SUCCESSFUL_OPERATION",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_TIMEOUT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_STATUS_TIMEOUT",
+        "location": {
+          "column": "3",
+          "line": "131",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_STATUS_TIMEOUT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_WRITE_PROTECTION_ERROR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_STATUS_WRITE_PROTECTION_ERROR",
+        "location": {
+          "column": "5",
+          "line": "132",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_STATUS_WRITE_PROTECTION_ERROR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "125",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FLASH_Flag_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_DUL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_FLAG_DUL",
+        "location": {
+          "column": "5",
+          "line": "144",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_FLAG_DUL",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_EOP",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_FLAG_EOP",
+        "location": {
+          "column": "5",
+          "line": "145",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_FLAG_EOP",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_PUL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_FLAG_PUL",
+        "location": {
+          "column": "5",
+          "line": "146",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_FLAG_PUL",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_WR_PG_DIS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FLASH_FLAG_WR_PG_DIS",
+        "location": {
+          "column": "5",
+          "line": "147",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+        },
+        "name": "FLASH_FLAG_WR_PG_DIS",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "139",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@8049@macro@IS_FLASH_PROG_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_PROG_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "166",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_PROG_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@8341@macro@IS_FLASH_DATA_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_DATA_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "173",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_DATA_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@8649@macro@IS_FLASH_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "179",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@9079@macro@IS_FLASH_PROG_BLOCK_NUMBER_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_PROG_BLOCK_NUMBER_OK",
+    "location": {
+      "column": "9",
+      "line": "185",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_PROG_BLOCK_NUMBER_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@9312@macro@IS_FLASH_DATA_BLOCK_NUMBER_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_DATA_BLOCK_NUMBER_OK",
+    "location": {
+      "column": "9",
+      "line": "190",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_DATA_BLOCK_NUMBER_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@9540@macro@IS_MEMORY_TYPE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_MEMORY_TYPE_OK",
+    "location": {
+      "column": "9",
+      "line": "196",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_MEMORY_TYPE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@9828@macro@IS_FLASH_PROGRAM_MODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_PROGRAM_MODE_OK",
+    "location": {
+      "column": "9",
+      "line": "203",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_PROGRAM_MODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@10092@macro@IS_FLASH_PROGRAM_TIME_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_PROGRAM_TIME_OK",
+    "location": {
+      "column": "9",
+      "line": "210",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_PROGRAM_TIME_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@10405@macro@IS_FLASH_LOW_POWER_MODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_LOW_POWER_MODE_OK",
+    "location": {
+      "column": "9",
+      "line": "218",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_LOW_POWER_MODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@10797@macro@IS_OPTION_BYTE_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_OPTION_BYTE_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "227",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_OPTION_BYTE_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.h@11624@macro@IS_FLASH_FLAGS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FLASH_FLAGS_OK",
+    "location": {
+      "column": "10",
+      "line": "242",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "IS_FLASH_FLAGS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_Unlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_Unlock(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "256",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_Unlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_Lock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_Lock(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "257",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_Lock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "258",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ITConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ITConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "259",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseByte(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "260",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramByte(uint32_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "261",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ReadByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t FLASH_ReadByte(uint32_t)",
+    "location": {
+      "column": "9",
+      "line": "262",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ReadByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramWord",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramWord(uint32_t, uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "263",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramWord",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ReadOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t FLASH_ReadOptionByte(uint16_t)",
+    "location": {
+      "column": "10",
+      "line": "264",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ReadOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramOptionByte(uint16_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "265",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseOptionByte(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "266",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_SetLowPowerMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_SetLowPowerMode(FLASH_LPMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "267",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_SetLowPowerMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_SetProgrammingTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_SetProgrammingTime(FLASH_ProgramTime_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "268",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_SetProgrammingTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetLowPowerMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_LPMode_TypeDef FLASH_GetLowPowerMode(void)",
+    "location": {
+      "column": "22",
+      "line": "269",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetLowPowerMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetProgrammingTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_ProgramTime_TypeDef FLASH_GetProgrammingTime(void)",
+    "location": {
+      "column": "27",
+      "line": "270",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetProgrammingTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetBootSize",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t FLASH_GetBootSize(void)",
+    "location": {
+      "column": "10",
+      "line": "271",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetBootSize",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus FLASH_GetFlagStatus(FLASH_Flag_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "272",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseBlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseBlock(uint16_t, FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "1",
+      "line": "288",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseBlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramBlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramBlock(uint16_t, FLASH_MemType_TypeDef, FLASH_ProgramMode_TypeDef, uint8_t *)",
+    "location": {
+      "column": "1",
+      "line": "289",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramBlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_WaitForLastOperation",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_Status_TypeDef FLASH_WaitForLastOperation(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "1",
+      "line": "291",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_WaitForLastOperation",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@EXTI_DeInit",
     "What": "Function",
     "defdec": "Def",
@@ -28711,970 +29689,6 @@
     },
     "name": "GPIO_ExternalPullUpConfig",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@1292@macro@__STM8S_FLASH_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_FLASH_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "__STM8S_FLASH_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@1565@macro@FLASH_PROG_START_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_PROG_START_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_PROG_START_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3407@macro@FLASH_PROG_END_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_PROG_END_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "10",
-      "line": "62",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_PROG_END_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3508@macro@FLASH_PROG_BLOCKS_NUMBER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_PROG_BLOCKS_NUMBER",
-    "location": {
-      "column": "10",
-      "line": "63",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_PROG_BLOCKS_NUMBER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3620@macro@FLASH_DATA_START_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_DATA_START_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "10",
-      "line": "64",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_DATA_START_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3727@macro@FLASH_DATA_END_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_DATA_END_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "10",
-      "line": "65",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_DATA_END_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3832@macro@FLASH_DATA_BLOCKS_NUMBER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_DATA_BLOCKS_NUMBER",
-    "location": {
-      "column": "10",
-      "line": "66",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_DATA_BLOCKS_NUMBER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@3948@macro@FLASH_BLOCK_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_BLOCK_SIZE",
-    "location": {
-      "column": "10",
-      "line": "67",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_BLOCK_SIZE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@4148@macro@FLASH_RASS_KEY1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_RASS_KEY1",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_RASS_KEY1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@4212@macro@FLASH_RASS_KEY2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_RASS_KEY2",
-    "location": {
-      "column": "9",
-      "line": "71",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_RASS_KEY2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@4279@macro@OPTION_BYTE_START_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OPTION_BYTE_START_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "73",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "OPTION_BYTE_START_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@4343@macro@OPTION_BYTE_END_PHYSICAL_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OPTION_BYTE_END_PHYSICAL_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "OPTION_BYTE_END_PHYSICAL_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@4407@macro@FLASH_OPTIONBYTE_ERROR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_OPTIONBYTE_ERROR",
-    "location": {
-      "column": "9",
-      "line": "75",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_OPTIONBYTE_ERROR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_MemType_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_MemType_TypeDef@FLASH_MEMTYPE_PROG",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_MEMTYPE_PROG",
-        "location": {
-          "column": "5",
-          "line": "91",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_MEMTYPE_PROG",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_MemType_TypeDef@FLASH_MEMTYPE_DATA",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_MEMTYPE_DATA",
-        "location": {
-          "column": "5",
-          "line": "92",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_MEMTYPE_DATA",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_ProgramMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_ProgramMode_TypeDef@FLASH_PROGRAMMODE_STANDARD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_PROGRAMMODE_STANDARD",
-        "location": {
-          "column": "5",
-          "line": "99",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_PROGRAMMODE_STANDARD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_ProgramMode_TypeDef@FLASH_PROGRAMMODE_FAST",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_PROGRAMMODE_FAST",
-        "location": {
-          "column": "5",
-          "line": "100",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_PROGRAMMODE_FAST",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_ProgramTime_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_ProgramTime_TypeDef@FLASH_PROGRAMTIME_STANDARD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_PROGRAMTIME_STANDARD",
-        "location": {
-          "column": "5",
-          "line": "107",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_PROGRAMTIME_STANDARD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_ProgramTime_TypeDef@FLASH_PROGRAMTIME_TPROG",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_PROGRAMTIME_TPROG",
-        "location": {
-          "column": "5",
-          "line": "108",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_PROGRAMTIME_TPROG",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "106",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_LPMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_POWERDOWN",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_LPMODE_POWERDOWN",
-        "location": {
-          "column": "5",
-          "line": "115",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_LPMODE_POWERDOWN",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_STANDBY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_LPMODE_STANDBY",
-        "location": {
-          "column": "5",
-          "line": "116",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_LPMODE_STANDBY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_POWERDOWN_STANDBY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_LPMODE_POWERDOWN_STANDBY",
-        "location": {
-          "column": "5",
-          "line": "117",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_LPMODE_POWERDOWN_STANDBY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_LPMode_TypeDef@FLASH_LPMODE_STANDBY_POWERDOWN",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_LPMODE_STANDBY_POWERDOWN",
-        "location": {
-          "column": "5",
-          "line": "118",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_LPMODE_STANDBY_POWERDOWN",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "114",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@FLASH_LPMode_TypeDef",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FLASH_LPMode_TypeDef",
-    "location": {
-      "column": "1",
-      "line": "120",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_LPMode_TypeDef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_Status_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_SUCCESSFUL_OPERATION",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_STATUS_SUCCESSFUL_OPERATION",
-        "location": {
-          "column": "3",
-          "line": "130",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_STATUS_SUCCESSFUL_OPERATION",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_TIMEOUT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_STATUS_TIMEOUT",
-        "location": {
-          "column": "3",
-          "line": "131",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_STATUS_TIMEOUT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_Status_TypeDef@FLASH_STATUS_WRITE_PROTECTION_ERROR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_STATUS_WRITE_PROTECTION_ERROR",
-        "location": {
-          "column": "5",
-          "line": "132",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_STATUS_WRITE_PROTECTION_ERROR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "125",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FLASH_Flag_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_DUL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_FLAG_DUL",
-        "location": {
-          "column": "5",
-          "line": "144",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_FLAG_DUL",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_EOP",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_FLAG_EOP",
-        "location": {
-          "column": "5",
-          "line": "145",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_FLAG_EOP",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_PUL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_FLAG_PUL",
-        "location": {
-          "column": "5",
-          "line": "146",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_FLAG_PUL",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FLASH_Flag_TypeDef@FLASH_FLAG_WR_PG_DIS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "FLASH_FLAG_WR_PG_DIS",
-        "location": {
-          "column": "5",
-          "line": "147",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-        },
-        "name": "FLASH_FLAG_WR_PG_DIS",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "139",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@8049@macro@IS_FLASH_PROG_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_PROG_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "166",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_PROG_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@8341@macro@IS_FLASH_DATA_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_DATA_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "173",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_DATA_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@8649@macro@IS_FLASH_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "179",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@9079@macro@IS_FLASH_PROG_BLOCK_NUMBER_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_PROG_BLOCK_NUMBER_OK",
-    "location": {
-      "column": "9",
-      "line": "185",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_PROG_BLOCK_NUMBER_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@9312@macro@IS_FLASH_DATA_BLOCK_NUMBER_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_DATA_BLOCK_NUMBER_OK",
-    "location": {
-      "column": "9",
-      "line": "190",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_DATA_BLOCK_NUMBER_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@9540@macro@IS_MEMORY_TYPE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_MEMORY_TYPE_OK",
-    "location": {
-      "column": "9",
-      "line": "196",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_MEMORY_TYPE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@9828@macro@IS_FLASH_PROGRAM_MODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_PROGRAM_MODE_OK",
-    "location": {
-      "column": "9",
-      "line": "203",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_PROGRAM_MODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@10092@macro@IS_FLASH_PROGRAM_TIME_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_PROGRAM_TIME_OK",
-    "location": {
-      "column": "9",
-      "line": "210",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_PROGRAM_TIME_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@10405@macro@IS_FLASH_LOW_POWER_MODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_LOW_POWER_MODE_OK",
-    "location": {
-      "column": "9",
-      "line": "218",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_LOW_POWER_MODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@10797@macro@IS_OPTION_BYTE_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_OPTION_BYTE_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "227",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_OPTION_BYTE_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_flash.h@11624@macro@IS_FLASH_FLAGS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FLASH_FLAGS_OK",
-    "location": {
-      "column": "10",
-      "line": "242",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "IS_FLASH_FLAGS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_Unlock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_Unlock(FLASH_MemType_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "256",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_Unlock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_Lock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_Lock(FLASH_MemType_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "257",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_Lock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "258",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ITConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_ITConfig(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "259",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ITConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_EraseByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_EraseByte(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "260",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_EraseByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ProgramByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_ProgramByte(uint32_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "261",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ProgramByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ReadByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t FLASH_ReadByte(uint32_t)",
-    "location": {
-      "column": "9",
-      "line": "262",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ReadByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ProgramWord",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_ProgramWord(uint32_t, uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "263",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ProgramWord",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ReadOptionByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t FLASH_ReadOptionByte(uint16_t)",
-    "location": {
-      "column": "10",
-      "line": "264",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ReadOptionByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ProgramOptionByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_ProgramOptionByte(uint16_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "265",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ProgramOptionByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_EraseOptionByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_EraseOptionByte(uint16_t)",
-    "location": {
-      "column": "6",
-      "line": "266",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_EraseOptionByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_SetLowPowerMode",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_SetLowPowerMode(FLASH_LPMode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "267",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_SetLowPowerMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_SetProgrammingTime",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_SetProgrammingTime(FLASH_ProgramTime_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "268",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_SetProgrammingTime",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_GetLowPowerMode",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FLASH_LPMode_TypeDef FLASH_GetLowPowerMode(void)",
-    "location": {
-      "column": "22",
-      "line": "269",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_GetLowPowerMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_GetProgrammingTime",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FLASH_ProgramTime_TypeDef FLASH_GetProgrammingTime(void)",
-    "location": {
-      "column": "27",
-      "line": "270",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_GetProgrammingTime",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_GetBootSize",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t FLASH_GetBootSize(void)",
-    "location": {
-      "column": "10",
-      "line": "271",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_GetBootSize",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus FLASH_GetFlagStatus(FLASH_Flag_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "272",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_EraseBlock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_EraseBlock(uint16_t, FLASH_MemType_TypeDef)",
-    "location": {
-      "column": "1",
-      "line": "288",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_EraseBlock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_ProgramBlock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FLASH_ProgramBlock(uint16_t, FLASH_MemType_TypeDef, FLASH_ProgramMode_TypeDef, uint8_t *)",
-    "location": {
-      "column": "1",
-      "line": "289",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_ProgramBlock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FLASH_WaitForLastOperation",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FLASH_Status_TypeDef FLASH_WaitForLastOperation(FLASH_MemType_TypeDef)",
-    "location": {
-      "column": "1",
-      "line": "291",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
-    },
-    "name": "FLASH_WaitForLastOperation",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -32204,27 +32218,13 @@
     "scope": null
   },
   {
-    "ID": "c:@F@TIM1_CAP_COM_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TIM1_CAP_COM_IRQHandler(void)",
-    "location": {
-      "column": "1",
-      "line": "124",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
-    },
-    "name": "TIM1_CAP_COM_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@TIM2_UPD_OVF_BRK_IRQHandler",
     "What": "Function",
     "defdec": "Def",
     "display": "void TIM2_UPD_OVF_BRK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "149",
+      "line": "146",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TIM2_UPD_OVF_BRK_IRQHandler",
@@ -32238,7 +32238,7 @@
     "display": "void TIM2_CAP_COM_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "157",
+      "line": "154",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TIM2_CAP_COM_IRQHandler",
@@ -32252,7 +32252,7 @@
     "display": "void UART1_TX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "187",
+      "line": "184",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "UART1_TX_IRQHandler",
@@ -32266,7 +32266,7 @@
     "display": "void UART1_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "195",
+      "line": "192",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "UART1_RX_IRQHandler",
@@ -32280,7 +32280,7 @@
     "display": "void I2C_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "222",
+      "line": "219",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "I2C_IRQHandler",
@@ -32294,24 +32294,10 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "275",
+      "line": "272",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "ADC1_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_UPD_OVF_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TIM4_UPD_OVF_IRQHandler(void)",
-    "location": {
-      "column": "1",
-      "line": "293",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
-    },
-    "name": "TIM4_UPD_OVF_IRQHandler",
     "origin": "project_file",
     "scope": null
   },
@@ -32322,7 +32308,7 @@
     "display": "void EEPROM_EEC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "302",
+      "line": "296",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EEPROM_EEC_IRQHandler",
@@ -45658,6 +45644,230 @@
     "scope": null
   },
   {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SystemInit(void)",
+    "location": {
+      "column": "5",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assert_failed",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void assert_failed(u8 *, u32)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "assert_failed",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clocking.h@30@macro@_clocking_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_clocking_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "_clocking_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "vClock_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "vClock_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timers.h@28@macro@_timers_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_timers_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "_timers_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim1_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim1_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim1_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim1_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim2_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim2_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim3_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim3_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim3_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim3_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim3_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim3_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim4_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim4_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim4_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim4_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim4_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim4_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\clocking.c"
+    },
+    "name": "vClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:gpio.h@26@macro@_gpio_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -45688,6 +45898,48 @@
   {
     "ID": "c:@F@vLED_Config",
     "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLED_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLED_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTestOut_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTestOut_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vTestOut_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTestOut_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTestOut_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vTestOut_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLED_Config",
+    "What": "Function",
     "defdec": "Def",
     "display": "void vLED_Config(void)",
     "location": {
@@ -45700,30 +45952,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@SystemInit",
+    "ID": "c:@F@vTestOut_Config",
     "What": "Function",
     "defdec": "Def",
-    "display": "int SystemInit(void)",
-    "location": {
-      "column": "5",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
-    },
-    "name": "SystemInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void main(void)",
+    "display": "void vTestOut_Config(void)",
     "location": {
       "column": "6",
-      "line": "8",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
-    "name": "main",
+    "name": "vTestOut_Config",
     "origin": "project_file",
     "scope": null
   },
@@ -45812,31 +46050,87 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vTim1_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim1_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "vTim1_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@vTim2_Config",
     "What": "Function",
     "defdec": "Def",
     "display": "void vTim2_Config(void)",
     "location": {
       "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "vTim2_Config",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:timers.h@28@macro@_timers_h_",
-    "What": "MacroDef",
+    "ID": "c:@F@vTim3_Config",
+    "What": "Function",
     "defdec": "Def",
-    "display": "_timers_h_",
+    "display": "void vTim3_Config(void)",
     "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "6",
+      "line": "36",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
-    "name": "_timers_h_",
-    "origin": "user_include",
+    "name": "vTim3_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim4_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim4_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "39",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "vTim4_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_UPD_OVF_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_UPD_OVF_IRQHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "TIM4_UPD_OVF_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CAP_COM_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CAP_COM_IRQHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "60",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "TIM1_CAP_COM_IRQHandler",
+    "origin": "project_file",
     "scope": null
   },
   {

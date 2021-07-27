@@ -3,4 +3,5 @@
 #include "general.h"
 //This function config GPIO for indicate
 void vLED_Config(void);
+void vTestOut_Config(void);
 #endif
