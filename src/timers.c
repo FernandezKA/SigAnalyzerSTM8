@@ -1,11 +1,11 @@
 #include "timers.h"
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
-  TIM1->CR1|=TIM1_CR1_ARPE;
-  TIM1->CCMR1|=(1<<0);//configured as input, IC1 mapped on TI1FP1
-  TIM1->CCER1|=TIM1_CCER1_CC1E;
-  TIM1->IER|=TIM1_IER_CC1IE;
   TIM1->CR1|=TIM1_CR1_CEN;
+  TIM1->CCMR1|=(1<<0);//CC1 channel is configured as input, IC1 is mapped on TI1FP1
+  TIM1->CCER1|=TIM1_CCER1_CC1E;
+  TIM1->BKR|=TIM1_BKR_MOE;
+  TIM1->IER|=TIM1_IER_CC1IE;
 }
 /*
 *@brief: this procedure used for PWM generate config
@@ -59,7 +59,6 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
-	while (1){
+  //TIM1->SR1&=~TIM1_SR1_CC1IF;
         asm("nop");
-        };
 }
