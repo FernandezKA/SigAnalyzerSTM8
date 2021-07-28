@@ -1,11 +1,9 @@
 #include "timers.h"
 //variables
 enum edge Edge = error;
-uint16_t usRiseTime = 0;
-uint16_t usFallTime = 0;
 uint16_t usLowTime = 0;
 uint16_t usHighTime = 0;
-bool     bFirstRise = true;
+
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
   TIM1->PSCRH = (16000>>8);//set prescaler
@@ -50,7 +48,7 @@ void vTim4_Config(void){
   TIM4->IER |= TIM4_IER_UIE; /*ENABLE INTERRUPT UPDATE*/
   TIM4->IER |= TIM4_IER_RESET_VALUE;
   TIM4->PSCR = (1<<2|1<<1|1<<0); /*SET PRESCALER = 2^15*/
-  TIM4->ARR = 0x1EU;
+  TIM4->ARR = 0xFFU;//1E for sampling
   ITC->ISPR6 &= 0;
   ITC->ISPR6 |= 0x03U;
   TIM4->SR1 = ~TIM4_SR1_UIF; /*clear uif bit at SREG for correct working*/
@@ -75,15 +73,19 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
   }
   switch(Edge){
   case rise:
-    static uint16_t TempRead  = TIM1->CCR1L;
-    usTimeRise = (TIM1->CCR1H)<<8;
-    usTimeRise |= TempRead;
+      TIM1->CNTRL = 0x00;
+      TIM1->CNTRH = 0x00;
+     usLowTime = TIM1->CCR2L;
+     usLowTime |= (TIM1->CCR2H)<<8;
     break;
   case fall:
-      //usTimeLow = 
+     TIM1->CNTRL = 0x00;
+     TIM1->CNTRH = 0x00;
+     usHighTime = TIM1->CCR1L;
+     usHighTime |= (TIM1->CCR1H)<<8; 
     break;
   case error:
-    
+    //while(1){};
     break;
   }
     //GPIOD->ODR^=(1<<2);
