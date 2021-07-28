@@ -4,10 +4,12 @@ void vTim1_Config(void){
   TIM1->PSCRH = (16000>>8);
   TIM1->PSCRL = 16000&0xFF;
   TIM1->CCMR1|=(1<<0);//CC1 channel is configured as input, IC1 is mapped on TI1FP1
+  TIM1->CCMR2|=(1<<0);//CC2 channel is configured as input, IC2 is mapped on TI2FP2
   TIM1->CCER1|=TIM1_CCER1_CC1P;
   TIM1->CCER1|=TIM1_CCER1_CC1E;
-  //TIM1->BKR|=TIM1_BKR_MOE;
+  TIM1->CCER1|=TIM1_CCER1_CC2E;
   TIM1->IER|=TIM1_IER_CC1IE;
+  TIM1->IER|=TIM1_IER_CC2IE;
   TIM1->CR1|=TIM1_CR1_CEN;
   //TIM1_ICInit(TIM1_CHANNEL_1, TIM1_ICPOLARITY_RISING，TIM1_ICSELECTION_DIRECTTI, TIM1_ICPSC_DIV8,0x00);
 }
@@ -52,6 +54,7 @@ void vTim4_Config(void){
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
   TIM1->SR1&=~TIM1_SR1_CC1IF;
+  TIM1->SR1&=~TIM1_SR1_CC2IF;
         asm("nop");
 }
 

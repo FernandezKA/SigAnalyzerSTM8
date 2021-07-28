@@ -47064,7 +47064,7 @@
     "display": "void vTim2_Config(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "vTim2_Config",
@@ -47078,7 +47078,7 @@
     "display": "void vTim4_Config(void)",
     "location": {
       "column": "6",
-      "line": "37",
+      "line": "39",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "vTim4_Config",
@@ -47092,7 +47092,7 @@
     "display": "void TIM1_CAP_COM_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "52",
+      "line": "54",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "TIM1_CAP_COM_IRQHandler",
@@ -47106,7 +47106,7 @@
     "display": "void TIM1_UPD_OVF_TRG_BRK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "58",
+      "line": "61",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "TIM1_UPD_OVF_TRG_BRK_IRQHandler",
