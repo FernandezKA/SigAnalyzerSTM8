@@ -73,14 +73,14 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
   }
   switch(Edge){
   case rise:
-      TIM1->CNTRL = 0x00;
       TIM1->CNTRH = 0x00;
+      TIM1->CNTRL = 0x00;
      usLowTime = TIM1->CCR2L;
      usLowTime |= (TIM1->CCR2H)<<8;
     break;
   case fall:
-     TIM1->CNTRL = 0x00;
      TIM1->CNTRH = 0x00;
+     TIM1->CNTRL = 0x00;
      usHighTime = TIM1->CCR1L;
      usHighTime |= (TIM1->CCR1H)<<8; 
     break;

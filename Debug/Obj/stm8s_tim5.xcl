@@ -14,10 +14,6 @@ C:\dev\MCU\STM8\SigAnalyzer\inc
 -I
 C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc
 -I
-C:\dev\MCU\STM8\SigAnalyzer\osa\kernel
--I
-C:\dev\MCU\STM8\SigAnalyzer\osa
--I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
@@ -25,10 +21,6 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 C:\dev\MCU\STM8\SigAnalyzer\inc
 -I
 C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc
--I
-C:\dev\MCU\STM8\SigAnalyzer\osa\kernel
--I
-C:\dev\MCU\STM8\SigAnalyzer\osa
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

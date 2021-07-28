@@ -261,8 +261,6 @@
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\inc</state>
                     <state>$PROJ_DIR$\lib\SPL\inc</state>
-                    <state>C:\dev\MCU\STM8\SigAnalyzer\osa\kernel</state>
-                    <state>C:\dev\MCU\STM8\SigAnalyzer\osa</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -584,23 +582,23 @@
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogFile</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogInitialization</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogModule</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogSection</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogVeneer</name>
@@ -739,15 +737,15 @@
                 </option>
                 <option>
                     <name>IlinkLogAutoLibSelect</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogRedirSymbols</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogUnusedFragments</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkCrcReverseByteOrder</name>
