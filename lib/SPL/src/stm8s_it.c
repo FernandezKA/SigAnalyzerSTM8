@@ -111,17 +111,17 @@ INTERRUPT_HANDLER(SPI_IRQHandler, 10)
 }
 #endif
 
-#ifndef TIM1_UPD_OVF_TRG_BRK_IRQ 
+//#ifndef TIM1_UPD_OVF_TRG_BRK_IRQ 
 //Timer1 Update/Overflow/Trigger/Break Interrupt routine.
-INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_BRK_IRQHandler, 11)
-{
-	while (1){};
-}
-#endif
+
+//#endif
 
 //#ifndef TIM1_CAP_COM_IRQ 
 //Timer1 Capture/Compare Interrupt routine.
-
+//INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
+//{
+//  while(1){}
+//}
 //#endif
 
 #if defined (STM8S903) || defined (STM8AF622x)

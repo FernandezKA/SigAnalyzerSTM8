@@ -8,6 +8,7 @@ gpio.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\gpio.c \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_clk.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc/stm8s.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_gpio.h \
+  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_tim1.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/timers.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/clocking.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/gpio.h

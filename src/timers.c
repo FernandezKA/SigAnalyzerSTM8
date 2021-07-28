@@ -1,14 +1,18 @@
 #include "timers.h"
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
-  TIM1->CR1|=TIM1_CR1_CEN;
+  TIM1->PSCRH = (16000>>8);
+  TIM1->PSCRL = 16000&0xFF;
   TIM1->CCMR1|=(1<<0);//CC1 channel is configured as input, IC1 is mapped on TI1FP1
+  TIM1->CCER1|=TIM1_CCER1_CC1P;
   TIM1->CCER1|=TIM1_CCER1_CC1E;
-  TIM1->BKR|=TIM1_BKR_MOE;
+  //TIM1->BKR|=TIM1_BKR_MOE;
   TIM1->IER|=TIM1_IER_CC1IE;
+  TIM1->CR1|=TIM1_CR1_CEN;
+  //TIM1_ICInit(TIM1_CHANNEL_1, TIM1_ICPOLARITY_RISING，TIM1_ICSELECTION_DIRECTTI, TIM1_ICPSC_DIV8,0x00);
 }
 /*
-*@brief: this procedure used for PWM generate config
+*@brief: this procedure used for PWM generates config
 */
 void vTim2_Config(void){
   
@@ -30,12 +34,6 @@ void vTim2_Config(void){
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
-/*
-*@brief: this procedure used for generate from table
-*/
-void vTim3_Config(void){
-  
-}
 void vTim4_Config(void){
   /*This timer using for definition frequency of sampling*/
   CLK->PCKENR1 |= CLK_PCKENR1_TIM4;
@@ -51,14 +49,14 @@ void vTim4_Config(void){
 /*
 *@brief: this IRQ handler used for definition frequency of sampling
 */
-INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
-{
-  TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
-  GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
-}
-
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
-  //TIM1->SR1&=~TIM1_SR1_CC1IF;
+  TIM1->SR1&=~TIM1_SR1_CC1IF;
+        asm("nop");
+}
+
+INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_BRK_IRQHandler, 11)
+{
+	while (1){};
         asm("nop");
 }
