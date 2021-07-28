@@ -111,10 +111,13 @@ INTERRUPT_HANDLER(SPI_IRQHandler, 10)
 }
 #endif
 
-//#ifndef TIM1_UPD_OVF_TRG_BRK_IRQ 
+#ifndef TIM1_UPD_OVF_TRG_BRK_IRQ 
 //Timer1 Update/Overflow/Trigger/Break Interrupt routine.
-
-//#endif
+INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_BRK_IRQHandler, 11)
+{
+	while (1){};
+}
+#endif
 
 //#ifndef TIM1_CAP_COM_IRQ 
 //Timer1 Capture/Compare Interrupt routine.

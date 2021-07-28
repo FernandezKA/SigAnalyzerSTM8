@@ -1,12 +1,20 @@
 #include "timers.h"
+//variables
+enum edge Edge = error;
+uint16_t usRiseTime = 0;
+uint16_t usFallTime = 0;
+uint16_t usLowTime = 0;
+uint16_t usHighTime = 0;
+bool     bFirstRise = true;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
-  TIM1->PSCRH = (16000>>8);
+  TIM1->PSCRH = (16000>>8);//set prescaler
   TIM1->PSCRL = 16000&0xFF;
   TIM1->CCMR1|=(1<<0);//CC1 channel is configured as input, IC1 is mapped on TI1FP1
-  TIM1->CCMR2|=(1<<0);//CC2 channel is configured as input, IC2 is mapped on TI2FP2
+  TIM1->CCMR2|=(1<<1);//CC2 channel is configured as input, IC2 is mapped on TI2FP2
   TIM1->CCER1|=TIM1_CCER1_CC1P;
   TIM1->CCER1|=TIM1_CCER1_CC1E;
+  //TIM1->CCER1|=TIM1_CCER1_CC2P;
   TIM1->CCER1|=TIM1_CCER1_CC2E;
   TIM1->IER|=TIM1_IER_CC1IE;
   TIM1->IER|=TIM1_IER_CC2IE;
@@ -53,13 +61,36 @@ void vTim4_Config(void){
 */
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
+  uint8_t ReadSR1Reg = TIM1->SR1;//CLAEAR AFTER READING REGISTERS
   TIM1->SR1&=~TIM1_SR1_CC1IF;
   TIM1->SR1&=~TIM1_SR1_CC2IF;
-        asm("nop");
+  if((ReadSR1Reg&TIM1_SR1_CC1IF)==TIM1_SR1_CC1IF){
+    Edge = fall;
+  }
+  else if((ReadSR1Reg&TIM1_SR1_CC2IF) == TIM1_SR1_CC2IF){
+    Edge = rise;
+  }
+  else{
+    Edge = error;
+  }
+  switch(Edge){
+  case rise:
+    static uint16_t TempRead  = TIM1->CCR1L;
+    usTimeRise = (TIM1->CCR1H)<<8;
+    usTimeRise |= TempRead;
+    break;
+  case fall:
+      //usTimeLow = 
+    break;
+  case error:
+    
+    break;
+  }
+    //GPIOD->ODR^=(1<<2);
 }
 
-INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_BRK_IRQHandler, 11)
+INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
-	while (1){};
-        asm("nop");
+  TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
+  GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
 }
