@@ -17,6 +17,10 @@ void main(void)
 	 while (1){
            if(bNewSample){
              Pulse xTemp = xNewSample;
+             bool bStart = bIsStart(xTemp);
+             if(bStart){
+               asm("nop");
+             }
              bNewSample = FALSE;
            }
            

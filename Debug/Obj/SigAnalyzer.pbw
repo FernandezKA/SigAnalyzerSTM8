@@ -51834,13 +51834,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@330@F@main@bStart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bStart",
+    "location": {
+      "column": "19",
+      "line": "20",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bStart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@assert_failed",
     "What": "Function",
     "defdec": "Def",
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

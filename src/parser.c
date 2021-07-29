@@ -18,6 +18,7 @@ bool bIsStart(Pulse pulse){
   }
   
   if(ucCountValid == 6){
+    ucCountValid = 0;
     return TRUE;
   }else{
     return FALSE;
