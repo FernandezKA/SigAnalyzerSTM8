@@ -77,15 +77,23 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
       TIM1->CNTRL = 0x00;
      usLowTime = TIM1->CCR2L;
      usLowTime |= (TIM1->CCR2H)<<8;
+     xNewSample.time = usLowTime;
+     xNewSample.polarity = FALSE;
+     bNewSample = TRUE;
     break;
   case fall:
      TIM1->CNTRH = 0x00;
      TIM1->CNTRL = 0x00;
      usHighTime = TIM1->CCR1L;
      usHighTime |= (TIM1->CCR1H)<<8; 
+     xNewSample.time = usHighTime;
+     xNewSample.polarity = TRUE;
+     bNewSample = TRUE;
     break;
   case error:
-    //while(1){};
+    xNewSample.time = 0;
+    xNewSample.polarity = FALSE;
+    bNewSample = FALSE;
     break;
   }
     //GPIOD->ODR^=(1<<2);

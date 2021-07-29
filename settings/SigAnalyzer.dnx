@@ -49,7 +49,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <DebugChecksum>
-        <Checksum>1450690390</Checksum>
+        <Checksum>3194171874</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -66,9 +66,8 @@
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\src\timers.c}.84.6" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\timers.c}.78.6" 1 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\src\timers.c}.94.5" 1 0 0 0 "" 0 ""</Bp0>
+        <Count>1</Count>
     </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>

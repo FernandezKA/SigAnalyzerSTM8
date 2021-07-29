@@ -15,7 +15,13 @@ void main(void)
 	SystemInit();
         asm("RIM");
 	 while (1){
-         asm("nop");
+           if(bNewSample){
+             Pulse xTemp = xNewSample;
+             bNewSample = FALSE;
+           }
+           
+           
+           
          };   
 }
 
