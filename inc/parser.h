@@ -9,4 +9,5 @@ typedef struct pulse Pulse;
 extern Pulse xNewSample;
 extern bool bNewSample;
 bool bIsStart(Pulse pulse);
+bool bIsStop(Pulse pulse);
 #endif

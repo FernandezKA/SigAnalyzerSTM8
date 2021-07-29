@@ -16,9 +16,12 @@ void main(void)
         asm("RIM");
 	 while (1){
            if(bNewSample){
-             Pulse xTemp = xNewSample;
-             bool bStart = bIsStart(xTemp);
+             bool bStart = bIsStart(xNewSample);
+             bool bStop = bIsStop(xNewSample);
              if(bStart){
+               asm("nop");
+             }
+             if(bStop){
                asm("nop");
              }
              bNewSample = FALSE;
