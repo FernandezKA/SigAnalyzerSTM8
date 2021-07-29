@@ -1,6 +1,7 @@
 #include "parser.h"
 Pulse xNewSample = {0, FALSE};
 bool bNewSample = TRUE;
+State eCurrentState = pwm;
 uint8_t ucCountValid = 0;
 /*
 *@brief: this function detect start sequence

@@ -16,10 +16,10 @@ PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM){
   }
   usSummaryTime = usPWMLowTime + usPWMHighTime;
   if(usSummaryTime >= 2000){
+    *pPWM = (usPWMHighTime*100)/usSummaryTime;
     usSummaryTime = 0;
     usPWMLowTime = 0;
     usPWMHighTime = 0;
-    *pPWM = (usHighTime*100)/usSummaryTime;
     return detected;
   }
   else{

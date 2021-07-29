@@ -21,6 +21,7 @@ void main(void)
              bool bStop = bIsStop(xNewSample);
              PWMM ePWM = ePWM_Measure(xNewSample, &PWM_1);
              if(bStart){
+               
                asm("nop");
                bStart = FALSE;
              }
