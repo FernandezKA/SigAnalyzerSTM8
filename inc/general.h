@@ -8,8 +8,14 @@ struct pulse{
   bool polarity;
 };
 typedef struct pulse Pulse;
-#include "parser.h"
+enum pwmm{
+  few_samples = 0,
+  detected = 1
+};
+typedef enum pwmm PWMM;
+extern uint8_t ucPWM_Measure;
 #include "pwm_measure.h"
+#include "parser.h"
 #include "timers.h"
 #include "clocking.h"
 #include "gpio.h"

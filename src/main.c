@@ -1,5 +1,5 @@
 #include "general.h"
-
+uint8_t ucPWM_Measure = 0;
 int SystemInit(void)
 {
     vClock_Config();
@@ -14,25 +14,26 @@ void main(void)
 {
 	SystemInit();
         asm("RIM");
-        uint8_t PWM_1;
 	 while (1){
            if(bNewSample){
-             bool bStart = bIsStart(xNewSample);
-             bool bStop = bIsStop(xNewSample);
-             PWMM ePWM = ePWM_Measure(xNewSample, &PWM_1);
-             if(bStart){
-               
-               asm("nop");
-               bStart = FALSE;
-             }
-             if(bStop){
-               asm("nop");
-               bStop = FALSE;
-             }
-             if(ePWM == detected){
-               asm("nop");
-               ePWM = few_samples;
-             }
+              PWMM ePWMCurrent = few_samples;
+              State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
+              switch(eCurrentState){
+              case start:
+                asm("nop");
+                break;
+              case stop:
+                asm("nop");                
+                break;
+              case pwm:
+                if(ePWMCurrent == detected){
+                  asm("nop");
+                }
+                else{
+                  asm("nop");
+                }
+                break;
+              }
              bNewSample = FALSE;
            }
            

@@ -10,7 +10,5 @@ typedef enum state State;
 extern State eCurrentState;
 extern Pulse xNewSample;
 extern bool bNewSample;
-bool bIsStart(Pulse pulse);
-bool bIsStop(Pulse pulse);
-State eGetParse(Pulse pulse);
+State eGetParse(Pulse pulse, PWMM* PWM);
 #endif
