@@ -52258,6 +52258,76 @@
     "scope": null
   },
   {
+    "ID": "c:pwm_generate.h@34@macro@_pwm_generate_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_pwm_generate_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
+    },
+    "name": "_pwm_generate_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
+    },
+    "name": "vTim2_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_SetFill",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_SetFill(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
+    },
+    "name": "vTim2_SetFill",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_EnablePWM",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_EnablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
+    },
+    "name": "vTim2_EnablePWM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_DisablePWM",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_DisablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
+    },
+    "name": "vTim2_DisablePWM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@usSummaryTime",
     "What": "Variable",
     "defdec": "Def",
@@ -52437,76 +52507,6 @@
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:pwm_generate.h@34@macro@_pwm_generate_h_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_pwm_generate_h_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
-    },
-    "name": "_pwm_generate_h_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTim2_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
-    },
-    "name": "vTim2_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_SetFill",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTim2_SetFill(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
-    },
-    "name": "vTim2_SetFill",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_EnablePWM",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTim2_EnablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
-    },
-    "name": "vTim2_EnablePWM",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_DisablePWM",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTim2_DisablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_generate.h"
-    },
-    "name": "vTim2_DisablePWM",
-    "origin": "user_include",
     "scope": null
   },
   {
