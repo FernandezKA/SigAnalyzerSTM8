@@ -14,15 +14,23 @@ void main(void)
 {
 	SystemInit();
         asm("RIM");
+        uint8_t PWM_1;
 	 while (1){
            if(bNewSample){
              bool bStart = bIsStart(xNewSample);
              bool bStop = bIsStop(xNewSample);
+             PWMM ePWM = ePWM_Measure(xNewSample, &PWM_1);
              if(bStart){
                asm("nop");
+               bStart = FALSE;
              }
              if(bStop){
                asm("nop");
+               bStop = FALSE;
+             }
+             if(ePWM == detected){
+               asm("nop");
+               ePWM = few_samples;
              }
              bNewSample = FALSE;
            }
