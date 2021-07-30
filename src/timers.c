@@ -40,7 +40,7 @@ void vTim2_Config(void){
   TIM2->CCMR1|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR2|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
-  TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
+  //TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
 void vTim4_Config(void){
   /*This timer using for definition frequency of sampling*/
@@ -48,18 +48,20 @@ void vTim4_Config(void){
   TIM4->IER |= TIM4_IER_UIE; /*ENABLE INTERRUPT UPDATE*/
   TIM4->IER |= TIM4_IER_RESET_VALUE;
   TIM4->PSCR = (1<<2|1<<1|1<<0); /*SET PRESCALER = 2^15*/
-  TIM4->ARR = 0xFFU;//1E for sampling
+  TIM4->ARR = 0x7CU;//7C for sampling
   ITC->ISPR6 &= 0;
   ITC->ISPR6 |= 0x03U;
   TIM4->SR1 = ~TIM4_SR1_UIF; /*clear uif bit at SREG for correct working*/
   TIM4->CR1 |= TIM4_CR1_CEN;
 }
+/********************************IRQ Section***********************************/
 /*
-*@brief: this IRQ handler used for definition frequency of sampling
+*@brief: this IRQ handler used for Input Capture for request sequence detection and PWM_Measure detect
 */
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
   uint8_t ReadSR1Reg = TIM1->SR1;//CLAEAR AFTER READING REGISTERS
+  usClockUncapture = 0;
   TIM1->SR1&=~TIM1_SR1_CC1IF;
   TIM1->SR1&=~TIM1_SR1_CC2IF;
   if((ReadSR1Reg&TIM1_SR1_CC1IF)==TIM1_SR1_CC1IF){
@@ -96,11 +98,32 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
     bNewSample = FALSE;
     break;
   }
-    //GPIOD->ODR^=(1<<2);
 }
-
+////////////////////////////
+/*
+*@brief: this timer used for define sampling 1 mS 
+*/
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
-  GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
+  /*********************************/
+  ++usClockUncapture;
+  ++usCurrentIndexSample;
+  /*********************************/
+   if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
+     asm("nop");
+   }
+   else{
+     usCurrentIndexSample = 0;
+     vIncrementGenIndex(&ucCurrentIndexGen);
+     if(sigGen[ucCurrentIndexGen].polarity) {
+       GPIOD->ODR|=(1<<2);
+     }
+     else{
+       GPIOD->ODR&=~(1<<2);
+     }
+   }
+  //GPIOD->ODR^=(1<<2);
+  //This counter must overflow after 0xFFFF, 65535 mS = ~65.5 Sec
+  //GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
 }
