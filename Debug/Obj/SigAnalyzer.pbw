@@ -52482,7 +52482,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@714@F@main@ePWMCurrent",
+    "ID": "c:main.c@715@F@main@ePWMCurrent",
     "What": "Variable",
     "defdec": "Def",
     "display": "ePWMCurrent",
@@ -52496,7 +52496,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@761@F@main@eCurrentState",
+    "ID": "c:main.c@762@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
@@ -52516,7 +52516,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",
@@ -52972,7 +52972,7 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@2328@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
+    "ID": "c:timers.c@2330@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
     "What": "Variable",
     "defdec": "Def",
     "display": "ReadSR1Reg",

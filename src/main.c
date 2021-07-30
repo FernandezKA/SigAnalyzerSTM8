@@ -17,7 +17,7 @@ void main(void)
 {
 	SystemInit();
         asm("RIM");
-        bGenFromTable = TRUE;
+        bGenFromTable = FALSE;
 	 while (1){//Robin semantics, detect new states always
            if(usClockUncapture >= 5000){//This case must be call after 5 Sec undetected rise or Edge
                     vTim2_EnablePWM();
@@ -30,11 +30,13 @@ void main(void)
               switch(eCurrentState){
                 case start:
                   vTim2_DisablePWM();
+                  bGenFromTable = TRUE;
               //TODO: add generation from table
                   asm("nop");
                 break;
                 case stop:
                   vTim2_DisablePWM();
+                  bGenFromTable = FALSE;
                 //TODO: stop generation from table
                   asm("nop");                
                 break;

@@ -35,12 +35,12 @@ void vTim2_Config(void){
   TIM2->CCR2L = 121U&0xFFU;
   TIM2->CCR3H = 121U>>8;
   TIM2->CCR3L = 121U&0xFFU;
-  TIM2->CCER1|=TIM2_CCER1_CC2E;/*ENABLE CAPTURE/COMPARE FOR CHANNEL 2 AND 3*/
-  TIM2->CCER2|=TIM2_CCER2_CC3E;
+  //TIM2->CCER1|=TIM2_CCER1_CC2E;/*ENABLE CAPTURE/COMPARE FOR CHANNEL 2 AND 3*/
+  //TIM2->CCER2|=TIM2_CCER2_CC3E;
   TIM2->CCMR1|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR2|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
-  //TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
+  TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
 void vTim4_Config(void){
   /*This timer using for definition frequency of sampling*/
@@ -108,9 +108,10 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
   /*********************************/
   ++usClockUncapture;
-  ++usCurrentIndexSample;
   /*********************************/
-   if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
+  if(bGenFromTable){
+      ++usCurrentIndexSample;
+       if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
      asm("nop");
    }
    else{
@@ -123,7 +124,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
        GPIOD->ODR&=~(1<<2);
      }
    }
-  //GPIOD->ODR^=(1<<2);
+  }
   //This counter must overflow after 0xFFFF, 65535 mS = ~65.5 Sec
   //GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
 }
