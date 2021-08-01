@@ -42,6 +42,12 @@ void vTim2_Config(void){
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
+void vSetPWM1(uint8_t pwm){
+  uint16_t normPWM = (pwm*488UL)/100UL;
+  TIM2->CCR1H = normPWM>>8;
+  TIM2->CCR1L = normPWM&0xFFU;
+}
+
 void vTim4_Config(void){
   /*This timer using for definition frequency of sampling*/
   CLK->PCKENR1 |= CLK_PCKENR1_TIM4;
@@ -114,13 +120,13 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   }
   if(bGenFromTable){
       ++usCurrentIndexSample;
-       if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
+   if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
      asm("nop");
    }
-   else{
+   else{//update sample time
     usCurrentIndexSample = 0;
     vIncrementGenIndex(&ucCurrentIndexGen);
-    if(sigGen[ucCurrentIndexGen].polarity) {
+    if(sigGen[ucCurrentIndexGen].polarity){
       GPIOD->ODR|=(1<<2);
     }
     else{
@@ -129,5 +135,4 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   }
 }
   //This counter must overflow after 0xFFFF, 65535 mS = ~65.5 Sec
-  //GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
 }

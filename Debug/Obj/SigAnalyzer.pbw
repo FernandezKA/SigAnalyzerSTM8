@@ -51764,101 +51764,45 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
+    "ID": "c:clocking.h@30@macro@_clocking_h_",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_PRODUCT_H",
+    "display": "_clocking_h_",
     "location": {
       "column": "9",
-      "line": "7",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
     },
-    "name": "_DLIB_PRODUCT_H",
-    "origin": "system_include",
+    "name": "_clocking_h_",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_TARGET",
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
     "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
     },
-    "name": "_DLIB_SMALL_TARGET",
-    "origin": "system_include",
+    "name": "vClock_Config",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
     "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
     },
-    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FLOATING_LESS_INLINES",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_FLOATING_LESS_INLINES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_FP_HELPERS",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SMALL_FP_HELPERS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@711@macro@__WEAK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__WEAK",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__WEAK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_CONST_DEFINITION",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_TLS_CONST_DEFINITION",
-    "origin": "system_include",
+    "name": "vClock_Config",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -52102,6 +52046,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vSetPWM1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPWM1(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vSetPWM1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPWM1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPWM1(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vSetPWM1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:parser.h@28@macro@_parser_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -52300,6 +52272,104 @@
     "scope": null
   },
   {
+    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_H",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SMALL_TARGET",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_TARGET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FLOATING_LESS_INLINES",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_FLOATING_LESS_INLINES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SMALL_FP_HELPERS",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_FP_HELPERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@711@macro@__WEAK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__WEAK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_CONST_DEFINITION",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_TLS_CONST_DEFINITION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:pwm_measure.h@33@macro@_pwm_measure_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -52338,48 +52408,6 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
     },
     "name": "ePWM_Measure",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:clocking.h@30@macro@_clocking_h_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_clocking_h_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
-    },
-    "name": "_clocking_h_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
-    },
-    "name": "vClock_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
-    },
-    "name": "vClock_Config",
     "origin": "user_include",
     "scope": null
   },
@@ -52465,20 +52493,6 @@
     },
     "name": "vTestOut_Config",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:dlstm8smn.h@140@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\lib\\dlstm8smn.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "system_include",
     "scope": null
   },
   {
@@ -52647,6 +52661,20 @@
     },
     "name": "assert_failed",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:dlstm8smn.h@140@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\lib\\dlstm8smn.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -53070,13 +53098,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vSetPWM1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSetPWM1(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "vSetPWM1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:timers.c@1643@F@vSetPWM1@normPWM",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "normPWM",
+    "location": {
+      "column": "12",
+      "line": "46",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
+    },
+    "name": "normPWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@vTim4_Config",
     "What": "Function",
     "defdec": "Def",
     "display": "void vTim4_Config(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "51",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "vTim4_Config",
@@ -53090,7 +53146,7 @@
     "display": "void TIM1_CAP_COM_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "61",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "TIM1_CAP_COM_IRQHandler",
@@ -53098,13 +53154,13 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@2330@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
+    "ID": "c:timers.c@2466@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
     "What": "Variable",
     "defdec": "Def",
     "display": "ReadSR1Reg",
     "location": {
       "column": "11",
-      "line": "63",
+      "line": "69",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "ReadSR1Reg",
@@ -53118,7 +53174,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "106",
+      "line": "112",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
