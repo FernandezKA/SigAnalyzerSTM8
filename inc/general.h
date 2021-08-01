@@ -1,3 +1,4 @@
+
 #ifndef _general_h_
 #define _general_h_
 #include "stdlib.h"
@@ -22,7 +23,9 @@ typedef enum pwmm PWMM;
 extern uint8_t ucPWM_Measure;
 extern uint16_t usClockCounter;
 extern uint16_t usClockUncapture;
+extern uint16_t usClockUnStop;
 extern bool bGenFromTable;
+extern bool bStart;
 #include "sig_generate.h"
 #include "pwm_generate.h"
 #include "pwm_measure.h"

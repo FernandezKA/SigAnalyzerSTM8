@@ -50794,13 +50794,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@29@macro@_general_h_",
+    "ID": "c:general.h@31@macro@_general_h_",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "_general_h_",
     "location": {
       "column": "9",
-      "line": "2",
+      "line": "3",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "_general_h_",
@@ -50808,13 +50808,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@140@macro@SIG_PORT",
+    "ID": "c:general.h@142@macro@SIG_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_PORT",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "8",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_PORT",
@@ -50822,13 +50822,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@164@macro@SIG_OUT",
+    "ID": "c:general.h@166@macro@SIG_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_OUT",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_OUT",
@@ -50836,13 +50836,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@189@macro@PWM_OUT",
+    "ID": "c:general.h@191@macro@PWM_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PWM_OUT",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "PWM_OUT",
@@ -50850,13 +50850,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@208@macro@SIG_INPUT_PORT",
+    "ID": "c:general.h@210@macro@SIG_INPUT_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_INPUT_PORT",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_INPUT_PORT",
@@ -50864,13 +50864,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@239@macro@SIG_INPUT",
+    "ID": "c:general.h@241@macro@SIG_INPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_INPUT",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_INPUT",
@@ -50884,7 +50884,7 @@
     "display": "pulse",
     "location": {
       "column": "8",
-      "line": "12",
+      "line": "13",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "members": [
@@ -50895,7 +50895,7 @@
         "display": "time",
         "location": {
           "column": "12",
-          "line": "13",
+          "line": "14",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "time",
@@ -50909,7 +50909,7 @@
         "display": "polarity",
         "location": {
           "column": "8",
-          "line": "14",
+          "line": "15",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "polarity",
@@ -50928,7 +50928,7 @@
     "display": "struct pulse",
     "location": {
       "column": "22",
-      "line": "16",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "Pulse",
@@ -50948,7 +50948,7 @@
         "display": "few_samples",
         "location": {
           "column": "3",
-          "line": "18",
+          "line": "19",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "few_samples",
@@ -50962,7 +50962,7 @@
         "display": "detected",
         "location": {
           "column": "3",
-          "line": "19",
+          "line": "20",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "detected",
@@ -50972,7 +50972,7 @@
     ],
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "pwmm",
@@ -50986,7 +50986,7 @@
     "display": "enum pwmm",
     "location": {
       "column": "19",
-      "line": "21",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "PWMM",
@@ -51000,7 +51000,7 @@
     "display": "ucPWM_Measure",
     "location": {
       "column": "16",
-      "line": "22",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "ucPWM_Measure",
@@ -51014,7 +51014,7 @@
     "display": "ucPWM_Measure",
     "location": {
       "column": "16",
-      "line": "22",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "ucPWM_Measure",
@@ -51028,7 +51028,7 @@
     "display": "usClockCounter",
     "location": {
       "column": "17",
-      "line": "23",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockCounter",
@@ -51042,7 +51042,7 @@
     "display": "usClockCounter",
     "location": {
       "column": "17",
-      "line": "23",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockCounter",
@@ -51056,7 +51056,7 @@
     "display": "usClockUncapture",
     "location": {
       "column": "17",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUncapture",
@@ -51070,7 +51070,7 @@
     "display": "usClockUncapture",
     "location": {
       "column": "17",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUncapture",
@@ -51078,13 +51078,41 @@
     "scope": null
   },
   {
+    "ID": "c:@usClockUnStop",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usClockUnStop",
+    "location": {
+      "column": "17",
+      "line": "26",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "usClockUnStop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usClockUnStop",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usClockUnStop",
+    "location": {
+      "column": "17",
+      "line": "26",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "usClockUnStop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@bGenFromTable",
     "What": "Variable",
     "defdec": "Dec",
     "display": "bGenFromTable",
     "location": {
       "column": "13",
-      "line": "25",
+      "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bGenFromTable",
@@ -51098,10 +51126,38 @@
     "display": "bGenFromTable",
     "location": {
       "column": "13",
-      "line": "25",
+      "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bGenFromTable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bStart",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bStart",
+    "location": {
+      "column": "13",
+      "line": "28",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "bStart",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bStart",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bStart",
+    "location": {
+      "column": "13",
+      "line": "28",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "bStart",
     "origin": "user_include",
     "scope": null
   },
@@ -52440,13 +52496,41 @@
     "scope": null
   },
   {
+    "ID": "c:@usClockUnStop",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "usClockUnStop",
+    "location": {
+      "column": "10",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "usClockUnStop",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bStart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bStart",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bStart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@bGenFromTable",
     "What": "Variable",
     "defdec": "Def",
     "display": "bGenFromTable",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "7",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bGenFromTable",
@@ -52460,7 +52544,7 @@
     "display": "int SystemInit(void)",
     "location": {
       "column": "5",
-      "line": "6",
+      "line": "8",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "SystemInit",
@@ -52474,7 +52558,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -52482,13 +52566,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@715@F@main@ePWMCurrent",
+    "ID": "c:main.c@927@F@main@ePWMCurrent",
     "What": "Variable",
     "defdec": "Def",
     "display": "ePWMCurrent",
     "location": {
       "column": "20",
-      "line": "28",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "ePWMCurrent",
@@ -52496,13 +52580,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@762@F@main@eCurrentState",
+    "ID": "c:main.c@974@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "29",
+      "line": "36",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -52516,7 +52600,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "62",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

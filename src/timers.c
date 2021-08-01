@@ -109,6 +109,9 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   /*********************************/
   ++usClockUncapture;
   /*********************************/
+  if(bStart){
+    usClockUnStop++;
+  }
   if(bGenFromTable){
       ++usCurrentIndexSample;
        if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
