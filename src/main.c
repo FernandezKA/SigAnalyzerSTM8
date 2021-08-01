@@ -21,15 +21,17 @@ void main(void)
         asm("RIM");
         bGenFromTable = FALSE;
 	 while (1){//Robin semantics, detect new states always
-           if(usClockUncapture >= 5000){//This case must be call after 5 Sec undetected rise or Edge
+           if(usClockUncapture >= 10000){//This case must be call after 5 Sec undetected rise or Edge
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
+                    ucCurrentIndexGen = GEN_SIZE - 1;
            }
-           if(usClockUnStop >= 5000){
+           if(usClockUnStop >= 10000){
               bStart = FALSE;
               usClockUnStop = 0;  
               vTim2_DisablePWM();
               bGenFromTable = FALSE;
+              GPIOD->ODR&=~(1<<2);
             }
            if(bNewSample){
               PWMM ePWMCurrent = few_samples;
@@ -40,15 +42,17 @@ void main(void)
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
-                  asm("nop");
                 break;
+                
                 case stop:
                   vTim2_DisablePWM();
                   bStart = FALSE;
                   usClockUnStop = 0;
                   bGenFromTable = FALSE;
-                  asm("nop");                
+                  ucCurrentIndexGen = GEN_SIZE - 1;
+                  GPIOD->ODR&=~(1<<2);
                 break;
+                
                 case pwm:
                   if(ePWMCurrent == detected){
                     asm("nop");
