@@ -827,10 +827,6 @@
             <name>$PROJ_DIR$\src\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 46</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 127</file>
                 </tool>

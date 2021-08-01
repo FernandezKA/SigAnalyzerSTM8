@@ -43,6 +43,8 @@ void main(void)
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
+                  vLedOff();
+                  vLedRun(TRUE);
                 break;
                 
                 case stop:
@@ -53,13 +55,17 @@ void main(void)
                   bGenFromTable = FALSE;
                   ucCurrentIndexGen = GEN_SIZE - 1;
                   GPIOD->ODR&=~(1<<2);
+                  vLedOff();
+                  vLedStop((bool) TRUE);
                 break;
                 
                 case pwm:
                   if(ePWMCurrent == detected){
+                    vTim2_EnablePWM();
+                    vLedOff();
+                    vLedPWM(TRUE);
                     if(ucPWM_Measure > 50){
                       vSetPWM1(80);
-                      vTim2_EnablePWM();
                     }else{
                       vSetPWM1(10);
                     }
