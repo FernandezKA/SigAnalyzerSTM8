@@ -44,8 +44,8 @@ void vTim2_Config(void){
 }
 void vSetPWM1(uint8_t pwm){
   uint16_t normPWM = (pwm*488UL)/100UL;
-  TIM2->CCR1H = normPWM>>8;
-  TIM2->CCR1L = normPWM&0xFFU;
+  TIM2->CCR2H = normPWM>>8;
+  TIM2->CCR2L = normPWM&0xFFU;
 }
 
 void vTim4_Config(void){

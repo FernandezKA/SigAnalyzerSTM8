@@ -52622,7 +52622,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1061@F@main@ePWMCurrent",
+    "ID": "c:main.c@1140@F@main@ePWMCurrent",
     "What": "Variable",
     "defdec": "Def",
     "display": "ePWMCurrent",
@@ -52636,7 +52636,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1108@F@main@eCurrentState",
+    "ID": "c:main.c@1187@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
@@ -52656,7 +52656,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "73",
+      "line": "78",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

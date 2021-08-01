@@ -27,7 +27,7 @@ void main(void)
                     usClockUncapture = 0;
                     ucCurrentIndexGen = GEN_SIZE - 1;
            }
-           if(usClockUnStop >= 10000){
+           if(usClockUnStop >= 10000){//If stop signal not be receieved after 10 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
               vTim2_DisablePWM();
@@ -57,7 +57,12 @@ void main(void)
                 
                 case pwm:
                   if(ePWMCurrent == detected){
-                    asm("nop");
+                    if(ucPWM_Measure > 50){
+                      vSetPWM1(80);
+                      vTim2_EnablePWM();
+                    }else{
+                      vSetPWM1(10);
+                    }
                   }
                 else{
                   asm("nop");
