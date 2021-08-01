@@ -10,5 +10,6 @@ typedef enum state State;
 extern State eCurrentState;
 extern Pulse xNewSample;
 extern bool bNewSample;
+extern uint8_t ucCountValid;
 State eGetParse(Pulse pulse, PWMM* PWM);
 #endif

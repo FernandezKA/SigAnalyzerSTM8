@@ -6,6 +6,7 @@ uint16_t usClockUnStop = 0;
 bool bStart = FALSE;
 bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
+bool bFirstDetect = FALSE;
 int SystemInit(void)
 {
     vClock_Config();
@@ -23,6 +24,7 @@ void main(void)
         bGenFromTable = FALSE;
 	 while (1){//Detect new states always
            if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
+                    bFirstDetect = TRUE;
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
                     ucCurrentIndexGen = GEN_SIZE - 1;
@@ -34,6 +36,18 @@ void main(void)
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2);
             }
+           if(usClockUncapture%2000 == 0&&usClockUncapture != 0&&bFirstDetect&&!bStart){
+             bool bLineState = FALSE;
+             bLineState =(bool) ((GPIOC->IDR)&((1<<6)));
+             if(bLineState){
+               ucPWM_Measure = 100;
+             }
+             vLedOff();
+             vLedPWM(TRUE);
+             vSetPWM1(10);
+             vTim2_EnablePWM();
+             //usClockUncapture = 0;//This string must add mictake into first bStart detect
+           }
            if(bNewSample){
               PWMM ePWMCurrent = few_samples;
               State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
@@ -61,13 +75,15 @@ void main(void)
                 
                 case pwm:
                   if(ePWMCurrent == detected){
-                    vTim2_EnablePWM();
                     vLedOff();
                     vLedPWM(TRUE);
                     if(ucPWM_Measure > 50){
                       vSetPWM1(80);
                     }else{
                       vSetPWM1(10);
+                    }
+                    if(!bStart&&ucCountValid == 0){
+                    vTim2_EnablePWM();
                     }
                   }
                 else{

@@ -49926,6 +49926,232 @@
     "scope": null
   },
   {
+    "ID": "c:parser.h@28@macro@_parser_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_parser_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "_parser_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@E@state",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "state",
+    "fields": [
+      {
+        "ID": "c:@E@state@start",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "start",
+        "location": {
+          "column": "3",
+          "line": "5",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+        },
+        "name": "start",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@state@stop",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "stop",
+        "location": {
+          "column": "3",
+          "line": "6",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+        },
+        "name": "stop",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@state@pwm",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "pwm",
+        "location": {
+          "column": "3",
+          "line": "7",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+        },
+        "name": "pwm",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "state",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:parser.h@T@State",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum state",
+    "location": {
+      "column": "20",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "State",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@eCurrentState",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "eCurrentState",
+    "location": {
+      "column": "14",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "eCurrentState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@eCurrentState",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "eCurrentState",
+    "location": {
+      "column": "14",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "eCurrentState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@xNewSample",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "xNewSample",
+    "location": {
+      "column": "14",
+      "line": "11",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "xNewSample",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@xNewSample",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "xNewSample",
+    "location": {
+      "column": "14",
+      "line": "11",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "xNewSample",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bNewSample",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bNewSample",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "bNewSample",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bNewSample",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bNewSample",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "bNewSample",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ucCountValid",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ucCountValid",
+    "location": {
+      "column": "16",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "ucCountValid",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ucCountValid",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "ucCountValid",
+    "location": {
+      "column": "16",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "ucCountValid",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@eGetParse",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "State eGetParse(Pulse, PWMM *)",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "eGetParse",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@eGetParse",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "State eGetParse(Pulse, PWMM *)",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+    },
+    "name": "eGetParse",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm8s_wwdg.h@1291@macro@__STM8S_WWDG_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -51190,6 +51416,230 @@
     "scope": null
   },
   {
+    "ID": "c:@bFirstDetect",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bFirstDetect",
+    "location": {
+      "column": "13",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "bFirstDetect",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@bFirstDetect",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bFirstDetect",
+    "location": {
+      "column": "13",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "bFirstDetect",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ucPWM_Measure",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ucPWM_Measure",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "ucPWM_Measure",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@usClockCounter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "usClockCounter",
+    "location": {
+      "column": "10",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "usClockCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@usClockUncapture",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "usClockUncapture",
+    "location": {
+      "column": "10",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "usClockUncapture",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@usClockUnStop",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "usClockUnStop",
+    "location": {
+      "column": "10",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "usClockUnStop",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bStart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bStart",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bStart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bGenFromTable",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bGenFromTable",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bGenFromTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bFirstStart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bFirstStart",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bFirstStart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@bFirstDetect",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bFirstDetect",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bFirstDetect",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SystemInit(void)",
+    "location": {
+      "column": "5",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1254@F@main@bLineState",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bLineState",
+    "location": {
+      "column": "19",
+      "line": "40",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bLineState",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1685@F@main@ePWMCurrent",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ePWMCurrent",
+    "location": {
+      "column": "20",
+      "line": "52",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "ePWMCurrent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1732@F@main@eCurrentState",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "eCurrentState",
+    "location": {
+      "column": "21",
+      "line": "53",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "eCurrentState",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assert_failed",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void assert_failed(u8 *, u32)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "assert_failed",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:timers.h@28@macro@_timers_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -51458,397 +51908,129 @@
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "ID": "c:pwm_measure.h@33@macro@_pwm_measure_h_",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZET",
-    "location": {
-      "column": "11",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_H",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_TARGET",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SMALL_TARGET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FLOATING_LESS_INLINES",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_FLOATING_LESS_INLINES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_FP_HELPERS",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SMALL_FP_HELPERS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@711@macro@__WEAK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__WEAK",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__WEAK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_CONST_DEFINITION",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_TLS_CONST_DEFINITION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:parser.h@28@macro@_parser_h_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_parser_h_",
+    "display": "_pwm_measure_h_",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
     },
-    "name": "_parser_h_",
+    "name": "_pwm_measure_h_",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@E@state",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "state",
-    "fields": [
-      {
-        "ID": "c:@E@state@start",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "start",
-        "location": {
-          "column": "3",
-          "line": "5",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-        },
-        "name": "start",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@state@stop",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "stop",
-        "location": {
-          "column": "3",
-          "line": "6",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-        },
-        "name": "stop",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@state@pwm",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "pwm",
-        "location": {
-          "column": "3",
-          "line": "7",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-        },
-        "name": "pwm",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
+    "ID": "c:@F@ePWM_Measure",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
     "location": {
       "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
     },
-    "name": "state",
+    "name": "ePWM_Measure",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:parser.h@T@State",
-    "What": "Typedef",
+    "ID": "c:@F@ePWM_Measure",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
+    },
+    "name": "ePWM_Measure",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLED_Config",
+    "What": "Function",
     "defdec": "Def",
-    "display": "enum state",
+    "display": "void vLED_Config(void)",
     "location": {
-      "column": "20",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
-    "name": "State",
-    "origin": "user_include",
+    "name": "vLED_Config",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@eCurrentState",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "eCurrentState",
-    "location": {
-      "column": "14",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "eCurrentState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@eCurrentState",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "eCurrentState",
-    "location": {
-      "column": "14",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "eCurrentState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@xNewSample",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "xNewSample",
-    "location": {
-      "column": "14",
-      "line": "11",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "xNewSample",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@xNewSample",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "xNewSample",
-    "location": {
-      "column": "14",
-      "line": "11",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "xNewSample",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@bNewSample",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "bNewSample",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "bNewSample",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@bNewSample",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "bNewSample",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
-    },
-    "name": "bNewSample",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@eGetParse",
+    "ID": "c:@F@vTestOut_Config",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "State eGetParse(Pulse, PWMM *)",
+    "defdec": "Def",
+    "display": "void vTestOut_Config(void)",
     "location": {
-      "column": "7",
-      "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
-    "name": "eGetParse",
-    "origin": "user_include",
+    "name": "vTestOut_Config",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@eGetParse",
+    "ID": "c:@F@vLedOff",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "State eGetParse(Pulse, PWMM *)",
+    "defdec": "Def",
+    "display": "void vLedOff(void)",
     "location": {
-      "column": "7",
+      "column": "6",
       "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\parser.h"
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
-    "name": "eGetParse",
-    "origin": "user_include",
+    "name": "vLedOff",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedRun",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vLedRun(bool)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
+    },
+    "name": "vLedRun",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedStop",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vLedStop(bool)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
+    },
+    "name": "vLedStop",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedPWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vLedPWM(bool)",
+    "location": {
+      "column": "6",
+      "line": "31",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
+    },
+    "name": "vLedPWM",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -52020,185 +52202,283 @@
     "scope": null
   },
   {
-    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "ID": "c:gpio.h@26@macro@_gpio_h_",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_XENCODING_LIMITS_H",
+    "display": "_gpio_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "_gpio_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLED_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLED_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLED_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLED_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLED_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLED_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTestOut_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTestOut_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vTestOut_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTestOut_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTestOut_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vTestOut_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedOff(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedOff(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedRun",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedRun(bool)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedRun",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedRun",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedRun(bool)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedRun",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedStop",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedStop(bool)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedStop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedStop",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedStop(bool)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedStop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedPWM",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedPWM(bool)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedPWM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vLedPWM",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vLedPWM(bool)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+    },
+    "name": "vLedPWM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
     "location": {
       "column": "9",
       "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "_XENCODING_LIMITS_H",
+    "name": "_YSIZET_H",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_EncodingSb_LenMax",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingSb_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingUtf8_LenMax",
+    "display": "_SIZE_T",
     "location": {
       "column": "11",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
       "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "_EncodingUtf8_LenMax",
+    "name": "size_t",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_ENCODING_WITH_USED",
-    "location": {
-      "column": "13",
-      "line": "47",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_WITH_USED",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_LEN_MAX",
-    "location": {
-      "column": "11",
-      "line": "51",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_LEN_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_CUR_MAX",
-    "location": {
-      "column": "11",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_CUR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:pwm_measure.h@33@macro@_pwm_measure_h_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_pwm_measure_h_",
+    "display": "__DATA_PTR_MEM_HELPER1__",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "_pwm_measure_h_",
-    "origin": "user_include",
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ePWM_Measure",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
-    },
-    "name": "ePWM_Measure",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ePWM_Measure",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\pwm_measure.h"
-    },
-    "name": "ePWM_Measure",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:clocking.h@30@macro@_clocking_h_",
-    "What": "MacroDef",
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "_clocking_h_",
+    "display": "unsigned int",
     "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+      "column": "1",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "_clocking_h_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
-    },
-    "name": "vClock_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
-    },
-    "name": "vClock_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\clocking.c"
-    },
-    "name": "vClock_Config",
-    "origin": "project_file",
+    "name": "__data_size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -52426,353 +52706,185 @@
     "scope": null
   },
   {
-    "ID": "c:gpio.h@26@macro@_gpio_h_",
+    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_gpio_h_",
+    "display": "_DLIB_PRODUCT_H",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "_gpio_h_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLED_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLED_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLED_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLED_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLED_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLED_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTestOut_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTestOut_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vTestOut_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTestOut_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vTestOut_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vTestOut_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedOff(void)",
-    "location": {
-      "column": "6",
       "line": "7",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "vLedOff",
-    "origin": "user_include",
+    "name": "_DLIB_PRODUCT_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vLedOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedOff(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedOff",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedRun",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedRun(bool)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedRun",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedRun",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedRun(bool)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedRun",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedStop",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedStop(bool)",
-    "location": {
-      "column": "6",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedStop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedStop",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedStop(bool)",
-    "location": {
-      "column": "6",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedStop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedPWM",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedPWM(bool)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedPWM",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedPWM",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vLedPWM(bool)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\gpio.h"
-    },
-    "name": "vLedPWM",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@ucPWM_Measure",
-    "What": "Variable",
+    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "ucPWM_Measure",
+    "display": "_DLIB_SMALL_TARGET",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "line": "16",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "ucPWM_Measure",
-    "origin": "project_file",
+    "name": "_DLIB_SMALL_TARGET",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@usClockCounter",
-    "What": "Variable",
+    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "usClockCounter",
+    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
     "location": {
-      "column": "10",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "usClockCounter",
-    "origin": "project_file",
+    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@usClockUncapture",
-    "What": "Variable",
+    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "usClockUncapture",
+    "display": "_FLOATING_LESS_INLINES",
     "location": {
-      "column": "10",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "usClockUncapture",
-    "origin": "project_file",
+    "name": "_FLOATING_LESS_INLINES",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@usClockUnStop",
-    "What": "Variable",
+    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "usClockUnStop",
+    "display": "_DLIB_SMALL_FP_HELPERS",
     "location": {
-      "column": "10",
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_FP_HELPERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@711@macro@__WEAK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__WEAK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_CONST_DEFINITION",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_TLS_CONST_DEFINITION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XENCODING_LIMITS_H",
+    "location": {
+      "column": "9",
       "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "usClockUnStop",
-    "origin": "project_file",
+    "name": "_XENCODING_LIMITS_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@bStart",
-    "What": "Variable",
+    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "bStart",
+    "display": "_EncodingSb_LenMax",
     "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "bStart",
-    "origin": "project_file",
+    "name": "_EncodingSb_LenMax",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@bGenFromTable",
-    "What": "Variable",
+    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "bGenFromTable",
+    "display": "_EncodingUtf8_LenMax",
     "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "11",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "bGenFromTable",
-    "origin": "project_file",
+    "name": "_EncodingUtf8_LenMax",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@bFirstStart",
-    "What": "Variable",
+    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "bFirstStart",
+    "display": "_ENCODING_WITH_USED",
     "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "13",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "bFirstStart",
-    "origin": "project_file",
+    "name": "_ENCODING_WITH_USED",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SystemInit",
-    "What": "Function",
+    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "int SystemInit(void)",
+    "display": "_ENCODING_LEN_MAX",
     "location": {
-      "column": "5",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "11",
+      "line": "51",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "SystemInit",
-    "origin": "project_file",
+    "name": "_ENCODING_LEN_MAX",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@main",
-    "What": "Function",
+    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void main(void)",
+    "display": "_ENCODING_CUR_MAX",
     "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+      "column": "11",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1123@F@main@ePWMCurrent",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ePWMCurrent",
-    "location": {
-      "column": "20",
-      "line": "38",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
-    },
-    "name": "ePWMCurrent",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1170@F@main@eCurrentState",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "eCurrentState",
-    "location": {
-      "column": "21",
-      "line": "39",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
-    },
-    "name": "eCurrentState",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@assert_failed",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void assert_failed(u8 *, u32)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
-    },
-    "name": "assert_failed",
-    "origin": "project_file",
+    "name": "_ENCODING_CUR_MAX",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -52787,6 +52899,62 @@
     },
     "name": "_DLIB_CONFIG_H",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\clocking.c"
+    },
+    "name": "vClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:clocking.h@30@macro@_clocking_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_clocking_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "_clocking_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "vClock_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\clocking.h"
+    },
+    "name": "vClock_Config",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -52954,90 +53122,6 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\parser.c"
     },
     "name": "ePWM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLED_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vLED_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vLED_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTestOut_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTestOut_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vTestOut_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedOff",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vLedOff(void)",
-    "location": {
-      "column": "6",
-      "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vLedOff",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedRun",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vLedRun(bool)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vLedRun",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedStop",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vLedStop(bool)",
-    "location": {
-      "column": "6",
-      "line": "23",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vLedStop",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vLedPWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vLedPWM(bool)",
-    "location": {
-      "column": "6",
-      "line": "31",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
-    },
-    "name": "vLedPWM",
     "origin": "project_file",
     "scope": null
   },

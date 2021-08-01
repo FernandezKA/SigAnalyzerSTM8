@@ -27,6 +27,7 @@ extern uint16_t usClockUnStop;
 extern bool bGenFromTable;
 extern bool bStart;
 extern bool bFirstStart;
+extern bool bFirstDetect;
 #include "sig_generate.h"
 #include "pwm_generate.h"
 #include "pwm_measure.h"
