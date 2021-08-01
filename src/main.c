@@ -21,7 +21,7 @@ void main(void)
 	SystemInit();
         asm("RIM");
         bGenFromTable = FALSE;
-	 while (1){//Robin semantics, detect new states always
+	 while (1){//Detect new states always
            if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
