@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>217915310</fileChecksum>
+    <fileChecksum>2397348660</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -239,6 +239,7 @@
             <file>$PROJ_DIR$\lib\SPL\src\stm8s_spi.c</file>
             <file>$PROJ_DIR$\lib\SPL\src\stm8s_uart1.c</file>
             <file>$PROJ_DIR$\lib\SPL\src\stm8s_iwdg.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\SigAnalyzer.hex</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -267,6 +268,10 @@
         <file>
             <name>$PROJ_DIR$\Debug\Exe\SPL_STM8S_template.out</name>
             <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 234</file>
+                </tool>
                 <tool>
                     <name>ILINK</name>
                     <file> 22 89</file>

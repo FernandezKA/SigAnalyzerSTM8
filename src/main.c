@@ -3,6 +3,7 @@ uint8_t ucPWM_Measure = 0;
 uint16_t usClockCounter = 0;
 uint16_t usClockUncapture = 0;
 uint16_t usClockUnStop = 0;
+uint16_t usSysTick = 0; 
 bool bStart = FALSE;
 bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
@@ -34,7 +35,7 @@ void main(void)
               usClockUnStop = 0;  
               vTim2_DisablePWM();
               bGenFromTable = FALSE;
-              GPIOD->ODR&=~(1<<2);
+              GPIOD->ODR&=~(1<<2); 
             }
            if(usClockUncapture%2000 == 0&&usClockUncapture != 0&&bFirstDetect&&!bStart){
              bool bLineState = FALSE;
@@ -42,8 +43,6 @@ void main(void)
              if(bLineState){
                ucPWM_Measure = 100;
              }
-             vLedOff();
-             vLedPWM(TRUE);
              vSetPWM1(10);
              vTim2_EnablePWM();
              //usClockUncapture = 0;//This string must add mictake into first bStart detect
@@ -53,15 +52,15 @@ void main(void)
               State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
               switch(eCurrentState){
                 case start:
+                  GPIOD->ODR|=(1<<5);
                   vTim2_DisablePWM();
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
-                  vLedOff();
-                  vLedRun(TRUE);
                 break;
                 
                 case stop:
+                  GPIOD->ODR|=(1<<5);
                   bFirstStart = TRUE;
                   vTim2_DisablePWM();
                   bStart = FALSE;
@@ -69,14 +68,11 @@ void main(void)
                   bGenFromTable = FALSE;
                   ucCurrentIndexGen = GEN_SIZE - 1;
                   GPIOD->ODR&=~(1<<2);
-                  vLedOff();
-                  vLedStop((bool) TRUE);
                 break;
                 
                 case pwm:
                   if(ePWMCurrent == detected){
-                    vLedOff();
-                    vLedPWM(TRUE);
+                    GPIOD->ODR|=(1<<5);
                     if(ucPWM_Measure > 50){
                       vSetPWM1(80);
                     }else{
