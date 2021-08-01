@@ -5,6 +5,7 @@ uint16_t usClockUncapture = 0;
 uint16_t usClockUnStop = 0;
 bool bStart = FALSE;
 bool bGenFromTable = FALSE;
+bool bFirstStart = FALSE;
 int SystemInit(void)
 {
     vClock_Config();
@@ -21,7 +22,7 @@ void main(void)
         asm("RIM");
         bGenFromTable = FALSE;
 	 while (1){//Robin semantics, detect new states always
-           if(usClockUncapture >= 10000){//This case must be call after 5 Sec undetected rise or Edge
+           if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
                     ucCurrentIndexGen = GEN_SIZE - 1;
@@ -45,6 +46,7 @@ void main(void)
                 break;
                 
                 case stop:
+                  bFirstStart = TRUE;
                   vTim2_DisablePWM();
                   bStart = FALSE;
                   usClockUnStop = 0;

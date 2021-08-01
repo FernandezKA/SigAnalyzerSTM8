@@ -51162,171 +51162,31 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_THREADS_H",
+    "ID": "c:@bFirstStart",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bFirstStart",
     "location": {
-      "column": "9",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+      "column": "13",
+      "line": "29",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
-    "name": "_DLIB_THREADS_H",
-    "origin": "system_include",
+    "name": "bFirstStart",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_COMPILER_TLS",
+    "ID": "c:@bFirstStart",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bFirstStart",
     "location": {
-      "column": "9",
-      "line": "117",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+      "column": "13",
+      "line": "29",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
-    "name": "_DLIB_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_TLS_QUAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_MULTI_THREAD",
-    "location": {
-      "column": "11",
-      "line": "124",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_GLOBAL_VARIABLES",
-    "location": {
-      "column": "11",
-      "line": "125",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_GLOBAL_VARIABLES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_OP_LOCKS",
-    "location": {
-      "column": "11",
-      "line": "126",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "void *",
-    "location": {
-      "column": "17",
-      "line": "298",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "__iar_Rmtx",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MULTI_THREAD",
-    "location": {
-      "column": "9",
-      "line": "351",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_GLOBAL_LOCALE",
-    "location": {
-      "column": "9",
-      "line": "352",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_GLOBAL_LOCALE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FILE_OP_LOCKS",
-    "location": {
-      "column": "9",
-      "line": "353",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_COMPILER_TLS",
-    "location": {
-      "column": "9",
-      "line": "355",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "356",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_TLS_QUAL",
-    "origin": "system_include",
+    "name": "bFirstStart",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -51536,6 +51396,174 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
     "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_THREADS_H",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_THREADS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_COMPILER_TLS",
+    "location": {
+      "column": "9",
+      "line": "117",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_COMPILER_TLS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TLS_QUAL",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_TLS_QUAL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_MULTI_THREAD",
+    "location": {
+      "column": "11",
+      "line": "124",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_MULTI_THREAD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_GLOBAL_VARIABLES",
+    "location": {
+      "column": "11",
+      "line": "125",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_GLOBAL_VARIABLES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FILE_OP_LOCKS",
+    "location": {
+      "column": "11",
+      "line": "126",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_FILE_OP_LOCKS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "void *",
+    "location": {
+      "column": "17",
+      "line": "298",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "__iar_Rmtx",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_MULTI_THREAD",
+    "location": {
+      "column": "9",
+      "line": "351",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_MULTI_THREAD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_GLOBAL_LOCALE",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_GLOBAL_LOCALE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FILE_OP_LOCKS",
+    "location": {
+      "column": "9",
+      "line": "353",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_FILE_OP_LOCKS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_COMPILER_TLS",
+    "location": {
+      "column": "9",
+      "line": "355",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_COMPILER_TLS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_QUAL",
+    "location": {
+      "column": "9",
+      "line": "356",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_TLS_QUAL",
     "origin": "system_include",
     "scope": null
   },
@@ -52538,13 +52566,27 @@
     "scope": null
   },
   {
+    "ID": "c:@bFirstStart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bFirstStart",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "bFirstStart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SystemInit",
     "What": "Function",
     "defdec": "Def",
     "display": "int SystemInit(void)",
     "location": {
       "column": "5",
-      "line": "8",
+      "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "SystemInit",
@@ -52558,7 +52600,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -52566,13 +52608,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1020@F@main@ePWMCurrent",
+    "ID": "c:main.c@1061@F@main@ePWMCurrent",
     "What": "Variable",
     "defdec": "Def",
     "display": "ePWMCurrent",
     "location": {
       "column": "20",
-      "line": "37",
+      "line": "38",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "ePWMCurrent",
@@ -52580,13 +52622,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1067@F@main@eCurrentState",
+    "ID": "c:main.c@1108@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "38",
+      "line": "39",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -52600,7 +52642,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "71",
+      "line": "73",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

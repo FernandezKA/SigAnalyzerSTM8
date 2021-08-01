@@ -118,16 +118,16 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
      asm("nop");
    }
    else{
-     usCurrentIndexSample = 0;
-     vIncrementGenIndex(&ucCurrentIndexGen);
-     if(sigGen[ucCurrentIndexGen].polarity) {
-       GPIOD->ODR|=(1<<2);
-     }
-     else{
+    usCurrentIndexSample = 0;
+    vIncrementGenIndex(&ucCurrentIndexGen);
+    if(sigGen[ucCurrentIndexGen].polarity) {
+      GPIOD->ODR|=(1<<2);
+    }
+    else{
        GPIOD->ODR&=~(1<<2);
-     }
-   }
+    }
   }
+}
   //This counter must overflow after 0xFFFF, 65535 mS = ~65.5 Sec
   //GPIOD->ODR^=(1<<2);//This string for testing frequensy of sampling
 }

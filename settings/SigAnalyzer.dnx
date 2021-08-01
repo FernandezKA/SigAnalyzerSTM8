@@ -68,7 +68,7 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "0x0082DE" 0 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.30.15" 1 0 0 0 "" 0 ""</Bp1>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.31.15" 1 0 0 0 "" 0 ""</Bp1>
         <Count>2</Count>
     </Breakpoints>
     <TermIOLog>
