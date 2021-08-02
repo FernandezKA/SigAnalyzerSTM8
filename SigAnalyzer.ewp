@@ -1764,24 +1764,42 @@
                 <name>src</name>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_adc1.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_adc2.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_awu.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_beep.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_can.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_clk.c</name>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_exti.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_flash.c</name>
@@ -1791,6 +1809,9 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_i2c.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_it.c</name>
@@ -1800,6 +1821,9 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_iwdg.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_rst.c</name>
@@ -1821,24 +1845,45 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_tim5.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_tim6.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_uart1.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_uart2.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_uart3.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_uart4.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\lib\SPL\src\stm8s_wwdg.c</name>
+                    <excluded>
+                        <configuration>Debug</configuration>
+                    </excluded>
                 </file>
             </group>
         </group>

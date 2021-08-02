@@ -30,26 +30,19 @@ void main(void)
                     usClockUncapture = 0;
                     ucCurrentIndexGen = GEN_SIZE - 1;
            }
-           if(usClockUnStop >= 10000){//If stop signal not be receieved after 10 sec - terminate start respond answer
+           if(usClockUnStop >= 30000){//If stop signal not be receieved after 10 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
               vTim2_DisablePWM();
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
             }
-           if(usClockUncapture%2000 == 0&&usClockUncapture != 0&&bFirstStart&&!bStart){
-             bool bLineState = FALSE;
-             bLineState =(bool) ((GPIOC->IDR)&((1<<6)));
-             if(bLineState){
-               ucPWM_Measure = 100;
-             }
-             vSetPWM1(80);
-             //vTim2_EnablePWM();
-             //usClockUncapture = 0;//This string must add mictake into first bStart detect
-           }
            if(bNewSample){
               PWMM ePWMCurrent = few_samples;
               State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
+              if(ucCountValid == 4){
+                asm("nop");
+              }
               switch(eCurrentState){
                 case start:
                   GPIOD->ODR|=(1<<5);
