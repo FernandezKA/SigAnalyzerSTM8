@@ -112,6 +112,11 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
+  ++usSysTick;
+  if(usSysTick%1000 == 0){
+    GPIOD->ODR^=(1<<4);
+    GPIOD->ODR&=~(1<<5);
+  }
   /*********************************/
   ++usClockUncapture;
   /*********************************/

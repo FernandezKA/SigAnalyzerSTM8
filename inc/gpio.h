@@ -6,6 +6,5 @@ void vLED_Config(void);
 void vTestOut_Config(void);
 void vLedOff(void);
 void vLedRun(bool state);
-void vLedStop(bool state);
-void vLedPWM(bool state);
+void vLedActive(bool state);
 #endif

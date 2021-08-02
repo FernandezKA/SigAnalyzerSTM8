@@ -3,5 +3,5 @@
 #include "general.h"
 
 PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM);
-
+void vClearMeasure(void);
 #endif

@@ -27,3 +27,11 @@ PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM){
     return few_samples;
   }
 }
+/*
+*@brief: This function clear all measured value
+*/
+void vClearMeasure(void){
+    usSummaryTime = 0;
+    usPWMLowTime = 0;
+    usPWMHighTime = 0;
+}

@@ -20,18 +20,10 @@ void vLedRun(bool state){
     GPIOD->ODR&=~(1<<4);
   }
 }
-void vLedStop(bool state){
+void vLedActive(bool state){
   if(state){
   GPIOD->ODR|=(1<<5);
   }else{
     GPIOD->ODR&=~(1<<5);
-  }
-}
-
-void vLedPWM(bool state){
-  if(state){
-  GPIOD->ODR|=(1<<6);
-  }else{
-    GPIOD->ODR&=~(1<<6);
   }
 }

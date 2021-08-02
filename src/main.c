@@ -37,14 +37,14 @@ void main(void)
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
             }
-           if(usClockUncapture%2000 == 0&&usClockUncapture != 0&&bFirstDetect&&!bStart){
+           if(usClockUncapture%2000 == 0&&usClockUncapture != 0&&bFirstStart&&!bStart){
              bool bLineState = FALSE;
              bLineState =(bool) ((GPIOC->IDR)&((1<<6)));
              if(bLineState){
                ucPWM_Measure = 100;
              }
-             vSetPWM1(10);
-             vTim2_EnablePWM();
+             vSetPWM1(80);
+             //vTim2_EnablePWM();
              //usClockUncapture = 0;//This string must add mictake into first bStart detect
            }
            if(bNewSample){
@@ -53,6 +53,7 @@ void main(void)
               switch(eCurrentState){
                 case start:
                   GPIOD->ODR|=(1<<5);
+                  vClearMeasure();
                   vTim2_DisablePWM();
                   usClockUnStop = 0;
                   bStart = TRUE;
@@ -61,6 +62,7 @@ void main(void)
                 
                 case stop:
                   GPIOD->ODR|=(1<<5);
+                  vClearMeasure();
                   bFirstStart = TRUE;
                   vTim2_DisablePWM();
                   bStart = FALSE;
