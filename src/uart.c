@@ -1,1 +1,12 @@
 #include "uart.h"
+
+#ifdef DEBUG
+void vUart_Config(void){
+  CLK->PCKENR1|=CLK_PCKENR1_UART1;//ENABLE CLOCKING
+  UART1_Init(9600, UART1_WORDLENGTH_8D, UART1_STOPBITS_1, UART1_PARITY_NO, UART1_SYNCMODE_CLOCK_DISABLE, UART1_MODE_TX_ENABLE);
+  UART1_Cmd(ENABLE);
+}
+void Print(uint8_t data){
+  UART1->DR = data;
+}
+#endif

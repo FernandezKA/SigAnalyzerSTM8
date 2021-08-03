@@ -23,7 +23,7 @@ bool bIsStart(Pulse pulse){
     }
   }
   
-  if(ucCountValid == 5){
+  if(ucCountValid == 3){
     ucCountValid = 0;
     return TRUE;
   }else{

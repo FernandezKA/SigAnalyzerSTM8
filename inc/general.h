@@ -1,9 +1,11 @@
 
 #ifndef _general_h_
 #define _general_h_
+#define DEBUG
 #include "stdlib.h"
 #include "stm8s_conf.h"
 #include "stm8s_tim1.h"
+#include "stm8s_uart1.h"
 //PORT DEFINITION
 #define SIG_PORT GPIOD
 #define SIG_OUT  (1<<2)
@@ -35,5 +37,5 @@ extern bool bFirstDetect;
 #include "timers.h"
 #include "clocking.h"
 #include "gpio.h"
-
+#include "uart.h"
 #endif

@@ -1,4 +1,5 @@
 #include "general.h"
+
 uint8_t ucPWM_Measure = 0;
 uint16_t usClockCounter = 0;
 uint16_t usClockUncapture = 0;
@@ -13,8 +14,11 @@ int SystemInit(void)
     vClock_Config();
     vTestOut_Config();
     vTim1_Config();
-    vTim2_Config();
-    vTim4_Config();
+    //vTim2_Config();
+    //vTim4_Config();
+#ifdef DEBUG
+    vUart_Config();
+#endif
     return 0;
 }
 
@@ -24,7 +28,7 @@ void main(void)
         asm("RIM");
         bGenFromTable = FALSE;
 	 while (1){//Detect new states always
-           if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
+           /*if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
                     bFirstDetect = TRUE;
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
@@ -33,19 +37,20 @@ void main(void)
            if(usClockUnStop >= 30000){//If stop signal not be receieved after 10 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
-              vTim2_DisablePWM();
+              //vTim2_DisablePWM();
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
-            }
+            }*/
+          
            if(bNewSample){
+#ifdef DEBUG
+              //Print((uint8_t)(xNewSample.time/(uint16_t) 10));
+#endif
               PWMM ePWMCurrent = few_samples;
               State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
-              if(ucCountValid == 4){
-                asm("nop");
-              }
               switch(eCurrentState){
                 case start:
-                  GPIOD->ODR|=(1<<5);
+                  //GPIOD->ODR|=(1<<5);
                   vClearMeasure();
                   vTim2_DisablePWM();
                   usClockUnStop = 0;
@@ -54,7 +59,7 @@ void main(void)
                 break;
                 
                 case stop:
-                  GPIOD->ODR|=(1<<5);
+                  //GPIOD->ODR|=(1<<5);
                   vClearMeasure();
                   bFirstStart = TRUE;
                   vTim2_DisablePWM();
@@ -67,7 +72,7 @@ void main(void)
                 
                 case pwm:
                   if(ePWMCurrent == detected){
-                    GPIOD->ODR|=(1<<5);
+                    //GPIOD->ODR|=(1<<5);
                     if(ucPWM_Measure > 50){
                       vSetPWM1(80);
                     }else{
@@ -84,7 +89,7 @@ void main(void)
               }
              bNewSample = FALSE;
            }  
-         };   
+         }   
 }
 
 #ifdef USE_FULL_ASSERT
