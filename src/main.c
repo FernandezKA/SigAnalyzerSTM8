@@ -9,6 +9,7 @@ bool bStart = FALSE;
 bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
 bool bFirstDetect = FALSE;
+bool bFirstPWM = FALSE;
 int SystemInit(void)
 {
     vClock_Config();
@@ -16,6 +17,7 @@ int SystemInit(void)
     vTim1_Config();
     vTim2_Config();
     vTim4_Config();
+    vSetPWM1(10);
 #ifdef DEBUG
     vUart_Config();
 #endif
@@ -28,7 +30,7 @@ void main(void)
         asm("RIM");
         bGenFromTable = FALSE;
 	 while (1){//Detect new states always
-           if(usClockUncapture >= 10000&&!bFirstStart){//This case must be call after 5 Sec undetected rise or Edge
+           if(usClockUncapture >= 10000/*&&!bFirstStart*/){//This case must be call after 5 Sec undetected rise or Edge
                     bFirstDetect = TRUE;
                     vTim2_EnablePWM();
                     usClockUncapture = 0;
@@ -73,7 +75,7 @@ void main(void)
                 case pwm:
                   if(ePWMCurrent == detected){
                     GPIOD->ODR|=(1<<5);
-                    if(ucPWM_Measure > 50){
+                    if(ucPWM_Measure >= 50){
                       vSetPWM1(80);
                     }else{
                       vSetPWM1(10);
@@ -83,6 +85,10 @@ void main(void)
                     }
                   }
                 else{
+                  if(!bFirstPWM){
+                    vSetPWM1(10);
+                    bFirstPWM = TRUE;
+                  }
                   asm("nop");
                 }
                 break;
