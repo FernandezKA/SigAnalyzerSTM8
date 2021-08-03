@@ -89,7 +89,6 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
      xNewSample.time = usLowTime;
      xNewSample.polarity = FALSE;
      bNewSample = TRUE;
-     Print(usLowTime&0xFF);
     break;
   case fall:
      TIM1->CNTRH = 0x00;
@@ -98,7 +97,6 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
      usHighTime |= (TIM1->CCR1H)<<8; 
      xNewSample.time = usHighTime;
      xNewSample.polarity = TRUE;
-     Print(usHighTime&0xFF);
      bNewSample = TRUE;
     break;
   case error:
@@ -117,8 +115,8 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
   ++usSysTick;
   if(usSysTick%1000 == 0){
-    //GPIOD->ODR^=(1<<4);
-    //GPIOD->ODR&=~(1<<5);
+    GPIOD->ODR^=(1<<4);
+    GPIOD->ODR&=~(1<<5);
   }
   if(ucCountValid != 0){
     vTim2_DisablePWM();

@@ -1,7 +1,7 @@
 
 #ifndef _general_h_
 #define _general_h_
-#define DEBUG
+//#define DEBUG
 #include "stdlib.h"
 #include "stm8s_conf.h"
 #include "stm8s_tim1.h"
