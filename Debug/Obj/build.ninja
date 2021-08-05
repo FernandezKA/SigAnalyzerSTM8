@@ -39,13 +39,14 @@ build parser.pbi : index parser.xcl
 build pwm_generate.pbi : index pwm_generate.xcl
 build pwm_measure.pbi : index pwm_measure.xcl
 build sig_generate.pbi : index sig_generate.xcl
+build spi.pbi : index spi.xcl
 build timers.pbi : index timers.xcl
 build uart.pbi : index uart.xcl
 build SigAnalyzer_part0.pbi : link stm8s_clk.pbi stm8s_flash.pbi stm8s_gpio.pbi stm8s_it.pbi stm8s_itc.pbi
 build SigAnalyzer_part1.pbi : link stm8s_rst.pbi stm8s_spi.pbi stm8s_tim1.pbi stm8s_tim2.pbi stm8s_tim3.pbi
 build SigAnalyzer_part2.pbi : link stm8s_tim4.pbi stm8s_uart1.pbi clocking.pbi gpio.pbi main.pbi
-build SigAnalyzer_part3.pbi : link parser.pbi pwm_generate.pbi pwm_measure.pbi sig_generate.pbi timers.pbi
-build SigAnalyzer_part4.pbi : link uart.pbi
+build SigAnalyzer_part3.pbi : link parser.pbi pwm_generate.pbi pwm_measure.pbi sig_generate.pbi spi.pbi
+build SigAnalyzer_part4.pbi : link timers.pbi uart.pbi
 build SigAnalyzer.pbd : link SigAnalyzer_part0.pbi SigAnalyzer_part1.pbi SigAnalyzer_part2.pbi SigAnalyzer_part3.pbi SigAnalyzer_part4.pbi
 build SigAnalyzer.pbw : browsedata SigAnalyzer.pbd
 

@@ -26,4 +26,5 @@ uart.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\uart.c \
   C:\dev\MCU\STM8\SigAnalyzer\inc/timers.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/clocking.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/gpio.h \
-  C:\dev\MCU\STM8\SigAnalyzer\inc/uart.h
+  C:\dev\MCU\STM8\SigAnalyzer\inc/uart.h \
+  C:\dev\MCU\STM8\SigAnalyzer\inc/spi.h

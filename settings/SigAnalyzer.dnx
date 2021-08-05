@@ -49,7 +49,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <DebugChecksum>
-        <Checksum>3367907325</Checksum>
+        <Checksum>1077533549</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -70,8 +70,8 @@
     <Breakpoints>
         <Bp0>_ "STD_CODE" "0x0082DE" 0 0 0 0 "" 0 ""</Bp0>
         <Bp1>_ "STD_CODE" "{$PROJ_DIR$\inc\uart.h}.9.1" 0 0 0 0 "" 0 ""</Bp1>
-        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.55.19" 1 0 0 0 "" 0 ""</Bp2>
-        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.81.23" 1 0 0 0 "" 0 ""</Bp3>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.66.19" 1 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.92.23" 1 0 0 0 "" 0 ""</Bp3>
         <Count>4</Count>
     </Breakpoints>
     <TermIOLog>

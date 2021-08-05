@@ -2177,6 +2177,9 @@
             <name>$PROJ_DIR$\inc\sig_generate.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\inc\spi.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\inc\stm8s_conf.h</name>
         </file>
         <file>
@@ -2379,6 +2382,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\src\sig_generate.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\spi.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\src\timers.c</name>

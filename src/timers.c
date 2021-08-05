@@ -3,7 +3,7 @@
 enum edge Edge = error;
 uint16_t usLowTime = 0;
 uint16_t usHighTime = 0;
-
+uint8_t index = 0;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
   TIM1->PSCRH = (16000>>8);//set prescaler
@@ -40,7 +40,8 @@ void vTim2_Config(void){
   TIM2->CCMR1|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR2|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
-  TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
+  GPIOD->ODR&=~(1<<3);
+  //TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
 void vSetPWM1(uint8_t pwm){
   uint16_t normPWM = (pwm*488UL)/100UL;
@@ -68,7 +69,6 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
   uint8_t ReadSR1Reg = TIM1->SR1;//CLAEAR AFTER READING REGISTERS
   usClockUncapture = 0;
-  GPIOD->ODR^=(1<<4);
   TIM1->SR1&=~TIM1_SR1_CC1IF;
   TIM1->SR1&=~TIM1_SR1_CC2IF;
   if((ReadSR1Reg&TIM1_SR1_CC1IF)==TIM1_SR1_CC1IF){
@@ -113,13 +113,11 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
+  _AD8400_set(++index);
   ++usSysTick;
   if(usSysTick%1000 == 0){
     GPIOD->ODR^=(1<<4);
     GPIOD->ODR&=~(1<<5);
-  }
-  if(ucCountValid != 0){
-    vTim2_DisablePWM();
   }
   /*********************************/
   ++usClockUncapture;

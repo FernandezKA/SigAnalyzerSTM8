@@ -9,10 +9,14 @@ uint16_t usPWMHighTime = 0;
 */
 PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM){
   if(pulse.polarity){
+    if(pulse.time < 500){
     usPWMHighTime+=pulse.time;
+    }
   }
   else{
+    if(pulse.time < 500){
     usPWMLowTime+=pulse.time;
+    }
   }
   usSummaryTime = usPWMLowTime + usPWMHighTime;
   if(usSummaryTime >= 2000){

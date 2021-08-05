@@ -17,6 +17,7 @@ int SystemInit(void)
     vTim1_Config();
     vTim2_Config();
     vTim4_Config();
+    GPIOD->ODR&=~(1<<3);
     vSetPWM1(10);
 #ifdef DEBUG
     vUart_Config();
@@ -30,11 +31,21 @@ void main(void)
         asm("RIM");
         bGenFromTable = FALSE;
 	 while (1){//Detect new states always
-           if(usClockUncapture >= 10000/*&&!bFirstStart*/){//This case must be call after 5 Sec undetected rise or Edge
-                    bFirstDetect = TRUE;
-                    vTim2_EnablePWM();
+           if(usSysTick == 10000){
+             if(ucPWM_Measure > 10){
+               vSetPWM1(50);
+             }else{
+               vSetPWM1(10);
+             }
+             vTim2_EnablePWM();
+           }
+           if(usClockUncapture >= 15000){//This case must be call after 5 Sec undetected rise or Edge
+                    //bFirstDetect = TRUE;
+                    //vTim2_EnablePWM();
                     usClockUncapture = 0;
-                    ucCurrentIndexGen = GEN_SIZE - 1;
+                    vClearMeasure();
+                    vSetPWM1(10);
+                    //ucCurrentIndexGen = GEN_SIZE - 1;
            }
            if(usClockUnStop >= 30000){//If stop signal not be receieved after 10 sec - terminate start respond answer
               bStart = FALSE;
@@ -54,7 +65,7 @@ void main(void)
                 case start:
                   GPIOD->ODR|=(1<<5);
                   vClearMeasure();
-                  vTim2_DisablePWM();
+                  //vTim2_DisablePWM();
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
@@ -64,7 +75,7 @@ void main(void)
                   GPIOD->ODR|=(1<<5);
                   vClearMeasure();
                   bFirstStart = TRUE;
-                  vTim2_DisablePWM();
+                  //vTim2_DisablePWM();
                   bStart = FALSE;
                   usClockUnStop = 0;
                   bGenFromTable = FALSE;
@@ -76,13 +87,13 @@ void main(void)
                   if(ePWMCurrent == detected){
                     GPIOD->ODR|=(1<<5);
                     if(ucPWM_Measure >= 50){
-                      vSetPWM1(80);
+                      vSetPWM1(50);
                     }else{
                       vSetPWM1(10);
                     }
-                    if(!bStart&&ucCountValid == 0){
-                    vTim2_EnablePWM();
-                    }
+                    //if(!bStart&&ucCountValid == 0){
+                    //vTim2_EnablePWM();
+                    //}
                   }
                 else{
                   if(!bFirstPWM){

@@ -38,4 +38,5 @@ extern bool bFirstDetect;
 #include "clocking.h"
 #include "gpio.h"
 #include "uart.h"
+#include "spi.h"
 #endif
