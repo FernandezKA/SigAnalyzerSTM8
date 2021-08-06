@@ -1219,13 +1219,14 @@ Marking from fragment #2735 .near_func.text (17 timers.o)
   Marking symbol ?b6                              Glb (18 vregs.o)
   Marking symbol ?b5                              Glb (17 vregs.o)
   Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol usSysTick                        Glb (79 main.o)
+    Marking fragment #73 .near.bss (12 main.o)
   Marking symbol index                            Glb (90 timers.o)
-    Marking fragment #2729 .near.bss (11 timers.o)
+    Marking fragment #2729 .near.data (11 timers.o)
   Marking symbol index                            Glb (90 timers.o)
   Marking symbol _AD8400_set                      Glb (43 spi.o)
     Marking fragment #264 .near_func.text (11 spi.o)
   Marking symbol usSysTick                        Glb (79 main.o)
-    Marking fragment #73 .near.bss (12 main.o)
   Marking symbol usSysTick                        Glb (79 main.o)
   Marking symbol usClockUncapture                 Glb (78 main.o)
     Marking fragment #71 .near.bss (10 main.o)
@@ -1276,7 +1277,6 @@ Marking from fragment #75 .near.bss (14 main.o)
 Marking from fragment #72 .near.bss (11 main.o)
 Marking from fragment #74 .near.bss (13 main.o)
 Marking from fragment #71 .near.bss (10 main.o)
-Marking from fragment #73 .near.bss (12 main.o)
 Marking from fragment #264 .near_func.text (11 spi.o)
   Marking symbol ?b9                              Glb (21 vregs.o)
   Marking symbol ?b8                              Glb (20 vregs.o)
@@ -1308,7 +1308,8 @@ Marking from fragment #723 .near_func.text (11 stm8s_gpio.o)
   Marking symbol ?b0                              Glb (6 vregs.o)
   Marking symbol ?b0                              Glb (6 vregs.o)
 Marking from fragment #724 .near_func.text (12 stm8s_gpio.o)
-Marking from fragment #2729 .near.bss (11 timers.o)
+Marking from fragment #2729 .near.data (11 timers.o)
+Marking from fragment #73 .near.bss (12 main.o)
 Marking from fragment #3255 .vregs (6 vregs.o(dlstm8smn.a))
 Marking from fragment #837 .near_func.text (24 stm8s_it.o)
 Marking from fragment #836 .near_func.text (23 stm8s_it.o)
@@ -1793,13 +1794,14 @@ Marking from fragment #2735 .near_func.text (17 timers.o) init:always
   Marking symbol ?b6                              Glb (18 vregs.o)
   Marking symbol ?b5                              Glb (17 vregs.o)
   Marking symbol ?b4                              Glb (16 vregs.o)
+  Marking symbol usSysTick                        Glb (79 main.o)
+    Marking fragment #73 .near.bss (12 main.o) init:always
   Marking symbol index                            Glb (90 timers.o)
-    Marking fragment #2729 .near.bss (11 timers.o) init:always
+    Marking fragment #2729 .near.data (11 timers.o) init:always
   Marking symbol index                            Glb (90 timers.o)
   Marking symbol _AD8400_set                      Glb (43 spi.o)
     Marking fragment #264 .near_func.text (11 spi.o) init:always
   Marking symbol usSysTick                        Glb (79 main.o)
-    Marking fragment #73 .near.bss (12 main.o) init:always
   Marking symbol usSysTick                        Glb (79 main.o)
   Marking symbol usClockUncapture                 Glb (78 main.o)
     Marking fragment #71 .near.bss (10 main.o) init:always
@@ -1850,7 +1852,6 @@ Marking from fragment #75 .near.bss (14 main.o) init:always
 Marking from fragment #72 .near.bss (11 main.o) init:always
 Marking from fragment #74 .near.bss (13 main.o) init:always
 Marking from fragment #71 .near.bss (10 main.o) init:always
-Marking from fragment #73 .near.bss (12 main.o) init:always
 Marking from fragment #264 .near_func.text (11 spi.o) init:always
   Marking symbol ?b9                              Glb (21 vregs.o)
   Marking symbol ?b8                              Glb (20 vregs.o)
@@ -1882,7 +1883,8 @@ Marking from fragment #723 .near_func.text (11 stm8s_gpio.o) init:always
   Marking symbol ?b0                              Glb (6 vregs.o)
   Marking symbol ?b0                              Glb (6 vregs.o)
 Marking from fragment #724 .near_func.text (12 stm8s_gpio.o) init:always
-Marking from fragment #2729 .near.bss (11 timers.o) init:always
+Marking from fragment #2729 .near.data (11 timers.o) init:always
+Marking from fragment #73 .near.bss (12 main.o) init:always
 Marking from fragment #3255 .vregs (6 vregs.o(dlstm8smn.a)) init:always
 Marking from fragment #837 .near_func.text (24 stm8s_it.o) init:always
 Marking from fragment #836 .near_func.text (23 stm8s_it.o) init:always
@@ -2501,7 +2503,7 @@ References #838 .near_func.text (25 stm8s_it.o)
   Marking fragment #985 .iar.debug_frame (262 stm8s_it.o)
 References #2726 .near.data (8 timers.o)
   Marking fragment #2737 .debug_info (19 timers.o)
-References #2729 .near.bss (11 timers.o)
+References #2729 .near.data (11 timers.o)
   Marking fragment #2738 .debug_info (20 timers.o)
 References #2728 .near.bss (10 timers.o)
   Marking fragment #2739 .debug_info (21 timers.o)
@@ -3029,7 +3031,7 @@ Marking from fragment #2738 .debug_info (20 timers.o)
   Marking symbol .debug_line6                         (28 timers.o)
   Marking symbol .debug_macinfo59                     (29 timers.o)
   Marking symbol .debug_info7                         (27 timers.o)
-  Marking symbol .near.bss11                          (6 timers.o)
+  Marking symbol .near.data11                         (6 timers.o)
 Marking from fragment #2737 .debug_info (19 timers.o)
   Marking symbol .debug_abbrev60                      (26 timers.o)
   Marking symbol .debug_line6                         (28 timers.o)

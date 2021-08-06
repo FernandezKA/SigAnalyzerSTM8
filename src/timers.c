@@ -3,11 +3,11 @@
 enum edge Edge = error;
 uint16_t usLowTime = 0;
 uint16_t usHighTime = 0;
-uint8_t index = 0;
+uint8_t index = 255;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
-  TIM1->PSCRH = (16000>>8);//set prescaler
-  TIM1->PSCRL = 16000&0xFF;
+  TIM1->PSCRH = (8000>>8);//set prescaler
+  TIM1->PSCRL = 8000&0xFF;
   TIM1->CCMR1|=(1<<0);//CC1 channel is configured as input, IC1 is mapped on TI1FP1
   TIM1->CCMR2|=(1<<1);//CC2 channel is configured as input, IC2 is mapped on TI2FP2
   TIM1->CCER1|=TIM1_CCER1_CC1P;
@@ -27,14 +27,14 @@ void vTim2_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM2;/*ENABLE CLOCKING*/
   TIM2->PSCR|=(1<<2|1<<1|1<<0);
   TIM2->CR1|=TIM2_CR1_ARPE;//AT THIS MOMENT COUNTER IS DISABLE
-  TIM2->ARRH = 488U>>8;
-  TIM2->ARRL = 488U&0xFFU;
-  TIM2->CCR1H = 48U>>8;
-  TIM2->CCR1L = 48U&0xFFU;
-  TIM2->CCR2H = 48U>>8;
-  TIM2->CCR2L = 48U&0xFFU;
-  TIM2->CCR3H = 48U>>8;
-  TIM2->CCR3L = 48U&0xFFU;
+  TIM2->ARRH = 244U>>8;
+  TIM2->ARRL = 244U&0xFFU;
+  TIM2->CCR1H = 24U>>8;
+  TIM2->CCR1L = 24U&0xFFU;
+  TIM2->CCR2H = 24U>>8;
+  TIM2->CCR2L = 24U&0xFFU;
+  TIM2->CCR3H = 24U>>8;
+  TIM2->CCR3L = 24U&0xFFU;
   //TIM2->CCER1|=TIM2_CCER1_CC2E;/*ENABLE CAPTURE/COMPARE FOR CHANNEL 2 AND 3*/
   //TIM2->CCER2|=TIM2_CCER2_CC3E;
   TIM2->CCMR1|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
@@ -44,7 +44,7 @@ void vTim2_Config(void){
   //TIM2->CR1|=TIM2_CR1_CEN;/*RUN TIM2*/
 }
 void vSetPWM1(uint8_t pwm){
-  uint16_t normPWM = (pwm*488UL)/100UL;
+  uint16_t normPWM = (pwm*244UL)/100UL;
   TIM2->CCR2H = normPWM>>8;
   TIM2->CCR2L = normPWM&0xFFU;
 }
@@ -55,7 +55,7 @@ void vTim4_Config(void){
   TIM4->IER |= TIM4_IER_UIE; /*ENABLE INTERRUPT UPDATE*/
   TIM4->IER |= TIM4_IER_RESET_VALUE;
   TIM4->PSCR = (1<<2|1<<1|1<<0); /*SET PRESCALER = 2^15*/
-  TIM4->ARR = 0x7CU;//7C for sampling
+  TIM4->ARR = 0x3EU;//7C for sampling
   ITC->ISPR6 &= 0;
   ITC->ISPR6 |= 0x03U;
   TIM4->SR1 = ~TIM4_SR1_UIF; /*clear uif bit at SREG for correct working*/
@@ -113,7 +113,9 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
-  _AD8400_set(++index);
+  if(usSysTick%6000 == 0){
+  _AD8400_set(--index); 
+  }
   ++usSysTick;
   if(usSysTick%1000 == 0){
     GPIOD->ODR^=(1<<4);
