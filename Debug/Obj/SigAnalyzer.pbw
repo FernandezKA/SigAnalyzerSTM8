@@ -47640,7 +47640,7 @@
     "display": "void vLED_Config(void)",
     "location": {
       "column": "6",
-      "line": "2",
+      "line": "3",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
     "name": "vLED_Config",
@@ -47654,7 +47654,7 @@
     "display": "void vTestOut_Config(void)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "6",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
     "name": "vTestOut_Config",
@@ -47668,7 +47668,7 @@
     "display": "void vLedOff(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
     "name": "vLedOff",
@@ -47682,7 +47682,7 @@
     "display": "void vLedRun(bool)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "21",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
     "name": "vLedRun",
@@ -47696,7 +47696,7 @@
     "display": "void vLedActive(bool)",
     "location": {
       "column": "6",
-      "line": "27",
+      "line": "28",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\gpio.c"
     },
     "name": "vLedActive",

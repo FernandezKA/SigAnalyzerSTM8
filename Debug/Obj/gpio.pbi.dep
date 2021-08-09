@@ -27,4 +27,5 @@ gpio.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\gpio.c \
   C:\dev\MCU\STM8\SigAnalyzer\inc/clocking.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/gpio.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/uart.h \
-  C:\dev\MCU\STM8\SigAnalyzer\inc/spi.h
+  C:\dev\MCU\STM8\SigAnalyzer\inc/spi.h \
+  C:\dev\MCU\STM8\SigAnalyzer\inc\spi.h
