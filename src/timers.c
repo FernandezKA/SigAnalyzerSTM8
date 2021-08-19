@@ -117,7 +117,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   _AD8400_set(--index); 
   }
   ++usSysTick;
-  if(usSysTick%1000 == 0){
+  if(usSysTick%500 == 0){
     GPIOD->ODR^=(1<<4);
     GPIOD->ODR&=~(1<<5);
   }

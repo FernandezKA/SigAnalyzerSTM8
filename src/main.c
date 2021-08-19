@@ -91,9 +91,6 @@ void main(void)
                     }else{
                       vSetPWM1(10);
                     }
-                    //if(!bStart&&ucCountValid == 0){
-                    //vTim2_EnablePWM();
-                    //}
                   }
                 else{
                   if(!bFirstPWM){
