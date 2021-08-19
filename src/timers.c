@@ -113,6 +113,7 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
+  //GPIOD->ODR^=(1<<4);
   if(usSysTick%6000 == 0){
   _AD8400_set(--index); 
   }
