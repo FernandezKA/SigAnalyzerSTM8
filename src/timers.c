@@ -136,10 +136,10 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
     usCurrentIndexSample = 0;
     vIncrementGenIndex(&ucCurrentIndexGen);
     if(sigGen[ucCurrentIndexGen].polarity){
-      GPIOD->ODR|=(1<<2);
+      GPIOD->ODR&=~(1<<2);
     }
     else{
-       GPIOD->ODR&=~(1<<2);
+       GPIOD->ODR|=(1<<2);
     }
   }
 }
