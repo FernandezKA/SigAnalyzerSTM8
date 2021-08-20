@@ -11,5 +11,5 @@ extern State eCurrentState;
 extern Pulse xNewSample;
 extern bool bNewSample;
 extern uint8_t ucCountValid;
-State eGetParse(Pulse pulse, PWMM* PWM);
+State eGetParse(Pulse pulse);
 #endif

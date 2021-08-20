@@ -49,14 +49,13 @@ bool bIsStop(Pulse pulse){
 *@inval: current sample(struct Pulse)
 *@retval: enumerate state of current sample
 */
-State eGetParse(Pulse pulse, PWMM* PWM){
+State eGetParse(Pulse pulse){
   State eTempState = pwm;
   bool bStart = bIsStart(pulse);
   bool bStop = bIsStop(pulse);
   PWMM ePWM = ePWM_Measure(pulse, &ucPWM_Measure);
   if(!bStart&&!bStop){//This is a PWM
     eTempState = pwm;
-    *PWM = ePWM;
   }
   if(bStart&!bStop){
     eTempState = start;

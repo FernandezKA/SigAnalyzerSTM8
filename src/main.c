@@ -60,7 +60,7 @@ void main(void)
               //Print((uint8_t)(xNewSample.time/(uint16_t) 10));
 #endif
               //PWMM ePWMCurrent = few_samples;
-              State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
+              State eCurrentState = eGetParse(xNewSample);
               switch(eCurrentState){
                 case start:
                   GPIOD->ODR|=(1<<5);
@@ -84,20 +84,28 @@ void main(void)
                 break;
                 
                 case pwm:
-                  if(ePWMCurrent == detected){
+                  if(u8PWMMeasured > 0){
+                    --u8PWMMeasured;
+                    if(u8PWMFill < 10){//If PWM fill less than 10%, set PWM 10%
+                      
+                    }
+                    else{//If PWM more than 10%, set PWM fill 50%
+                      
+                    }
+                  }
+                   /*if(ePWMCurrent == detected){
                     GPIOD->ODR|=(1<<5);
                     if(ucPWM_Measure >= 50){
                       vSetPWM1(50);
                     }else{
                       vSetPWM1(10);
                     }
-                  }
+                  }*/
                 else{
                   if(!bFirstPWM){
                     vSetPWM1(10);
                     bFirstPWM = TRUE;
                   }
-                  asm("nop");
                 }
                 break;
               }
