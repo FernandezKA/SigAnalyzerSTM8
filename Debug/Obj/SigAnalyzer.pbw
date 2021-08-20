@@ -47704,13 +47704,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1769@F@main@eCurrentState",
+    "ID": "c:main.c@1901@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "63",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -47724,7 +47724,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "118",
+      "line": "115",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

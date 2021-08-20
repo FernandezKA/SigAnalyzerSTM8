@@ -30,16 +30,19 @@ void main(void)
 	SystemInit();
         asm("RIM");
         bGenFromTable = FALSE;
-	 while (1){//Detect new states always
-           if(usSysTick == 10000){
+	 while (1){//Detect new states always into the loop
+           if(usSysTick == 10000UL){
+            vTim2_EnablePWM(); 
+           }
+          /* if(usSysTick == 10000){//After 10 second enable PWM
              if(ucPWM_Measure > 10){
                vSetPWM1(50);
              }else{
                vSetPWM1(10);
              }
              vTim2_EnablePWM();
-           }
-           if(usClockUncapture >= 15000){//This case must be call after 5 Sec undetected rise or Edge
+           }*/
+           if(usClockUncapture >= 15000){//This case must be call after 15 Sec undetected rise or Edge
                     //bFirstDetect = TRUE;
                     //vTim2_EnablePWM();
                     usClockUncapture = 0;
@@ -47,7 +50,7 @@ void main(void)
                     vSetPWM1(10);
                     //ucCurrentIndexGen = GEN_SIZE - 1;
            }
-           if(usClockUnStop >= 30000){//If stop signal not be receieved after 10 sec - terminate start respond answer
+           if(usClockUnStop >= 30000){//If stop signal not be receieved after 30 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
               //vTim2_DisablePWM();
@@ -65,32 +68,32 @@ void main(void)
                 case start:
                   GPIOD->ODR|=(1<<5);
                   vClearMeasure();
-                  //vTim2_DisablePWM();
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
                 break;
                 
                 case stop:
-                  GPIOD->ODR|=(1<<5);
+                  GPIOD->ODR|=(1<<5);//???
                   vClearMeasure();
                   bFirstStart = TRUE;
-                  //vTim2_DisablePWM();
                   bStart = FALSE;
                   usClockUnStop = 0;
                   bGenFromTable = FALSE;
                   ucCurrentIndexGen = GEN_SIZE - 1;
-                  GPIOD->ODR&=~(1<<2);
+                  GPIOD->ODR&=~(1<<2);//???
                 break;
                 
                 case pwm:
                   if(u8PWMMeasured > 0){
                     --u8PWMMeasured;
                     if(u8PWMFill < 10){//If PWM fill less than 10%, set PWM 10%
-                      
+                      vSetPWM1(10);
+                      //vTim2_EnablePWM();
                     }
                     else{//If PWM more than 10%, set PWM fill 50%
-                      
+                      vSetPWM1(50);
+                      //vTim2_EnablePWM();
                     }
                   }
                    /*if(ePWMCurrent == detected){
@@ -101,12 +104,6 @@ void main(void)
                       vSetPWM1(10);
                     }
                   }*/
-                else{
-                  if(!bFirstPWM){
-                    vSetPWM1(10);
-                    bFirstPWM = TRUE;
-                  }
-                }
                 break;
               }
              bNewSample = FALSE;
