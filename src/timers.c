@@ -114,21 +114,36 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
   //GPIOD->ODR^=(1<<4);
-  if(usSysTick%6000 == 0){
+  if(u16CountSamples == 2000UL){//At this case we recognize PWM filling
+    ++u8PWMMeasured;
+    u8PWMFill = (uint8_t) (u16PWMOnes * 100)/(u16CountSamples);//norming at percent
+    u16PWMOnes = 0; 
+    u16CountSamples = 0;
+  }
+  else{//A few samples for recognize
+    if((GPIOC->IDR & (1<<6)) == (1<<6)){//At this case we increment ones value of sample
+     ++u16PWMOnes; 
+     ++u16CountSamples;
+    }
+    else{//At this case we only increment index, without ones 
+      ++u16CountSamples;
+    }
+  }
+  if(usSysTick%6000 == 0){//Every 6 second incremant value of AD8400
   _AD8400_set(--index); 
   }
   ++usSysTick;
-  if(usSysTick%500 == 0){
+  if(usSysTick%500 == 0){//This case define for led blinking
     GPIOD->ODR^=(1<<4);
     GPIOD->ODR&=~(1<<5);
   }
   /*********************************/
   ++usClockUncapture;
   /*********************************/
-  if(bStart){
+  if(bStart){//Start count of unstoppped signal
     usClockUnStop++;
   }
-  if(bGenFromTable){
+  if(bGenFromTable){//This case define for generate from table
       ++usCurrentIndexSample;
    if(usCurrentIndexSample < sigGen[ucCurrentIndexGen].time){
      asm("nop");

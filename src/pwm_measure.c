@@ -1,4 +1,8 @@
 #include "pwm_measure.h"
+uint16_t u16PWMOnes = 0;
+uint8_t u8PWMFill = 0;
+uint16_t u16CountSamples = 0;
+uint8_t u8PWMMeasured = 0;
 uint16_t usSummaryTime = 0;
 uint16_t usPWMLowTime = 0;
 uint16_t usPWMHighTime = 0;

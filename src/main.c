@@ -59,7 +59,7 @@ void main(void)
 #ifdef DEBUG
               //Print((uint8_t)(xNewSample.time/(uint16_t) 10));
 #endif
-              PWMM ePWMCurrent = few_samples;
+              //PWMM ePWMCurrent = few_samples;
               State eCurrentState = eGetParse(xNewSample, &ePWMCurrent);
               switch(eCurrentState){
                 case start:
