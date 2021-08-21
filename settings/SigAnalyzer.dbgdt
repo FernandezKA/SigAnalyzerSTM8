@@ -779,7 +779,7 @@
                     <item>xNewSample</item>
                     <item>ucPWM_Measure</item>
                     <item>pulse</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

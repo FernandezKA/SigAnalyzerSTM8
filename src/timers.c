@@ -116,7 +116,10 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   //GPIOD->ODR^=(1<<4);
   if(u16CountSamples == 2000UL){//At this case we recognize PWM filling
     ++u8PWMMeasured;
-    u8PWMFill = (uint8_t) (u16PWMOnes * 100)/(u16CountSamples);//norming at percent
+    u8PWMFill = u16PWMOnes / 20;
+    //u8PWMFill = (uint8_t) (u16PWMOnes * 100)/(u16CountSamples);//norming at percent
+    //uint16_t u16NormingSamples = u16PWMOnes/200;
+    //uint16_t u16Fill = u16NormingSamples / 2000;
     u16PWMOnes = 0; 
     u16CountSamples = 0;
   }
