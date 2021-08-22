@@ -1,6 +1,8 @@
 #include "general.h"
-
+/*Block of variables*/
+//Useless
 uint8_t ucPWM_Measure = 0;
+//Usefull
 uint16_t usClockCounter = 0;
 uint16_t usClockUncapture = 0;
 uint16_t usClockUnStop = 0;
@@ -10,6 +12,7 @@ bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
 bool bFirstDetect = FALSE;
 bool bFirstPWM = FALSE;
+//Block of function definition
 int SystemInit(void)
 {
     vClock_Config();
@@ -28,20 +31,12 @@ int SystemInit(void)
 void main(void)
 {
 	SystemInit();
-        asm("RIM");
         bGenFromTable = FALSE;
+        asm("RIM");
 	 while (1){//Detect new states always into the loop
-           if(usSysTick == 10000UL){
+           if(usSysTick == 10000UL){//After 10 second at power on, enable PWM
             vTim2_EnablePWM(); 
            }
-          /* if(usSysTick == 10000){//After 10 second enable PWM
-             if(ucPWM_Measure > 10){
-               vSetPWM1(50);
-             }else{
-               vSetPWM1(10);
-             }
-             vTim2_EnablePWM();
-           }*/
            if(usClockUncapture >= 15000){//This case must be call after 15 Sec undetected rise or Edge
                     //bFirstDetect = TRUE;
                     //vTim2_EnablePWM();
@@ -53,20 +48,18 @@ void main(void)
            if(usClockUnStop >= 30000){//If stop signal not be receieved after 30 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
-              //vTim2_DisablePWM();
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
             }
-          
-           if(bNewSample){
+           if(bNewSample){//This is true if be input capture IRQ
 #ifdef DEBUG
               //Print((uint8_t)(xNewSample.time/(uint16_t) 10));
 #endif
-              //PWMM ePWMCurrent = few_samples;
-              State eCurrentState = eGetParse(xNewSample);
+              //PWMM ePWMCurrent = few_samples;//This case will be need for input capture pwm fill 
+              State eCurrentState = eGetParse(xNewSample);//This is example for detect FSM
               switch(eCurrentState){
                 case start:
-                  GPIOD->ODR|=(1<<5);
+                  GPIOD->ODR|=(1<<5);//Enable led action
                   vClearMeasure();
                   usClockUnStop = 0;
                   bStart = TRUE;
@@ -74,36 +67,26 @@ void main(void)
                 break;
                 
                 case stop:
-                  GPIOD->ODR|=(1<<5);//???
+                  GPIOD->ODR|=(1<<5);//Enable led action
                   vClearMeasure();
                   bFirstStart = TRUE;
                   bStart = FALSE;
                   usClockUnStop = 0;
                   bGenFromTable = FALSE;
                   ucCurrentIndexGen = GEN_SIZE - 1;
-                  GPIOD->ODR&=~(1<<2);//???
+                  GPIOD->ODR&=~(1<<2);//Pull up sig gen out
                 break;
                 
                 case pwm:
                   if(u8PWMMeasured > 0){
-                    --u8PWMMeasured;
+                    --u8PWMMeasured;//This is indicate of measured PWM
                     if(u8PWMFill < 10){//If PWM fill less than 10%, set PWM 10%
                       vSetPWM1(10);
-                      //vTim2_EnablePWM();
                     }
                     else{//If PWM more than 10%, set PWM fill 50%
                       vSetPWM1(50);
-                      //vTim2_EnablePWM();
                     }
                   }
-                   /*if(ePWMCurrent == detected){
-                    GPIOD->ODR|=(1<<5);
-                    if(ucPWM_Measure >= 50){
-                      vSetPWM1(50);
-                    }else{
-                      vSetPWM1(10);
-                    }
-                  }*/
                 break;
               }
              bNewSample = FALSE;
