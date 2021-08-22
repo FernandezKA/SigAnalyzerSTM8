@@ -34,6 +34,7 @@ void main(void)
         bGenFromTable = FALSE;
         asm("RIM");
 	 while (1){//Detect new states always into the loop
+           //This is a statical function, define rules at time
            if(usSysTick == 10000UL){//After 10 second at power on, enable PWM
             vTim2_EnablePWM(); 
            }
@@ -51,10 +52,8 @@ void main(void)
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
             }
+           //This part of code for Input Capture IRQ
            if(bNewSample){//This is true if be input capture IRQ
-#ifdef DEBUG
-              //Print((uint8_t)(xNewSample.time/(uint16_t) 10));
-#endif
               //PWMM ePWMCurrent = few_samples;//This case will be need for input capture pwm fill 
               State eCurrentState = eGetParse(xNewSample);//This is example for detect FSM
               switch(eCurrentState){
@@ -64,6 +63,11 @@ void main(void)
                   usClockUnStop = 0;
                   bStart = TRUE;
                   bGenFromTable = TRUE;
+                  u8PWMMeasured = 0;
+                  u8PWMFill = 9;
+                  u16PWMOnes = 0; 
+                  u16CountSamples = 0;
+                  vSetPWM1(10);
                 break;
                 
                 case stop:
@@ -75,6 +79,11 @@ void main(void)
                   bGenFromTable = FALSE;
                   ucCurrentIndexGen = GEN_SIZE - 1;
                   GPIOD->ODR&=~(1<<2);//Pull up sig gen out
+                  u8PWMMeasured = 0;
+                  u8PWMFill = 9;
+                  u16PWMOnes = 0; 
+                  u16CountSamples = 0;
+                  vSetPWM1(10);
                 break;
                 
                 case pwm:
@@ -83,7 +92,7 @@ void main(void)
                     if(u8PWMFill < 10){//If PWM fill less than 10%, set PWM 10%
                       vSetPWM1(10);
                     }
-                    else{//If PWM more than 10%, set PWM fill 50%
+                    else if(u8PWMFill > 10){//If PWM more than 10%, set PWM fill 50%
                       vSetPWM1(50);
                     }
                   }

@@ -38,7 +38,7 @@ bool bIsStart(Pulse pulse){
 bool bIsStop(Pulse pulse){
   bool bTempVal = FALSE;
   if(!pulse.polarity){
-    if(abs(pulse.time - 800) < 160){
+    if(abs(pulse.time - 800) < 200){
       bTempVal = TRUE;
     }
   }

@@ -160,5 +160,5 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   }
 }
   //This counter must overflow after 0xFFFF, 65535 mS = ~65.5 Sec
-  //TODO make overflow at 600000 steps
+  //TODO make overflow at 600000 samples
 }
