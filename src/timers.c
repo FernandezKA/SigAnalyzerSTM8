@@ -118,7 +118,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
     u8PWMFill = u16PWMOnes / 20;
     u16PWMOnes = 0; 
     u16CountSamples = 0;
-    if(u16PWMOnes == 2000UL){//If line is high state all of time, set default PWM fill
+    if(u8PWMFill > 98){//If line is high state all of time, set default PWM fill
       u8PWMFill = 10;
     }
   }
@@ -135,6 +135,9 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   _AD8400_set(--index); 
   }
   ++usSysTick;
+  if(usSysTick == 60000UL){
+    usSysTick = 0;
+  }
   if(usSysTick%500 == 0){//This case define for led blinking
     GPIOC->ODR^=(1<<7);
     GPIOD->ODR&=~(1<<5);

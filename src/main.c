@@ -52,6 +52,10 @@ void main(void)
               bGenFromTable = FALSE;
               GPIOD->ODR&=~(1<<2); 
             }
+           if(u16PWMOnes == 2000){
+             u8PWMFill = 9; 
+             vSetPWM1(10);
+           }
            //This part of code for Input Capture IRQ
            if(bNewSample){//This is true if be input capture IRQ
               //PWMM ePWMCurrent = few_samples;//This case will be need for input capture pwm fill 
