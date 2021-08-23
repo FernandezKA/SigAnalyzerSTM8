@@ -113,12 +113,14 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   TIM4->SR1 &= (uint8_t) ~(TIM4_SR1_UIF);//Clear status register for out from IRQ
-  //GPIOD->ODR^=(1<<4);
   if(u16CountSamples == 2000UL){//At this case we recognize PWM filling
     ++u8PWMMeasured;
     u8PWMFill = u16PWMOnes / 20;
     u16PWMOnes = 0; 
     u16CountSamples = 0;
+    if(u16PWMOnes == 2000UL){//If line is high state all of time, set default PWM fill
+      u8PWMFill = 10;
+    }
   }
   else{//A few samples for recognize
     if((GPIOC->IDR & (1<<6)) == (1<<6)){//At this case we increment ones value of sample
@@ -155,7 +157,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
       GPIOD->ODR&=~(1<<2);
     }
     else{
-       GPIOD->ODR|=(1<<2);
+      GPIOD->ODR|=(1<<2);
     }
   }
 }

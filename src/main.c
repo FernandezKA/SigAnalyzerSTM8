@@ -103,7 +103,7 @@ void main(void)
                   u8PWMFill = 9;
                   u16PWMOnes = 0; 
                   u16CountSamples = 0;
-                vSetPWM1(10);
+                  vSetPWM1(10);
                 break;
               }
              bNewSample = FALSE;
