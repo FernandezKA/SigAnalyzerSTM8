@@ -62,13 +62,13 @@ bool bIsPWM(Pulse pulse){
 *@retval: enumerate state of current sample
 */
 State eGetParse(Pulse pulse){
-  State eTempState = pwm;
+  State eTempState = mistake;
   bool bStart = bIsStart(pulse);
   bool bStop = bIsStop(pulse);
   bool bPWM = bIsPWM(pulse);
   PWMM ePWM = ePWM_Measure(pulse, &ucPWM_Measure);
   if(!bStart&&!bStop){//This is a PWM
-    eTempState = pwm;
+    eTempState = mistake;
   }
   if(bStart&!bStop){
     eTempState = start;
