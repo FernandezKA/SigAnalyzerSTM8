@@ -97,6 +97,10 @@ void main(void)
                     }
                   }
                 break;
+                
+              case mistake:
+                vSetPWM1(10);
+                break;
               }
              bNewSample = FALSE;
            }  

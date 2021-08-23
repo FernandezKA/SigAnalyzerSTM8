@@ -30,6 +30,8 @@ extern bool bGenFromTable;
 extern bool bStart;
 extern bool bFirstStart;
 extern bool bFirstDetect;
+extern uint16_t u16FirstPWM;
+extern uint16_t u16SecondPWM;
 #include "sig_generate.h"
 #include "pwm_generate.h"
 #include "pwm_measure.h"

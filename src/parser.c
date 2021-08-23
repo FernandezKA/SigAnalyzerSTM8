@@ -1,7 +1,7 @@
 #include "parser.h"
 Pulse xNewSample = {0, FALSE};
 bool bNewSample = TRUE;
-State eCurrentState = pwm;
+State eCurrentState = mistake;
 uint8_t ucCountValid = 0;
 /*
 *@brief: this function detect start sequence
@@ -45,6 +45,18 @@ bool bIsStop(Pulse pulse){
   return bTempVal;
 }
 /*
+*@brief: this function detect PWM sequence
+*@inval: struct type of pulse
+*@retval: bool value of detect
+*/
+bool bIsPWM(Pulse pulse){
+  bool bIsPWM = FALSE;
+  if(pulse.time < 25){
+    bIsPWM = TRUE;
+  }
+  return bIsPWM;
+}
+/*
 *@brief: this function combined all of parser into the program
 *@inval: current sample(struct Pulse)
 *@retval: enumerate state of current sample
@@ -53,6 +65,7 @@ State eGetParse(Pulse pulse){
   State eTempState = pwm;
   bool bStart = bIsStart(pulse);
   bool bStop = bIsStop(pulse);
+  bool bPWM = bIsPWM(pulse);
   PWMM ePWM = ePWM_Measure(pulse, &ucPWM_Measure);
   if(!bStart&&!bStop){//This is a PWM
     eTempState = pwm;
@@ -63,5 +76,9 @@ State eGetParse(Pulse pulse){
   if(bStop){
     eTempState = stop;
   }
+  if(bPWM){
+    eTempState = pwm;
+  }
+  
   return eTempState;
 }

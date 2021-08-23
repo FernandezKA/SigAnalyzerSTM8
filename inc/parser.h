@@ -4,7 +4,8 @@
 enum state{
   start = 0, 
   stop = 1, 
-  pwm = 2
+  pwm = 2, 
+  mistake = 3
 };
 typedef enum state State;
 extern State eCurrentState;

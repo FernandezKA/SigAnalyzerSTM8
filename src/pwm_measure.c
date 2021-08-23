@@ -6,6 +6,8 @@ uint8_t u8PWMMeasured = 0;
 uint16_t usSummaryTime = 0;
 uint16_t usPWMLowTime = 0;
 uint16_t usPWMHighTime = 0;
+uint16_t u16FirstPWM = 0;
+uint16_t u16SecondPWM = 0;
 /*
 *@brief: this function detect and measure PWM fill after 2 sec.
 *@inval: struct type of pulse, variable for writing detected pwm fill
