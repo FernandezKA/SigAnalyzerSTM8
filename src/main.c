@@ -89,10 +89,10 @@ void main(void)
                 case pwm:
                   if(u8PWMMeasured > 0){
                     --u8PWMMeasured;//This is indicate of measured PWM
-                    if(u8PWMFill < 10){//If PWM fill less than 10%, set PWM 10%
+                    if(u8PWMFill < 12){//If PWM fill less than 12%, set PWM 12%
                       vSetPWM1(10);
                     }
-                    else if(u8PWMFill > 10){//If PWM more than 10%, set PWM fill 50%
+                    else{//If PWM more than 12%, set PWM fill 50%
                       vSetPWM1(50);
                     }
                   }
