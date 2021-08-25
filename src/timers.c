@@ -139,8 +139,11 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
     usSysTick = 0;
   }
   if(usSysTick%500 == 0){//This case define for led blinking
-    GPIOC->ODR^=(1<<7);
-    GPIOD->ODR&=~(1<<5);
+    GPIOD->ODR^=(1<<4);
+    //GPIOD->ODR^=(1<<5);
+  }
+  if(usSysTick%1000 == 0){//This case define for led blinking
+    GPIOC->ODR&=~(1<<7);
   }
   /*********************************/
   ++usClockUncapture;

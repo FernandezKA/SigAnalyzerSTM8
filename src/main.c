@@ -62,7 +62,7 @@ void main(void)
               State eCurrentState = eGetParse(xNewSample);//This is example for detect FSM
               switch(eCurrentState){
                 case start:
-                  GPIOD->ODR|=(1<<5);//Enable led action
+                  GPIOC->ODR|=(1<<7);//Enable led action
                   vClearMeasure();
                   usClockUnStop = 0;
                   bStart = TRUE;
@@ -75,7 +75,7 @@ void main(void)
                 break;
                 
                 case stop:
-                  GPIOD->ODR|=(1<<5);//Enable led action
+                  GPIOC->ODR|=(1<<7);//Enable led action
                   vClearMeasure();
                   bFirstStart = TRUE;
                   bStart = FALSE;
