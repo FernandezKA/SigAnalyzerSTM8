@@ -10,20 +10,20 @@ uint8_t ucCountValid = 0;
 */
 bool bIsStart(Pulse pulse){
   if(pulse.polarity){
-    if(abs(pulse.time - 160) < 16){
+    if(abs(pulse.time - 160) < 19){
       ++ucCountValid;
     }else{
       ucCountValid = 0;
     }
   }else{
-    if(abs(pulse.time - 140) < 14){
+    if(abs(pulse.time - 140) < 19){
       ++ucCountValid;
     }else{
       ucCountValid = 0;
     }
   }
   
-  if(ucCountValid == 4){
+  if(ucCountValid == 3){
     ucCountValid = 0;
     return TRUE;
   }else{

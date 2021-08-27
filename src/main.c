@@ -27,7 +27,7 @@ int SystemInit(void)
 #endif
     return 0;
 }
-
+bool IsAction = FALSE;
 void main(void)
 {
 	SystemInit();

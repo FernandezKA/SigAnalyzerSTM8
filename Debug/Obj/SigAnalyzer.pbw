@@ -47760,6 +47760,20 @@
     "scope": null
   },
   {
+    "ID": "c:@IsAction",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "IsAction",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "IsAction",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -47774,7 +47788,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1947@F@main@eCurrentState",
+    "ID": "c:main.c@1969@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
