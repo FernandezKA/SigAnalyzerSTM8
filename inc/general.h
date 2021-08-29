@@ -32,6 +32,8 @@ extern bool bFirstStart;
 extern bool bFirstDetect;
 extern uint16_t u16FirstPWM;
 extern uint16_t u16SecondPWM;
+extern bool IsAction; 
+extern uint8_t u8CountBlinkAction;
 #include "sig_generate.h"
 #include "pwm_generate.h"
 #include "pwm_measure.h"

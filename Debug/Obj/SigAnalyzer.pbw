@@ -46456,6 +46456,62 @@
     "scope": null
   },
   {
+    "ID": "c:@IsAction",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "IsAction",
+    "location": {
+      "column": "13",
+      "line": "35",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "IsAction",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@IsAction",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "IsAction",
+    "location": {
+      "column": "13",
+      "line": "35",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "IsAction",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8CountBlinkAction",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CountBlinkAction",
+    "location": {
+      "column": "16",
+      "line": "36",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "u8CountBlinkAction",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8CountBlinkAction",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CountBlinkAction",
+    "location": {
+      "column": "16",
+      "line": "36",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
+    },
+    "name": "u8CountBlinkAction",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:pwm_measure.h@33@macro@_pwm_measure_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -47774,13 +47830,27 @@
     "scope": null
   },
   {
+    "ID": "c:@u8CountBlinkAction",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8CountBlinkAction",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "u8CountBlinkAction",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "31",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -47788,13 +47858,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1969@F@main@eCurrentState",
+    "ID": "c:main.c@2002@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "62",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -47808,7 +47878,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "119",
+      "line": "118",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",
@@ -48096,34 +48166,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@vTim2_DisablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_DisablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_DisablePWM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_EnablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_EnablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_EnablePWM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@u16PWMOnes",
     "What": "Variable",
     "defdec": "Def",
@@ -48274,6 +48316,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_measure.c"
     },
     "name": "vClearMeasure",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_DisablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_DisablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_DisablePWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_EnablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_EnablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_EnablePWM",
     "origin": "project_file",
     "scope": null
   },
@@ -48578,7 +48648,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "113",
+      "line": "114",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",

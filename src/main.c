@@ -28,6 +28,7 @@ int SystemInit(void)
     return 0;
 }
 bool IsAction = FALSE;
+uint8_t u8CountBlinkAction = 0;
 void main(void)
 {
 	SystemInit();
@@ -62,7 +63,6 @@ void main(void)
               State eCurrentState = eGetParse(xNewSample);//This is example for detect FSM
               switch(eCurrentState){
                 case start:
-                  GPIOC->ODR|=(1<<7);//Enable led action
                   vClearMeasure();
                   usClockUnStop = 0;
                   bStart = TRUE;
@@ -75,7 +75,6 @@ void main(void)
                 break;
                 
                 case stop:
-                  GPIOC->ODR|=(1<<7);//Enable led action
                   vClearMeasure();
                   bFirstStart = TRUE;
                   bStart = FALSE;

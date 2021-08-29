@@ -71,6 +71,7 @@ INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
   usClockUncapture = 0;
   TIM1->SR1&=~TIM1_SR1_CC1IF;
   TIM1->SR1&=~TIM1_SR1_CC2IF;
+  IsAction = TRUE;
   if((ReadSR1Reg&TIM1_SR1_CC1IF)==TIM1_SR1_CC1IF){
     Edge = fall;
   }
@@ -138,12 +139,23 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   if(usSysTick == 60000UL){
     usSysTick = 0;
   }
-  if(usSysTick%500 == 0){//This case define for led blinking
+  if(usSysTick%250 == 0){//This case define for led blinking
     GPIOD->ODR^=(1<<4);
+    if(IsAction){
+      if(u8CountBlinkAction < 6){
+        ++u8CountBlinkAction;
+        GPIOC->ODR^=(1<<7);
+      }
+      else{
+        IsAction = FALSE;
+        u8CountBlinkAction = 0;
+        GPIOC->ODR&=~(1<<7);
+      }
+    }
     //GPIOD->ODR^=(1<<5);
   }
   if(usSysTick%1000 == 0){//This case define for led blinking
-    GPIOC->ODR&=~(1<<7);
+    
   }
   /*********************************/
   ++usClockUncapture;
