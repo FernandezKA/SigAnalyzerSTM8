@@ -12,10 +12,18 @@ bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
 bool bFirstDetect = FALSE;
 bool bFirstPWM = FALSE;
+void vConfigOptionBytes(void){
+  FLASH_Unlock (FLASH_MEMTYPE_DATA);
+  FLASH_ProgramOptionByte(0x4803, (1<<0));
+  //FLASH_ProgramOptionByte(0x4804, ~(1<<0));
+  FLASH_ProgramOptionByte(0x4800, 0xAA);
+  FLASH_Lock (FLASH_MEMTYPE_DATA);
+}
 //Block of function definition
 int SystemInit(void)
 {
     vClock_Config();
+    vConfigOptionBytes();
     vTestOut_Config();
     vTim1_Config();
     vTim2_Config();

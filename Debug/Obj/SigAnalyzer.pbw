@@ -25662,6 +25662,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_Unlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_Unlock(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "256",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_Unlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_Lock",
     "What": "Function",
     "defdec": "Dec",
@@ -25672,6 +25686,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_Lock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_Lock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_Lock(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "257",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_Lock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "258",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_DeInit",
     "origin": "user_include",
     "scope": null
   },
@@ -25704,6 +25746,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_ITConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ITConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "259",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_EraseByte",
     "What": "Function",
     "defdec": "Dec",
@@ -25714,6 +25770,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_EraseByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseByte(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "260",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramByte(uint32_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "261",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramByte",
     "origin": "user_include",
     "scope": null
   },
@@ -25746,6 +25830,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_ReadByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t FLASH_ReadByte(uint32_t)",
+    "location": {
+      "column": "9",
+      "line": "262",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ReadByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_ProgramWord",
     "What": "Function",
     "defdec": "Dec",
@@ -25756,6 +25854,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_ProgramWord",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramWord",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramWord(uint32_t, uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "263",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramWord",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ReadOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t FLASH_ReadOptionByte(uint16_t)",
+    "location": {
+      "column": "10",
+      "line": "264",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ReadOptionByte",
     "origin": "user_include",
     "scope": null
   },
@@ -25788,6 +25914,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_ProgramOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramOptionByte(uint16_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "265",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_EraseOptionByte",
     "What": "Function",
     "defdec": "Dec",
@@ -25798,6 +25938,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_EraseOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseOptionByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseOptionByte(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "266",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseOptionByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_SetLowPowerMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_SetLowPowerMode(FLASH_LPMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "267",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_SetLowPowerMode",
     "origin": "user_include",
     "scope": null
   },
@@ -25830,6 +25998,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_SetProgrammingTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_SetProgrammingTime(FLASH_ProgramTime_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "268",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_SetProgrammingTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_GetLowPowerMode",
     "What": "Function",
     "defdec": "Dec",
@@ -25840,6 +26022,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_GetLowPowerMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetLowPowerMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_LPMode_TypeDef FLASH_GetLowPowerMode(void)",
+    "location": {
+      "column": "22",
+      "line": "269",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetLowPowerMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetProgrammingTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_ProgramTime_TypeDef FLASH_GetProgrammingTime(void)",
+    "location": {
+      "column": "27",
+      "line": "270",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetProgrammingTime",
     "origin": "user_include",
     "scope": null
   },
@@ -25872,6 +26082,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_GetBootSize",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t FLASH_GetBootSize(void)",
+    "location": {
+      "column": "10",
+      "line": "271",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetBootSize",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus FLASH_GetFlagStatus(FLASH_Flag_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "272",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_GetFlagStatus",
     "What": "Function",
     "defdec": "Dec",
@@ -25900,6 +26138,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@FLASH_EraseBlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_EraseBlock(uint16_t, FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "1",
+      "line": "288",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_EraseBlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@FLASH_ProgramBlock",
     "What": "Function",
     "defdec": "Dec",
@@ -25910,6 +26162,34 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_ProgramBlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramBlock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FLASH_ProgramBlock(uint16_t, FLASH_MemType_TypeDef, FLASH_ProgramMode_TypeDef, uint8_t *)",
+    "location": {
+      "column": "1",
+      "line": "289",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_ProgramBlock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_WaitForLastOperation",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FLASH_Status_TypeDef FLASH_WaitForLastOperation(FLASH_MemType_TypeDef)",
+    "location": {
+      "column": "1",
+      "line": "291",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_flash.h"
+    },
+    "name": "FLASH_WaitForLastOperation",
     "origin": "user_include",
     "scope": null
   },
@@ -38438,6 +38718,720 @@
     "scope": null
   },
   {
+    "ID": "c:stm8s_tim4.h@1289@macro@__STM8S_TIM4_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_TIM4_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "__STM8S_TIM4_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_Prescaler_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_1",
+        "location": {
+          "column": "3",
+          "line": "50",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_2",
+        "location": {
+          "column": "3",
+          "line": "51",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_4",
+        "location": {
+          "column": "3",
+          "line": "52",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_8",
+        "location": {
+          "column": "3",
+          "line": "53",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_8",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_16",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_16",
+        "location": {
+          "column": "3",
+          "line": "54",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_16",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_32",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_32",
+        "location": {
+          "column": "3",
+          "line": "55",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_32",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_64",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_64",
+        "location": {
+          "column": "3",
+          "line": "56",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_64",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_128",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PRESCALER_128",
+        "location": {
+          "column": "3",
+          "line": "57",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PRESCALER_128",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@2023@macro@IS_TIM4_PRESCALER_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_PRESCALER_OK",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_PRESCALER_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_OPMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_OPMode_TypeDef@TIM4_OPMODE_SINGLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_OPMODE_SINGLE",
+        "location": {
+          "column": "3",
+          "line": "72",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_OPMODE_SINGLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_OPMode_TypeDef@TIM4_OPMODE_REPETITIVE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_OPMODE_REPETITIVE",
+        "location": {
+          "column": "3",
+          "line": "73",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_OPMODE_REPETITIVE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@2627@macro@IS_TIM4_OPM_MODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_OPM_MODE_OK",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_OPM_MODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef@TIM4_PSCRELOADMODE_UPDATE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PSCRELOADMODE_UPDATE",
+        "location": {
+          "column": "3",
+          "line": "82",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PSCRELOADMODE_UPDATE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef@TIM4_PSCRELOADMODE_IMMEDIATE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_PSCRELOADMODE_IMMEDIATE",
+        "location": {
+          "column": "3",
+          "line": "83",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_PSCRELOADMODE_IMMEDIATE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@2971@macro@IS_TIM4_PRESCALER_RELOAD_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_PRESCALER_RELOAD_OK",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_PRESCALER_RELOAD_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_UpdateSource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_UpdateSource_TypeDef@TIM4_UPDATESOURCE_GLOBAL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_UPDATESOURCE_GLOBAL",
+        "location": {
+          "column": "3",
+          "line": "92",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_UPDATESOURCE_GLOBAL",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM4_UpdateSource_TypeDef@TIM4_UPDATESOURCE_REGULAR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_UPDATESOURCE_REGULAR",
+        "location": {
+          "column": "3",
+          "line": "93",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_UPDATESOURCE_REGULAR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@3302@macro@IS_TIM4_UPDATE_SOURCE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_UPDATE_SOURCE_OK",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_UPDATE_SOURCE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_EventSource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_EventSource_TypeDef@TIM4_EVENTSOURCE_UPDATE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_EVENTSOURCE_UPDATE",
+        "location": {
+          "column": "3",
+          "line": "102",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_EVENTSOURCE_UPDATE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@3566@macro@IS_TIM4_EVENT_SOURCE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_EVENT_SOURCE_OK",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_EVENT_SOURCE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_FLAG_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_FLAG_TypeDef@TIM4_FLAG_UPDATE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_FLAG_UPDATE",
+        "location": {
+          "column": "3",
+          "line": "110",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_FLAG_UPDATE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@3745@macro@IS_TIM4_GET_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_GET_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "113",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_GET_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM4_IT_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM4_IT_TypeDef@TIM4_IT_UPDATE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM4_IT_UPDATE",
+        "location": {
+          "column": "3",
+          "line": "120",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+        },
+        "name": "TIM4_IT_UPDATE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim4.h@3940@macro@IS_TIM4_IT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM4_IT_OK",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "IS_TIM4_IT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "138",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_TimeBaseInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_TimeBaseInit(TIM4_Prescaler_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "139",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_TimeBaseInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_Cmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_Cmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "140",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ITConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_ITConfig(TIM4_IT_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_UpdateDisableConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_UpdateDisableConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_UpdateDisableConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_UpdateRequestConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_UpdateRequestConfig(TIM4_UpdateSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_UpdateRequestConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SelectOnePulseMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_SelectOnePulseMode(TIM4_OPMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_SelectOnePulseMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_PrescalerConfig(TIM4_Prescaler_TypeDef, TIM4_PSCReloadMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "145",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_PrescalerConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ARRPreloadConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_ARRPreloadConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_ARRPreloadConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GenerateEvent",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_GenerateEvent(TIM4_EventSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "147",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_GenerateEvent",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "148",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SetAutoreload",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_SetAutoreload(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "149",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_SetAutoreload",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t TIM4_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "150",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "TIM4_Prescaler_TypeDef TIM4_GetPrescaler(void)",
+    "location": {
+      "column": "24",
+      "line": "151",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_GetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus TIM4_GetFlagStatus(TIM4_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "152",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_ClearFlag(TIM4_FLAG_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "153",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_ClearFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus TIM4_GetITStatus(TIM4_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "154",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_ClearITPendingBit(TIM4_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "155",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
+    },
+    "name": "TIM4_ClearITPendingBit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@TIM4_DeInit",
     "What": "Function",
     "defdec": "Def",
@@ -38743,1748 +39737,6 @@
     },
     "name": "TIM4_ClearITPendingBit",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@1295@macro@__STM8S_UART1_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_UART1_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "__STM8S_UART1_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_IrDAMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_IrDAMode_TypeDef@UART1_IRDAMODE_NORMAL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IRDAMODE_NORMAL",
-        "location": {
-          "column": "16",
-          "line": "50",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IRDAMODE_NORMAL",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IrDAMode_TypeDef@UART1_IRDAMODE_LOWPOWER",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IRDAMODE_LOWPOWER",
-        "location": {
-          "column": "16",
-          "line": "51",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IRDAMODE_LOWPOWER",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_WakeUp_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_WakeUp_TypeDef@UART1_WAKEUP_IDLELINE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_WAKEUP_IDLELINE",
-        "location": {
-          "column": "16",
-          "line": "57",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_WAKEUP_IDLELINE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_WakeUp_TypeDef@UART1_WAKEUP_ADDRESSMARK",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_WAKEUP_ADDRESSMARK",
-        "location": {
-          "column": "16",
-          "line": "58",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_WAKEUP_ADDRESSMARK",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "57",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef@UART1_LINBREAKDETECTIONLENGTH_10BITS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_LINBREAKDETECTIONLENGTH_10BITS",
-        "location": {
-          "column": "16",
-          "line": "64",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_LINBREAKDETECTIONLENGTH_10BITS",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef@UART1_LINBREAKDETECTIONLENGTH_11BITS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_LINBREAKDETECTIONLENGTH_11BITS",
-        "location": {
-          "column": "16",
-          "line": "65",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_LINBREAKDETECTIONLENGTH_11BITS",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_StopBits_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_1",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_STOPBITS_1",
-        "location": {
-          "column": "16",
-          "line": "72",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_STOPBITS_1",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_0_5",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_STOPBITS_0_5",
-        "location": {
-          "column": "16",
-          "line": "73",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_STOPBITS_0_5",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_2",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_STOPBITS_2",
-        "location": {
-          "column": "16",
-          "line": "74",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_STOPBITS_2",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_1_5",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_STOPBITS_1_5",
-        "location": {
-          "column": "16",
-          "line": "75",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_STOPBITS_1_5",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_Parity_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_NO",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_PARITY_NO",
-        "location": {
-          "column": "16",
-          "line": "81",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_PARITY_NO",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_EVEN",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_PARITY_EVEN",
-        "location": {
-          "column": "16",
-          "line": "82",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_PARITY_EVEN",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_ODD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_PARITY_ODD",
-        "location": {
-          "column": "16",
-          "line": "83",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_PARITY_ODD",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "81",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_SyncMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CLOCK_DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CLOCK_DISABLE",
-        "location": {
-          "column": "16",
-          "line": "89",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CLOCK_DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CLOCK_ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CLOCK_ENABLE",
-        "location": {
-          "column": "16",
-          "line": "90",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CLOCK_ENABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPOL_LOW",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CPOL_LOW",
-        "location": {
-          "column": "16",
-          "line": "91",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CPOL_LOW",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPOL_HIGH",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CPOL_HIGH",
-        "location": {
-          "column": "16",
-          "line": "92",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CPOL_HIGH",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPHA_MIDDLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CPHA_MIDDLE",
-        "location": {
-          "column": "16",
-          "line": "93",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CPHA_MIDDLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPHA_BEGINING",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_CPHA_BEGINING",
-        "location": {
-          "column": "16",
-          "line": "94",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_CPHA_BEGINING",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_LASTBIT_DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_LASTBIT_DISABLE",
-        "location": {
-          "column": "16",
-          "line": "95",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_LASTBIT_DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_LASTBIT_ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_SYNCMODE_LASTBIT_ENABLE",
-        "location": {
-          "column": "16",
-          "line": "96",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_SYNCMODE_LASTBIT_ENABLE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_WordLength_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_WordLength_TypeDef@UART1_WORDLENGTH_8D",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_WORDLENGTH_8D",
-        "location": {
-          "column": "16",
-          "line": "102",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_WORDLENGTH_8D",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_WordLength_TypeDef@UART1_WORDLENGTH_9D",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_WORDLENGTH_9D",
-        "location": {
-          "column": "16",
-          "line": "103",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_WORDLENGTH_9D",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_Mode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_RX_ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_MODE_RX_ENABLE",
-        "location": {
-          "column": "16",
-          "line": "109",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_MODE_RX_ENABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TX_ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_MODE_TX_ENABLE",
-        "location": {
-          "column": "16",
-          "line": "110",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_MODE_TX_ENABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TX_DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_MODE_TX_DISABLE",
-        "location": {
-          "column": "16",
-          "line": "111",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_MODE_TX_DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_RX_DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_MODE_RX_DISABLE",
-        "location": {
-          "column": "16",
-          "line": "112",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_MODE_RX_DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TXRX_ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_MODE_TXRX_ENABLE",
-        "location": {
-          "column": "16",
-          "line": "113",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_MODE_TXRX_ENABLE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_Flag_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_TXE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_TXE",
-        "location": {
-          "column": "16",
-          "line": "119",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_TXE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_TC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_TC",
-        "location": {
-          "column": "16",
-          "line": "120",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_TC",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_RXNE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_RXNE",
-        "location": {
-          "column": "16",
-          "line": "121",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_RXNE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_IDLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_IDLE",
-        "location": {
-          "column": "16",
-          "line": "122",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_IDLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_OR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_OR",
-        "location": {
-          "column": "16",
-          "line": "123",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_OR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_NF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_NF",
-        "location": {
-          "column": "16",
-          "line": "124",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_NF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_FE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_FE",
-        "location": {
-          "column": "16",
-          "line": "125",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_FE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_PE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_PE",
-        "location": {
-          "column": "16",
-          "line": "126",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_PE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_LBDF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_LBDF",
-        "location": {
-          "column": "16",
-          "line": "127",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_LBDF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_SBK",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_FLAG_SBK",
-        "location": {
-          "column": "16",
-          "line": "128",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_FLAG_SBK",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "119",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@UART1_IT_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_TXE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_TXE",
-        "location": {
-          "column": "16",
-          "line": "158",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_TXE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_TC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_TC",
-        "location": {
-          "column": "16",
-          "line": "159",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_TC",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_RXNE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_RXNE",
-        "location": {
-          "column": "16",
-          "line": "160",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_RXNE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_IDLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_IDLE",
-        "location": {
-          "column": "16",
-          "line": "161",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_IDLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_OR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_OR",
-        "location": {
-          "column": "16",
-          "line": "162",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_OR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_PE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_PE",
-        "location": {
-          "column": "16",
-          "line": "163",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_PE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_LBDF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_LBDF",
-        "location": {
-          "column": "16",
-          "line": "164",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_LBDF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_RXNE_OR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "UART1_IT_RXNE_OR",
-        "location": {
-          "column": "16",
-          "line": "165",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-        },
-        "name": "UART1_IT_RXNE_OR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "158",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@8693@macro@IS_UART1_MODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_MODE_OK",
-    "location": {
-      "column": "9",
-      "line": "190",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_MODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@9499@macro@IS_UART1_WORDLENGTH_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_WORDLENGTH_OK",
-    "location": {
-      "column": "9",
-      "line": "205",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_WORDLENGTH_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@9871@macro@IS_UART1_SYNCMODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_SYNCMODE_OK",
-    "location": {
-      "column": "9",
-      "line": "214",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_SYNCMODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@10807@macro@IS_UART1_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "224",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@11371@macro@IS_UART1_CLEAR_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_CLEAR_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "239",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_CLEAR_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@11637@macro@IS_UART1_CONFIG_IT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_CONFIG_IT_OK",
-    "location": {
-      "column": "9",
-      "line": "250",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_CONFIG_IT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@12061@macro@IS_UART1_GET_IT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_GET_IT_OK",
-    "location": {
-      "column": "9",
-      "line": "262",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_GET_IT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@12578@macro@IS_UART1_CLEAR_IT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_CLEAR_IT_OK",
-    "location": {
-      "column": "9",
-      "line": "275",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_CLEAR_IT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@12851@macro@IS_UART1_IRDAMODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_IRDAMODE_OK",
-    "location": {
-      "column": "9",
-      "line": "284",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_IRDAMODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@13131@macro@IS_UART1_WAKEUP_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_WAKEUP_OK",
-    "location": {
-      "column": "9",
-      "line": "292",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_WAKEUP_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@13421@macro@IS_UART1_LINBREAKDETECTIONLENGTH_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_LINBREAKDETECTIONLENGTH_OK",
-    "location": {
-      "column": "9",
-      "line": "300",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_LINBREAKDETECTIONLENGTH_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@13796@macro@IS_UART1_STOPBITS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_STOPBITS_OK",
-    "location": {
-      "column": "9",
-      "line": "308",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_STOPBITS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@14245@macro@IS_UART1_PARITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_PARITY_OK",
-    "location": {
-      "column": "9",
-      "line": "317",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_PARITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@14580@macro@IS_UART1_BAUDRATE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_BAUDRATE_OK",
-    "location": {
-      "column": "9",
-      "line": "325",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_BAUDRATE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@14775@macro@UART1_ADDRESS_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART1_ADDRESS_MAX",
-    "location": {
-      "column": "9",
-      "line": "332",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ADDRESS_MAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_uart1.h@14816@macro@IS_UART1_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_UART1_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "333",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "IS_UART1_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "345",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "345",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_Init(uint32_t, UART1_WordLength_TypeDef, UART1_StopBits_TypeDef, UART1_Parity_TypeDef, UART1_SyncMode_TypeDef, UART1_Mode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "346",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_Init(uint32_t, UART1_WordLength_TypeDef, UART1_StopBits_TypeDef, UART1_Parity_TypeDef, UART1_SyncMode_TypeDef, UART1_Mode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "346",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "349",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "349",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ITConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ITConfig(UART1_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "350",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ITConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ITConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ITConfig(UART1_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "350",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ITConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_HalfDuplexCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_HalfDuplexCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "351",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_HalfDuplexCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_HalfDuplexCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_HalfDuplexCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "351",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_HalfDuplexCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_IrDAConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_IrDAConfig(UART1_IrDAMode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "352",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_IrDAConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_IrDAConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_IrDAConfig(UART1_IrDAMode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "352",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_IrDAConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_IrDACmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_IrDACmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "353",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_IrDACmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_IrDACmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_IrDACmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "353",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_IrDACmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_LINBreakDetectionConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_LINBreakDetectionConfig(UART1_LINBreakDetectionLength_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "354",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_LINBreakDetectionConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_LINBreakDetectionConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_LINBreakDetectionConfig(UART1_LINBreakDetectionLength_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "354",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_LINBreakDetectionConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_LINCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_LINCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "355",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_LINCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_LINCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_LINCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "355",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_LINCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SmartCardCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SmartCardCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "356",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SmartCardCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SmartCardCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SmartCardCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "356",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SmartCardCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SmartCardNACKCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SmartCardNACKCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "357",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SmartCardNACKCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SmartCardNACKCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SmartCardNACKCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "357",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SmartCardNACKCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_WakeUpConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_WakeUpConfig(UART1_WakeUp_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "358",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_WakeUpConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_WakeUpConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_WakeUpConfig(UART1_WakeUp_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "358",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_WakeUpConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiverWakeUpCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ReceiverWakeUpCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "359",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiverWakeUpCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiverWakeUpCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ReceiverWakeUpCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "359",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiverWakeUpCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiveData8",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t UART1_ReceiveData8(void)",
-    "location": {
-      "column": "9",
-      "line": "360",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiveData8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiveData8",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t UART1_ReceiveData8(void)",
-    "location": {
-      "column": "9",
-      "line": "360",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiveData8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiveData9",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t UART1_ReceiveData9(void)",
-    "location": {
-      "column": "10",
-      "line": "361",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiveData9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ReceiveData9",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t UART1_ReceiveData9(void)",
-    "location": {
-      "column": "10",
-      "line": "361",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ReceiveData9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendData8",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendData8(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "362",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendData8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendData8",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendData8(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "362",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendData8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendData9",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendData9(uint16_t)",
-    "location": {
-      "column": "6",
-      "line": "363",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendData9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendData9",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendData9(uint16_t)",
-    "location": {
-      "column": "6",
-      "line": "363",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendData9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendBreak",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendBreak(void)",
-    "location": {
-      "column": "6",
-      "line": "364",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendBreak",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SendBreak",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SendBreak(void)",
-    "location": {
-      "column": "6",
-      "line": "364",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SendBreak",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetAddress",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetAddress(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "365",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetAddress",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetAddress",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetAddress(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "365",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetAddress",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetGuardTime",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetGuardTime(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "366",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetGuardTime",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetGuardTime",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetGuardTime(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "366",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetGuardTime",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetPrescaler(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "367",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_SetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_SetPrescaler(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "367",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_SetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus UART1_GetFlagStatus(UART1_Flag_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "368",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus UART1_GetFlagStatus(UART1_Flag_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "368",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ClearFlag(UART1_Flag_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "369",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ClearFlag(UART1_Flag_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "369",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_GetITStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ITStatus UART1_GetITStatus(UART1_IT_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "370",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_GetITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_GetITStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ITStatus UART1_GetITStatus(UART1_IT_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "370",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_GetITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ClearITPendingBit(UART1_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "371",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ClearITPendingBit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UART1_ClearITPendingBit(UART1_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "371",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
-    },
-    "name": "UART1_ClearITPendingBit",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -43496,818 +42748,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_tim4.h@1289@macro@__STM8S_TIM4_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_TIM4_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "__STM8S_TIM4_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_Prescaler_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_1",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_1",
-        "location": {
-          "column": "3",
-          "line": "50",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_1",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_2",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_2",
-        "location": {
-          "column": "3",
-          "line": "51",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_2",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_4",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_4",
-        "location": {
-          "column": "3",
-          "line": "52",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_4",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_8",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_8",
-        "location": {
-          "column": "3",
-          "line": "53",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_8",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_16",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_16",
-        "location": {
-          "column": "3",
-          "line": "54",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_16",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_32",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_32",
-        "location": {
-          "column": "3",
-          "line": "55",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_32",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_64",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_64",
-        "location": {
-          "column": "3",
-          "line": "56",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_64",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_Prescaler_TypeDef@TIM4_PRESCALER_128",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PRESCALER_128",
-        "location": {
-          "column": "3",
-          "line": "57",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PRESCALER_128",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "48",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@2023@macro@IS_TIM4_PRESCALER_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_PRESCALER_OK",
-    "location": {
-      "column": "9",
-      "line": "60",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_PRESCALER_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_OPMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_OPMode_TypeDef@TIM4_OPMODE_SINGLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_OPMODE_SINGLE",
-        "location": {
-          "column": "3",
-          "line": "72",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_OPMODE_SINGLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_OPMode_TypeDef@TIM4_OPMODE_REPETITIVE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_OPMODE_REPETITIVE",
-        "location": {
-          "column": "3",
-          "line": "73",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_OPMODE_REPETITIVE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@2627@macro@IS_TIM4_OPM_MODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_OPM_MODE_OK",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_OPM_MODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef@TIM4_PSCRELOADMODE_UPDATE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PSCRELOADMODE_UPDATE",
-        "location": {
-          "column": "3",
-          "line": "82",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PSCRELOADMODE_UPDATE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_PSCReloadMode_TypeDef@TIM4_PSCRELOADMODE_IMMEDIATE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_PSCRELOADMODE_IMMEDIATE",
-        "location": {
-          "column": "3",
-          "line": "83",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_PSCRELOADMODE_IMMEDIATE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@2971@macro@IS_TIM4_PRESCALER_RELOAD_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_PRESCALER_RELOAD_OK",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_PRESCALER_RELOAD_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_UpdateSource_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_UpdateSource_TypeDef@TIM4_UPDATESOURCE_GLOBAL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_UPDATESOURCE_GLOBAL",
-        "location": {
-          "column": "3",
-          "line": "92",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_UPDATESOURCE_GLOBAL",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@TIM4_UpdateSource_TypeDef@TIM4_UPDATESOURCE_REGULAR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_UPDATESOURCE_REGULAR",
-        "location": {
-          "column": "3",
-          "line": "93",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_UPDATESOURCE_REGULAR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@3302@macro@IS_TIM4_UPDATE_SOURCE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_UPDATE_SOURCE_OK",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_UPDATE_SOURCE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_EventSource_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_EventSource_TypeDef@TIM4_EVENTSOURCE_UPDATE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_EVENTSOURCE_UPDATE",
-        "location": {
-          "column": "3",
-          "line": "102",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_EVENTSOURCE_UPDATE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@3566@macro@IS_TIM4_EVENT_SOURCE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_EVENT_SOURCE_OK",
-    "location": {
-      "column": "9",
-      "line": "105",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_EVENT_SOURCE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_FLAG_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_FLAG_TypeDef@TIM4_FLAG_UPDATE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_FLAG_UPDATE",
-        "location": {
-          "column": "3",
-          "line": "110",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_FLAG_UPDATE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "108",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@3745@macro@IS_TIM4_GET_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_GET_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "113",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_GET_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@TIM4_IT_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@TIM4_IT_TypeDef@TIM4_IT_UPDATE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TIM4_IT_UPDATE",
-        "location": {
-          "column": "3",
-          "line": "120",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-        },
-        "name": "TIM4_IT_UPDATE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_tim4.h@3940@macro@IS_TIM4_IT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_TIM4_IT_OK",
-    "location": {
-      "column": "9",
-      "line": "123",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "IS_TIM4_IT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "138",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_TimeBaseInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_TimeBaseInit(TIM4_Prescaler_TypeDef, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "139",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_TimeBaseInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "140",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_ITConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_ITConfig(TIM4_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "141",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_ITConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_UpdateDisableConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_UpdateDisableConfig(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "142",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_UpdateDisableConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_UpdateRequestConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_UpdateRequestConfig(TIM4_UpdateSource_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "143",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_UpdateRequestConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_SelectOnePulseMode",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_SelectOnePulseMode(TIM4_OPMode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "144",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_SelectOnePulseMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_PrescalerConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_PrescalerConfig(TIM4_Prescaler_TypeDef, TIM4_PSCReloadMode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "145",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_PrescalerConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_ARRPreloadConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_ARRPreloadConfig(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "146",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_ARRPreloadConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_GenerateEvent",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_GenerateEvent(TIM4_EventSource_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "147",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_GenerateEvent",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "148",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_SetAutoreload",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_SetAutoreload(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "149",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_SetAutoreload",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t TIM4_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "150",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_GetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "TIM4_Prescaler_TypeDef TIM4_GetPrescaler(void)",
-    "location": {
-      "column": "24",
-      "line": "151",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_GetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus TIM4_GetFlagStatus(TIM4_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "152",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_ClearFlag(TIM4_FLAG_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "153",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_GetITStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ITStatus TIM4_GetITStatus(TIM4_IT_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "154",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_GetITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_ClearITPendingBit(TIM4_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "155",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_tim4.h"
-    },
-    "name": "TIM4_ClearITPendingBit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZET",
-    "location": {
-      "column": "11",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1168@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -45064,550 +43504,1744 @@
     "scope": null
   },
   {
-    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "ID": "c:stm8s_uart1.h@1295@macro@__STM8S_UART1_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_XENCODING_LIMITS_H",
+    "display": "__STM8S_UART1_H",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "_XENCODING_LIMITS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingSb_LenMax",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingSb_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingUtf8_LenMax",
-    "location": {
-      "column": "11",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingUtf8_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_WITH_USED",
-    "location": {
-      "column": "13",
-      "line": "47",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_WITH_USED",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_LEN_MAX",
-    "location": {
-      "column": "11",
-      "line": "51",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_LEN_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_CUR_MAX",
-    "location": {
-      "column": "11",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_CUR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_THREADS_H",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_THREADS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_COMPILER_TLS",
-    "location": {
-      "column": "9",
-      "line": "117",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_TLS_QUAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_MULTI_THREAD",
-    "location": {
-      "column": "11",
-      "line": "124",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_GLOBAL_VARIABLES",
-    "location": {
-      "column": "11",
-      "line": "125",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_GLOBAL_VARIABLES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_OP_LOCKS",
-    "location": {
-      "column": "11",
-      "line": "126",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "void *",
-    "location": {
-      "column": "17",
-      "line": "298",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "__iar_Rmtx",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MULTI_THREAD",
-    "location": {
-      "column": "9",
-      "line": "351",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_GLOBAL_LOCALE",
-    "location": {
-      "column": "9",
-      "line": "352",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_GLOBAL_LOCALE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FILE_OP_LOCKS",
-    "location": {
-      "column": "9",
-      "line": "353",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_COMPILER_TLS",
-    "location": {
-      "column": "9",
-      "line": "355",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "356",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_TLS_QUAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timers.h@28@macro@_timers_h_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_timers_h_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
-    },
-    "name": "_timers_h_",
+    "name": "__STM8S_UART1_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@E@edge",
+    "ID": "c:@EA@UART1_IrDAMode_TypeDef",
     "What": "Enum",
     "defdec": "Def",
-    "display": "edge",
+    "display": "",
     "fields": [
       {
-        "ID": "c:@E@edge@rise",
+        "ID": "c:@EA@UART1_IrDAMode_TypeDef@UART1_IRDAMODE_NORMAL",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "rise",
+        "display": "UART1_IRDAMODE_NORMAL",
         "location": {
-          "column": "3",
-          "line": "5",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+          "column": "16",
+          "line": "50",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
         },
-        "name": "rise",
+        "name": "UART1_IRDAMODE_NORMAL",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@E@edge@fall",
+        "ID": "c:@EA@UART1_IrDAMode_TypeDef@UART1_IRDAMODE_LOWPOWER",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "fall",
+        "display": "UART1_IRDAMODE_LOWPOWER",
         "location": {
-          "column": "3",
-          "line": "6",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+          "column": "16",
+          "line": "51",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
         },
-        "name": "fall",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@edge@error",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "error",
-        "location": {
-          "column": "3",
-          "line": "7",
-          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
-        },
-        "name": "error",
+        "name": "UART1_IRDAMODE_LOWPOWER",
         "origin": "user_include",
         "scope": null
       }
     ],
     "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "50",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "edge",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@Edge",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Edge",
+    "ID": "c:@EA@UART1_WakeUp_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_WakeUp_TypeDef@UART1_WAKEUP_IDLELINE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_WAKEUP_IDLELINE",
+        "location": {
+          "column": "16",
+          "line": "57",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_WAKEUP_IDLELINE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_WakeUp_TypeDef@UART1_WAKEUP_ADDRESSMARK",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_WAKEUP_ADDRESSMARK",
+        "location": {
+          "column": "16",
+          "line": "58",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_WAKEUP_ADDRESSMARK",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "18",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "57",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "Edge",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@Edge",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Edge",
+    "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef@UART1_LINBREAKDETECTIONLENGTH_10BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_LINBREAKDETECTIONLENGTH_10BITS",
+        "location": {
+          "column": "16",
+          "line": "64",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_LINBREAKDETECTIONLENGTH_10BITS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_LINBreakDetectionLength_TypeDef@UART1_LINBREAKDETECTIONLENGTH_11BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_LINBREAKDETECTIONLENGTH_11BITS",
+        "location": {
+          "column": "16",
+          "line": "65",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_LINBREAKDETECTIONLENGTH_11BITS",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "18",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "64",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "Edge",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usLowTime",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usLowTime",
+    "ID": "c:@EA@UART1_StopBits_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_STOPBITS_1",
+        "location": {
+          "column": "16",
+          "line": "72",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_STOPBITS_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_0_5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_STOPBITS_0_5",
+        "location": {
+          "column": "16",
+          "line": "73",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_STOPBITS_0_5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_STOPBITS_2",
+        "location": {
+          "column": "16",
+          "line": "74",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_STOPBITS_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_StopBits_TypeDef@UART1_STOPBITS_1_5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_STOPBITS_1_5",
+        "location": {
+          "column": "16",
+          "line": "75",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_STOPBITS_1_5",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "72",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usLowTime",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usLowTime",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usLowTime",
+    "ID": "c:@EA@UART1_Parity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_NO",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_PARITY_NO",
+        "location": {
+          "column": "16",
+          "line": "81",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_PARITY_NO",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_EVEN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_PARITY_EVEN",
+        "location": {
+          "column": "16",
+          "line": "82",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_PARITY_EVEN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Parity_TypeDef@UART1_PARITY_ODD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_PARITY_ODD",
+        "location": {
+          "column": "16",
+          "line": "83",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_PARITY_ODD",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "10",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "81",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usLowTime",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usHighTime",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usHighTime",
+    "ID": "c:@EA@UART1_SyncMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CLOCK_DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CLOCK_DISABLE",
+        "location": {
+          "column": "16",
+          "line": "89",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CLOCK_DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CLOCK_ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CLOCK_ENABLE",
+        "location": {
+          "column": "16",
+          "line": "90",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CLOCK_ENABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPOL_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CPOL_LOW",
+        "location": {
+          "column": "16",
+          "line": "91",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CPOL_LOW",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPOL_HIGH",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CPOL_HIGH",
+        "location": {
+          "column": "16",
+          "line": "92",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CPOL_HIGH",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPHA_MIDDLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CPHA_MIDDLE",
+        "location": {
+          "column": "16",
+          "line": "93",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CPHA_MIDDLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_CPHA_BEGINING",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_CPHA_BEGINING",
+        "location": {
+          "column": "16",
+          "line": "94",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_CPHA_BEGINING",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_LASTBIT_DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_LASTBIT_DISABLE",
+        "location": {
+          "column": "16",
+          "line": "95",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_LASTBIT_DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_SyncMode_TypeDef@UART1_SYNCMODE_LASTBIT_ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_SYNCMODE_LASTBIT_ENABLE",
+        "location": {
+          "column": "16",
+          "line": "96",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_SYNCMODE_LASTBIT_ENABLE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "11",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "89",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usHighTime",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usHighTime",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usHighTime",
+    "ID": "c:@EA@UART1_WordLength_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_WordLength_TypeDef@UART1_WORDLENGTH_8D",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_WORDLENGTH_8D",
+        "location": {
+          "column": "16",
+          "line": "102",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_WORDLENGTH_8D",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_WordLength_TypeDef@UART1_WORDLENGTH_9D",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_WORDLENGTH_9D",
+        "location": {
+          "column": "16",
+          "line": "103",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_WORDLENGTH_9D",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "11",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "102",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usHighTime",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usSysTick",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usSysTick",
+    "ID": "c:@EA@UART1_Mode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_RX_ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_MODE_RX_ENABLE",
+        "location": {
+          "column": "16",
+          "line": "109",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_MODE_RX_ENABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TX_ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_MODE_TX_ENABLE",
+        "location": {
+          "column": "16",
+          "line": "110",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_MODE_TX_ENABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TX_DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_MODE_TX_DISABLE",
+        "location": {
+          "column": "16",
+          "line": "111",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_MODE_TX_DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_RX_DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_MODE_RX_DISABLE",
+        "location": {
+          "column": "16",
+          "line": "112",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_MODE_RX_DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Mode_TypeDef@UART1_MODE_TXRX_ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_MODE_TXRX_ENABLE",
+        "location": {
+          "column": "16",
+          "line": "113",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_MODE_TXRX_ENABLE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "12",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "109",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usSysTick",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@usSysTick",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "usSysTick",
+    "ID": "c:@EA@UART1_Flag_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_TXE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_TXE",
+        "location": {
+          "column": "16",
+          "line": "119",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_TXE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_TC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_TC",
+        "location": {
+          "column": "16",
+          "line": "120",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_TC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_RXNE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_RXNE",
+        "location": {
+          "column": "16",
+          "line": "121",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_RXNE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_IDLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_IDLE",
+        "location": {
+          "column": "16",
+          "line": "122",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_IDLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_OR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_OR",
+        "location": {
+          "column": "16",
+          "line": "123",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_OR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_NF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_NF",
+        "location": {
+          "column": "16",
+          "line": "124",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_NF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_FE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_FE",
+        "location": {
+          "column": "16",
+          "line": "125",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_FE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_PE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_PE",
+        "location": {
+          "column": "16",
+          "line": "126",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_PE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_LBDF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_LBDF",
+        "location": {
+          "column": "16",
+          "line": "127",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_LBDF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_Flag_TypeDef@UART1_FLAG_SBK",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_FLAG_SBK",
+        "location": {
+          "column": "16",
+          "line": "128",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_FLAG_SBK",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
-      "column": "17",
-      "line": "12",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "column": "9",
+      "line": "119",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "usSysTick",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim1_Config",
+    "ID": "c:@EA@UART1_IT_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_TXE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_TXE",
+        "location": {
+          "column": "16",
+          "line": "158",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_TXE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_TC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_TC",
+        "location": {
+          "column": "16",
+          "line": "159",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_TC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_RXNE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_RXNE",
+        "location": {
+          "column": "16",
+          "line": "160",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_RXNE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_IDLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_IDLE",
+        "location": {
+          "column": "16",
+          "line": "161",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_IDLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_OR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_OR",
+        "location": {
+          "column": "16",
+          "line": "162",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_OR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_PE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_PE",
+        "location": {
+          "column": "16",
+          "line": "163",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_PE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_LBDF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_LBDF",
+        "location": {
+          "column": "16",
+          "line": "164",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_LBDF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART1_IT_TypeDef@UART1_IT_RXNE_OR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART1_IT_RXNE_OR",
+        "location": {
+          "column": "16",
+          "line": "165",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+        },
+        "name": "UART1_IT_RXNE_OR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "158",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@8693@macro@IS_UART1_MODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_MODE_OK",
+    "location": {
+      "column": "9",
+      "line": "190",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_MODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@9499@macro@IS_UART1_WORDLENGTH_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_WORDLENGTH_OK",
+    "location": {
+      "column": "9",
+      "line": "205",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_WORDLENGTH_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@9871@macro@IS_UART1_SYNCMODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_SYNCMODE_OK",
+    "location": {
+      "column": "9",
+      "line": "214",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_SYNCMODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@10807@macro@IS_UART1_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "224",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@11371@macro@IS_UART1_CLEAR_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_CLEAR_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "239",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_CLEAR_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@11637@macro@IS_UART1_CONFIG_IT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_CONFIG_IT_OK",
+    "location": {
+      "column": "9",
+      "line": "250",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_CONFIG_IT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@12061@macro@IS_UART1_GET_IT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_GET_IT_OK",
+    "location": {
+      "column": "9",
+      "line": "262",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_GET_IT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@12578@macro@IS_UART1_CLEAR_IT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_CLEAR_IT_OK",
+    "location": {
+      "column": "9",
+      "line": "275",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_CLEAR_IT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@12851@macro@IS_UART1_IRDAMODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_IRDAMODE_OK",
+    "location": {
+      "column": "9",
+      "line": "284",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_IRDAMODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@13131@macro@IS_UART1_WAKEUP_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_WAKEUP_OK",
+    "location": {
+      "column": "9",
+      "line": "292",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_WAKEUP_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@13421@macro@IS_UART1_LINBREAKDETECTIONLENGTH_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_LINBREAKDETECTIONLENGTH_OK",
+    "location": {
+      "column": "9",
+      "line": "300",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_LINBREAKDETECTIONLENGTH_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@13796@macro@IS_UART1_STOPBITS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_STOPBITS_OK",
+    "location": {
+      "column": "9",
+      "line": "308",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_STOPBITS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@14245@macro@IS_UART1_PARITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_PARITY_OK",
+    "location": {
+      "column": "9",
+      "line": "317",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_PARITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@14580@macro@IS_UART1_BAUDRATE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_BAUDRATE_OK",
+    "location": {
+      "column": "9",
+      "line": "325",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_BAUDRATE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@14775@macro@UART1_ADDRESS_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_ADDRESS_MAX",
+    "location": {
+      "column": "9",
+      "line": "332",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ADDRESS_MAX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_uart1.h@14816@macro@IS_UART1_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_UART1_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "333",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "IS_UART1_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim1_Config(void)",
+    "display": "void UART1_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "345",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim1_Config",
+    "name": "UART1_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim1_Config",
+    "ID": "c:@F@UART1_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim1_Config(void)",
+    "display": "void UART1_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "345",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim1_Config",
+    "name": "UART1_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim2_Config",
+    "ID": "c:@F@UART1_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim2_Config(void)",
+    "display": "void UART1_Init(uint32_t, UART1_WordLength_TypeDef, UART1_StopBits_TypeDef, UART1_Parity_TypeDef, UART1_SyncMode_TypeDef, UART1_Mode_TypeDef)",
     "location": {
       "column": "6",
-      "line": "14",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "346",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim2_Config",
+    "name": "UART1_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim2_Config",
+    "ID": "c:@F@UART1_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim2_Config(void)",
+    "display": "void UART1_Init(uint32_t, UART1_WordLength_TypeDef, UART1_StopBits_TypeDef, UART1_Parity_TypeDef, UART1_SyncMode_TypeDef, UART1_Mode_TypeDef)",
     "location": {
       "column": "6",
-      "line": "14",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "346",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim2_Config",
+    "name": "UART1_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim4_Config",
+    "ID": "c:@F@UART1_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim4_Config(void)",
+    "display": "void UART1_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "15",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "349",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim4_Config",
+    "name": "UART1_Cmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vTim4_Config",
+    "ID": "c:@F@UART1_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vTim4_Config(void)",
+    "display": "void UART1_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "15",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "349",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vTim4_Config",
+    "name": "UART1_Cmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vSetPWM1",
+    "ID": "c:@F@UART1_ITConfig",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vSetPWM1(uint8_t)",
+    "display": "void UART1_ITConfig(UART1_IT_TypeDef, FunctionalState)",
     "location": {
       "column": "6",
-      "line": "16",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "350",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vSetPWM1",
+    "name": "UART1_ITConfig",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@vSetPWM1",
+    "ID": "c:@F@UART1_ITConfig",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void vSetPWM1(uint8_t)",
+    "display": "void UART1_ITConfig(UART1_IT_TypeDef, FunctionalState)",
     "location": {
       "column": "6",
-      "line": "16",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+      "line": "350",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
     },
-    "name": "vSetPWM1",
+    "name": "UART1_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_HalfDuplexCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_HalfDuplexCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "351",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_HalfDuplexCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_HalfDuplexCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_HalfDuplexCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "351",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_HalfDuplexCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDAConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_IrDAConfig(UART1_IrDAMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "352",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_IrDAConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDAConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_IrDAConfig(UART1_IrDAMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "352",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_IrDAConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDACmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_IrDACmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "353",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_IrDACmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDACmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_IrDACmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "353",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_IrDACmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINBreakDetectionConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_LINBreakDetectionConfig(UART1_LINBreakDetectionLength_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "354",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_LINBreakDetectionConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINBreakDetectionConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_LINBreakDetectionConfig(UART1_LINBreakDetectionLength_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "354",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_LINBreakDetectionConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_LINCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "355",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_LINCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_LINCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "355",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_LINCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SmartCardCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "356",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SmartCardCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SmartCardCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "356",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SmartCardCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardNACKCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SmartCardNACKCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "357",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SmartCardNACKCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardNACKCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SmartCardNACKCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "357",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SmartCardNACKCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_WakeUpConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_WakeUpConfig(UART1_WakeUp_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "358",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_WakeUpConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_WakeUpConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_WakeUpConfig(UART1_WakeUp_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "358",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_WakeUpConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiverWakeUpCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ReceiverWakeUpCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "359",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiverWakeUpCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiverWakeUpCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ReceiverWakeUpCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "359",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiverWakeUpCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData8",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t UART1_ReceiveData8(void)",
+    "location": {
+      "column": "9",
+      "line": "360",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiveData8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData8",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t UART1_ReceiveData8(void)",
+    "location": {
+      "column": "9",
+      "line": "360",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiveData8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData9",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t UART1_ReceiveData9(void)",
+    "location": {
+      "column": "10",
+      "line": "361",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiveData9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData9",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t UART1_ReceiveData9(void)",
+    "location": {
+      "column": "10",
+      "line": "361",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ReceiveData9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData8",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendData8(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "362",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendData8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData8",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendData8(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "362",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendData8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData9",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendData9(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "363",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendData9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData9",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendData9(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "363",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendData9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendBreak",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendBreak(void)",
+    "location": {
+      "column": "6",
+      "line": "364",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendBreak",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendBreak",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SendBreak(void)",
+    "location": {
+      "column": "6",
+      "line": "364",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SendBreak",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetAddress",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetAddress(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "365",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetAddress",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetAddress",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetAddress(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "365",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetAddress",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetGuardTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetGuardTime(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "366",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetGuardTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetGuardTime",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetGuardTime(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "366",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetGuardTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetPrescaler(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "367",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_SetPrescaler(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "367",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_SetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus UART1_GetFlagStatus(UART1_Flag_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "368",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus UART1_GetFlagStatus(UART1_Flag_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "368",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ClearFlag(UART1_Flag_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "369",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ClearFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ClearFlag(UART1_Flag_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "369",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ClearFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus UART1_GetITStatus(UART1_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "370",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus UART1_GetITStatus(UART1_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "370",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ClearITPendingBit(UART1_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "371",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ClearITPendingBit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART1_ClearITPendingBit(UART1_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "371",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\inc\\stm8s_uart1.h"
+    },
+    "name": "UART1_ClearITPendingBit",
     "origin": "user_include",
     "scope": null
   },
@@ -45976,6 +45610,568 @@
     "scope": null
   },
   {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timers.h@28@macro@_timers_h_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_timers_h_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "_timers_h_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@E@edge",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "edge",
+    "fields": [
+      {
+        "ID": "c:@E@edge@rise",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "rise",
+        "location": {
+          "column": "3",
+          "line": "5",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+        },
+        "name": "rise",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@edge@fall",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "fall",
+        "location": {
+          "column": "3",
+          "line": "6",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+        },
+        "name": "fall",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@edge@error",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "error",
+        "location": {
+          "column": "3",
+          "line": "7",
+          "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+        },
+        "name": "error",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "edge",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Edge",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Edge",
+    "location": {
+      "column": "18",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "Edge",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Edge",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Edge",
+    "location": {
+      "column": "18",
+      "line": "9",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "Edge",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usLowTime",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usLowTime",
+    "location": {
+      "column": "17",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usLowTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usLowTime",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usLowTime",
+    "location": {
+      "column": "17",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usLowTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usHighTime",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usHighTime",
+    "location": {
+      "column": "17",
+      "line": "11",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usHighTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usHighTime",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usHighTime",
+    "location": {
+      "column": "17",
+      "line": "11",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usHighTime",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usSysTick",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usSysTick",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usSysTick",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@usSysTick",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "usSysTick",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "usSysTick",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim1_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim1_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim1_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim1_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim2_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim2_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim2_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim4_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim4_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim4_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim4_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vTim4_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vTim4_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPWM1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPWM1(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vSetPWM1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPWM1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPWM1(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
+    },
+    "name": "vSetPWM1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_THREADS_H",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_THREADS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_COMPILER_TLS",
+    "location": {
+      "column": "9",
+      "line": "117",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_COMPILER_TLS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TLS_QUAL",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_TLS_QUAL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_MULTI_THREAD",
+    "location": {
+      "column": "11",
+      "line": "124",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_MULTI_THREAD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_GLOBAL_VARIABLES",
+    "location": {
+      "column": "11",
+      "line": "125",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_GLOBAL_VARIABLES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FILE_OP_LOCKS",
+    "location": {
+      "column": "11",
+      "line": "126",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_DLIB_FILE_OP_LOCKS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "void *",
+    "location": {
+      "column": "17",
+      "line": "298",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "__iar_Rmtx",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_MULTI_THREAD",
+    "location": {
+      "column": "9",
+      "line": "351",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_MULTI_THREAD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_GLOBAL_LOCALE",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_GLOBAL_LOCALE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FILE_OP_LOCKS",
+    "location": {
+      "column": "9",
+      "line": "353",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_FILE_OP_LOCKS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_COMPILER_TLS",
+    "location": {
+      "column": "9",
+      "line": "355",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_COMPILER_TLS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_QUAL",
+    "location": {
+      "column": "9",
+      "line": "356",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_TLS_QUAL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:general.h@31@macro@_general_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -45990,13 +46186,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@185@macro@SIG_PORT",
+    "ID": "c:general.h@211@macro@SIG_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_PORT",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_PORT",
@@ -46004,13 +46200,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@209@macro@SIG_OUT",
+    "ID": "c:general.h@235@macro@SIG_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_OUT",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_OUT",
@@ -46018,13 +46214,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@234@macro@PWM_OUT",
+    "ID": "c:general.h@260@macro@PWM_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PWM_OUT",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "13",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "PWM_OUT",
@@ -46032,13 +46228,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@253@macro@SIG_INPUT_PORT",
+    "ID": "c:general.h@279@macro@SIG_INPUT_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_INPUT_PORT",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_INPUT_PORT",
@@ -46046,13 +46242,13 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@284@macro@SIG_INPUT",
+    "ID": "c:general.h@310@macro@SIG_INPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIG_INPUT",
     "location": {
       "column": "9",
-      "line": "14",
+      "line": "15",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "SIG_INPUT",
@@ -46066,7 +46262,7 @@
     "display": "pulse",
     "location": {
       "column": "8",
-      "line": "15",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "members": [
@@ -46077,7 +46273,7 @@
         "display": "time",
         "location": {
           "column": "12",
-          "line": "16",
+          "line": "17",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "time",
@@ -46091,7 +46287,7 @@
         "display": "polarity",
         "location": {
           "column": "8",
-          "line": "17",
+          "line": "18",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "polarity",
@@ -46110,7 +46306,7 @@
     "display": "struct pulse",
     "location": {
       "column": "22",
-      "line": "19",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "Pulse",
@@ -46130,7 +46326,7 @@
         "display": "few_samples",
         "location": {
           "column": "3",
-          "line": "21",
+          "line": "22",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "few_samples",
@@ -46144,7 +46340,7 @@
         "display": "detected",
         "location": {
           "column": "3",
-          "line": "22",
+          "line": "23",
           "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
         },
         "name": "detected",
@@ -46154,7 +46350,7 @@
     ],
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "21",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "pwmm",
@@ -46168,7 +46364,7 @@
     "display": "enum pwmm",
     "location": {
       "column": "19",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "PWMM",
@@ -46182,7 +46378,7 @@
     "display": "ucPWM_Measure",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "ucPWM_Measure",
@@ -46196,7 +46392,7 @@
     "display": "ucPWM_Measure",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "ucPWM_Measure",
@@ -46210,7 +46406,7 @@
     "display": "usClockCounter",
     "location": {
       "column": "17",
-      "line": "26",
+      "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockCounter",
@@ -46224,7 +46420,7 @@
     "display": "usClockCounter",
     "location": {
       "column": "17",
-      "line": "26",
+      "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockCounter",
@@ -46238,7 +46434,7 @@
     "display": "usClockUncapture",
     "location": {
       "column": "17",
-      "line": "27",
+      "line": "28",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUncapture",
@@ -46252,7 +46448,7 @@
     "display": "usClockUncapture",
     "location": {
       "column": "17",
-      "line": "27",
+      "line": "28",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUncapture",
@@ -46266,7 +46462,7 @@
     "display": "usClockUnStop",
     "location": {
       "column": "17",
-      "line": "28",
+      "line": "29",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUnStop",
@@ -46280,7 +46476,7 @@
     "display": "usClockUnStop",
     "location": {
       "column": "17",
-      "line": "28",
+      "line": "29",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "usClockUnStop",
@@ -46294,7 +46490,7 @@
     "display": "bGenFromTable",
     "location": {
       "column": "13",
-      "line": "29",
+      "line": "30",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bGenFromTable",
@@ -46308,7 +46504,7 @@
     "display": "bGenFromTable",
     "location": {
       "column": "13",
-      "line": "29",
+      "line": "30",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bGenFromTable",
@@ -46322,7 +46518,7 @@
     "display": "bStart",
     "location": {
       "column": "13",
-      "line": "30",
+      "line": "31",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bStart",
@@ -46336,7 +46532,7 @@
     "display": "bStart",
     "location": {
       "column": "13",
-      "line": "30",
+      "line": "31",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bStart",
@@ -46350,7 +46546,7 @@
     "display": "bFirstStart",
     "location": {
       "column": "13",
-      "line": "31",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bFirstStart",
@@ -46364,7 +46560,7 @@
     "display": "bFirstStart",
     "location": {
       "column": "13",
-      "line": "31",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bFirstStart",
@@ -46378,7 +46574,7 @@
     "display": "bFirstDetect",
     "location": {
       "column": "13",
-      "line": "32",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bFirstDetect",
@@ -46392,7 +46588,7 @@
     "display": "bFirstDetect",
     "location": {
       "column": "13",
-      "line": "32",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "bFirstDetect",
@@ -46406,7 +46602,7 @@
     "display": "u16FirstPWM",
     "location": {
       "column": "17",
-      "line": "33",
+      "line": "34",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u16FirstPWM",
@@ -46420,7 +46616,7 @@
     "display": "u16FirstPWM",
     "location": {
       "column": "17",
-      "line": "33",
+      "line": "34",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u16FirstPWM",
@@ -46434,7 +46630,7 @@
     "display": "u16SecondPWM",
     "location": {
       "column": "17",
-      "line": "34",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u16SecondPWM",
@@ -46448,7 +46644,7 @@
     "display": "u16SecondPWM",
     "location": {
       "column": "17",
-      "line": "34",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u16SecondPWM",
@@ -46462,7 +46658,7 @@
     "display": "IsAction",
     "location": {
       "column": "13",
-      "line": "35",
+      "line": "36",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "IsAction",
@@ -46476,7 +46672,7 @@
     "display": "IsAction",
     "location": {
       "column": "13",
-      "line": "35",
+      "line": "36",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "IsAction",
@@ -46490,7 +46686,7 @@
     "display": "u8CountBlinkAction",
     "location": {
       "column": "16",
-      "line": "36",
+      "line": "37",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u8CountBlinkAction",
@@ -46504,7 +46700,7 @@
     "display": "u8CountBlinkAction",
     "location": {
       "column": "16",
-      "line": "36",
+      "line": "37",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u8CountBlinkAction",
@@ -46931,6 +47127,90 @@
     },
     "name": "eGetParse",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XENCODING_LIMITS_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_XENCODING_LIMITS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_EncodingSb_LenMax",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_EncodingSb_LenMax",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_EncodingUtf8_LenMax",
+    "location": {
+      "column": "11",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_EncodingUtf8_LenMax",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_WITH_USED",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_WITH_USED",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_LEN_MAX",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_LEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_CUR_MAX",
+    "location": {
+      "column": "11",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_CUR_MAX",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -47620,20 +47900,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@vClock_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vClock_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\clocking.c"
-    },
-    "name": "vClock_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:uart.h@26@macro@_uart_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -47659,6 +47925,20 @@
     },
     "name": "_DLIB_CONFIG_H",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\clocking.c"
+    },
+    "name": "vClock_Config",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -47802,13 +48082,27 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vConfigOptionBytes",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vConfigOptionBytes(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
+    },
+    "name": "vConfigOptionBytes",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SystemInit",
     "What": "Function",
     "defdec": "Def",
     "display": "int SystemInit(void)",
     "location": {
       "column": "5",
-      "line": "16",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "SystemInit",
@@ -47822,7 +48116,7 @@
     "display": "IsAction",
     "location": {
       "column": "6",
-      "line": "30",
+      "line": "38",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "IsAction",
@@ -47836,7 +48130,7 @@
     "display": "u8CountBlinkAction",
     "location": {
       "column": "9",
-      "line": "31",
+      "line": "39",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "u8CountBlinkAction",
@@ -47850,7 +48144,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "32",
+      "line": "40",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -47858,13 +48152,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2002@F@main@eCurrentState",
+    "ID": "c:main.c@2271@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "63",
+      "line": "71",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -47878,7 +48172,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "118",
+      "line": "126",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",
@@ -48166,6 +48460,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vTim2_DisablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_DisablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_DisablePWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_EnablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_EnablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_EnablePWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@u16PWMOnes",
     "What": "Variable",
     "defdec": "Def",
@@ -48316,34 +48638,6 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_measure.c"
     },
     "name": "vClearMeasure",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_DisablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_DisablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_DisablePWM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_EnablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_EnablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_EnablePWM",
     "origin": "project_file",
     "scope": null
   },

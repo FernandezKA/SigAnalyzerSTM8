@@ -6,6 +6,7 @@
 #include "stm8s_conf.h"
 #include "stm8s_tim1.h"
 #include "stm8s_uart1.h"
+#include "stm8s_flash.h"
 //PORT DEFINITION
 #define SIG_PORT GPIOD
 #define SIG_OUT  (1<<2)

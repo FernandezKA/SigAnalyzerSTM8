@@ -19,6 +19,7 @@ pwm_measure.pbi: C:\dev\MCU\STM8\SigAnalyzer\src\pwm_measure.c \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_gpio.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_tim1.h \
   C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_uart1.h \
+  C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc\stm8s_flash.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/sig_generate.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/pwm_generate.h \
   C:\dev\MCU\STM8\SigAnalyzer\inc/pwm_measure.h \
