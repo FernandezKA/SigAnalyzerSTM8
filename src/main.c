@@ -1,4 +1,5 @@
 #include "general.h"
+#define TEST
 /*Block of variables*/
 //Useless
 uint8_t ucPWM_Measure = 0;
@@ -15,13 +16,27 @@ bool bFirstPWM = FALSE;
 void vConfigOptionBytes(void){
   FLASH_Unlock (FLASH_MEMTYPE_DATA);
   FLASH_ProgramOptionByte(0x4803, (1<<0));
-  //FLASH_ProgramOptionByte(0x4804, ~(1<<0));
+#ifndef TEST
   FLASH_ProgramOptionByte(0x4800, 0xAA);
+#endif
   FLASH_Lock (FLASH_MEMTYPE_DATA);
+}
+void vDetectBoot(void){
+  if((GPIOC->IDR&0x80) == 0x80){
+    asm("nop");
+  }
+  else{
+    asm("LDW X,  SP ");
+    asm("LD  A,  $FF");
+    asm("LD  XL, A  ");
+    asm("LDW SP, X  ");
+    asm("jp $9300");
+  }
 }
 //Block of function definition
 int SystemInit(void)
 {
+    vDetectBoot();
     vClock_Config();
     vConfigOptionBytes();
     vTestOut_Config();
