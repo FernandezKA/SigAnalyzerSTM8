@@ -1,9 +1,9 @@
 #include "timers.h"
 //variables
 enum edge Edge = error;
-uint16_t usLowTime = 0;
-uint16_t usHighTime = 0;
-uint8_t index = 255;
+volatile uint16_t usLowTime = 0;
+volatile uint16_t usHighTime = 0;
+volatile uint8_t index = 255;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
   TIM1->PSCRH = (8000>>8);//set prescaler
@@ -67,7 +67,7 @@ void vTim4_Config(void){
 */
 INTERRUPT_HANDLER(TIM1_CAP_COM_IRQHandler, 12)
 {
-  uint8_t ReadSR1Reg = TIM1->SR1;//CLAEAR AFTER READING REGISTERS
+  volatile uint8_t ReadSR1Reg = TIM1->SR1;//CLAEAR AFTER READING REGISTERS
   usClockUncapture = 0;
   TIM1->SR1&=~TIM1_SR1_CC1IF;
   TIM1->SR1&=~TIM1_SR1_CC2IF;

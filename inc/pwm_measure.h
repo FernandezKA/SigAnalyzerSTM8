@@ -5,6 +5,6 @@ extern uint16_t u16PWMOnes;
 extern uint8_t u8PWMFill;
 extern uint16_t u16CountSamples; 
 extern uint8_t u8PWMMeasured;
-PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM);
+PWMM ePWM_Measure(Pulse pulse, uint8_t volatile* pPWM);
 void vClearMeasure(void);
 #endif

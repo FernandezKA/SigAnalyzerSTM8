@@ -2,12 +2,12 @@
 #define TEST
 /*Block of variables*/
 //Useless
-uint8_t ucPWM_Measure = 0;
+volatile uint8_t ucPWM_Measure = 0;
 //Usefull
-uint16_t usClockCounter = 0;
-uint16_t usClockUncapture = 0;
-uint16_t usClockUnStop = 0;
-uint16_t usSysTick = 0; 
+volatile uint16_t usClockCounter = 0;
+volatile uint16_t usClockUncapture = 0;
+volatile uint16_t usClockUnStop = 0;
+volatile uint16_t usSysTick = 0; 
 bool bStart = FALSE;
 bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
@@ -21,22 +21,9 @@ void vConfigOptionBytes(void){
 #endif
   FLASH_Lock (FLASH_MEMTYPE_DATA);
 }
-void vDetectBoot(void){
-  if((GPIOC->IDR&0x80) == 0x80){
-    asm("nop");
-  }
-  else{
-    asm("LDW X,  SP ");
-    asm("LD  A,  $FF");
-    asm("LD  XL, A  ");
-    asm("LDW SP, X  ");
-    asm("jp $9300");
-  }
-}
 //Block of function definition
 int SystemInit(void)
 {
-    vDetectBoot();
     vClock_Config();
     vConfigOptionBytes();
     vTestOut_Config();
@@ -44,6 +31,9 @@ int SystemInit(void)
     vTim2_Config();
     vTim4_Config();
     GPIOD->ODR&=~(1<<3);
+    GPIOC->DDR&=~(1<<7);
+    GPIOC->CR1|=(1<<7);
+    GPIOC->CR2&=~(1<<7);
     vSetPWM1(10);
 #ifdef DEBUG
     vUart_Config();
@@ -57,6 +47,7 @@ void main(void)
 	SystemInit();
         bGenFromTable = FALSE;
         asm("RIM");
+        asm("trap");
 	 while (1){//Detect new states always into the loop
            //This is a statical function, define rules at time
            if(usSysTick == 10000UL){//After 10 second at power on, enable PWM

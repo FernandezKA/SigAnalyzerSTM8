@@ -24768,202 +24768,6 @@
     "scope": null
   },
   {
-    "ID": "c:intrinsics.h@239@macro@__INTRINSICS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__INTRINSICS_H",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__INTRINSICS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:intrinsics.h@T@__istate_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned char",
-    "location": {
-      "column": "23",
-      "line": "26",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__istate_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__enable_interrupt",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __enable_interrupt(void)",
-    "location": {
-      "column": "20",
-      "line": "33",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__enable_interrupt",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__disable_interrupt",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __disable_interrupt(void)",
-    "location": {
-      "column": "20",
-      "line": "34",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__disable_interrupt",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__get_interrupt_state",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "__istate_t __get_interrupt_state(void)",
-    "location": {
-      "column": "26",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__get_interrupt_state",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__set_interrupt_state",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __set_interrupt_state(__istate_t)",
-    "location": {
-      "column": "26",
-      "line": "37",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__set_interrupt_state",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__no_operation",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __no_operation(void)",
-    "location": {
-      "column": "20",
-      "line": "40",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__no_operation",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__halt",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __halt(void)",
-    "location": {
-      "column": "20",
-      "line": "41",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__halt",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__trap",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __trap(void)",
-    "location": {
-      "column": "20",
-      "line": "42",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__trap",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__wait_for_event",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __wait_for_event(void)",
-    "location": {
-      "column": "20",
-      "line": "43",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__wait_for_event",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__wait_for_interrupt",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __wait_for_interrupt(void)",
-    "location": {
-      "column": "20",
-      "line": "44",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__wait_for_interrupt",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__BCPL",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __BCPL(unsigned char *, unsigned char)",
-    "location": {
-      "column": "20",
-      "line": "47",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__BCPL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__BRES",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __BRES(unsigned char *, unsigned char)",
-    "location": {
-      "column": "20",
-      "line": "48",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__BRES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__BSET",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __BSET(unsigned char *, unsigned char)",
-    "location": {
-      "column": "20",
-      "line": "49",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
-    },
-    "name": "__BSET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8s_flash.h@1292@macro@__STM8S_FLASH_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -26228,7 +26032,7 @@
     "display": "void TLI_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "14",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TLI_IRQHandler",
@@ -26242,7 +26046,7 @@
     "display": "void AWU_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "23",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "AWU_IRQHandler",
@@ -26256,7 +26060,7 @@
     "display": "void CLK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "31",
+      "line": "41",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "CLK_IRQHandler",
@@ -26270,7 +26074,7 @@
     "display": "void EXTI_PORTA_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "39",
+      "line": "49",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EXTI_PORTA_IRQHandler",
@@ -26284,7 +26088,7 @@
     "display": "void EXTI_PORTB_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "47",
+      "line": "57",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EXTI_PORTB_IRQHandler",
@@ -26298,7 +26102,7 @@
     "display": "void EXTI_PORTC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "55",
+      "line": "65",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EXTI_PORTC_IRQHandler",
@@ -26312,7 +26116,7 @@
     "display": "void EXTI_PORTD_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "63",
+      "line": "73",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EXTI_PORTD_IRQHandler",
@@ -26326,7 +26130,7 @@
     "display": "void EXTI_PORTE_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "71",
+      "line": "81",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EXTI_PORTE_IRQHandler",
@@ -26340,7 +26144,7 @@
     "display": "void SPI_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "108",
+      "line": "118",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "SPI_IRQHandler",
@@ -26354,7 +26158,7 @@
     "display": "void TIM1_UPD_OVF_TRG_BRK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "116",
+      "line": "126",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TIM1_UPD_OVF_TRG_BRK_IRQHandler",
@@ -26368,7 +26172,7 @@
     "display": "void TIM2_UPD_OVF_BRK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "149",
+      "line": "159",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TIM2_UPD_OVF_BRK_IRQHandler",
@@ -26382,7 +26186,7 @@
     "display": "void TIM2_CAP_COM_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "157",
+      "line": "167",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "TIM2_CAP_COM_IRQHandler",
@@ -26396,7 +26200,7 @@
     "display": "void UART1_TX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "187",
+      "line": "197",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "UART1_TX_IRQHandler",
@@ -26410,7 +26214,7 @@
     "display": "void UART1_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "195",
+      "line": "205",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "UART1_RX_IRQHandler",
@@ -26424,7 +26228,7 @@
     "display": "void I2C_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "222",
+      "line": "232",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "I2C_IRQHandler",
@@ -26438,7 +26242,7 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "275",
+      "line": "285",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "ADC1_IRQHandler",
@@ -26452,7 +26256,7 @@
     "display": "void EEPROM_EEC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "299",
+      "line": "309",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "EEPROM_EEC_IRQHandler",
@@ -26527,6 +26331,202 @@
     },
     "name": "assert_failed",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:intrinsics.h@239@macro@__INTRINSICS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__INTRINSICS_H",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__INTRINSICS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:intrinsics.h@T@__istate_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "23",
+      "line": "26",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__istate_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__enable_interrupt",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __enable_interrupt(void)",
+    "location": {
+      "column": "20",
+      "line": "33",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__enable_interrupt",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__disable_interrupt",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __disable_interrupt(void)",
+    "location": {
+      "column": "20",
+      "line": "34",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__disable_interrupt",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__get_interrupt_state",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "__istate_t __get_interrupt_state(void)",
+    "location": {
+      "column": "26",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__get_interrupt_state",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__set_interrupt_state",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __set_interrupt_state(__istate_t)",
+    "location": {
+      "column": "26",
+      "line": "37",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__set_interrupt_state",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__no_operation",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __no_operation(void)",
+    "location": {
+      "column": "20",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__no_operation",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__halt",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __halt(void)",
+    "location": {
+      "column": "20",
+      "line": "41",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__halt",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__trap",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __trap(void)",
+    "location": {
+      "column": "20",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__trap",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__wait_for_event",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __wait_for_event(void)",
+    "location": {
+      "column": "20",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__wait_for_event",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__wait_for_interrupt",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __wait_for_interrupt(void)",
+    "location": {
+      "column": "20",
+      "line": "44",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__wait_for_interrupt",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__BCPL",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __BCPL(unsigned char *, unsigned char)",
+    "location": {
+      "column": "20",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__BCPL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__BRES",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __BRES(unsigned char *, unsigned char)",
+    "location": {
+      "column": "20",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__BRES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__BSET",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __BSET(unsigned char *, unsigned char)",
+    "location": {
+      "column": "20",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\intrinsics.h"
+    },
+    "name": "__BSET",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -45813,7 +45813,7 @@
     "defdec": "Dec",
     "display": "usLowTime",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45827,7 +45827,7 @@
     "defdec": "Dec",
     "display": "usLowTime",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45841,7 +45841,7 @@
     "defdec": "Dec",
     "display": "usHighTime",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45855,7 +45855,7 @@
     "defdec": "Dec",
     "display": "usHighTime",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45869,7 +45869,7 @@
     "defdec": "Dec",
     "display": "usSysTick",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45883,7 +45883,7 @@
     "defdec": "Dec",
     "display": "usSysTick",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -46377,7 +46377,7 @@
     "defdec": "Dec",
     "display": "ucPWM_Measure",
     "location": {
-      "column": "16",
+      "column": "25",
       "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46391,7 +46391,7 @@
     "defdec": "Dec",
     "display": "ucPWM_Measure",
     "location": {
-      "column": "16",
+      "column": "25",
       "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46405,7 +46405,7 @@
     "defdec": "Dec",
     "display": "usClockCounter",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46419,7 +46419,7 @@
     "defdec": "Dec",
     "display": "usClockCounter",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46433,7 +46433,7 @@
     "defdec": "Dec",
     "display": "usClockUncapture",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "28",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46447,7 +46447,7 @@
     "defdec": "Dec",
     "display": "usClockUncapture",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "28",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46461,7 +46461,7 @@
     "defdec": "Dec",
     "display": "usClockUnStop",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "29",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46475,7 +46475,7 @@
     "defdec": "Dec",
     "display": "usClockUnStop",
     "location": {
-      "column": "17",
+      "column": "26",
       "line": "29",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
@@ -46704,20 +46704,6 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
     },
     "name": "u8CountBlinkAction",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vDetectBoot",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vDetectBoot(void)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
-    },
-    "name": "vDetectBoot",
     "origin": "user_include",
     "scope": null
   },
@@ -46865,7 +46851,7 @@
     "ID": "c:@F@ePWM_Measure",
     "What": "Function",
     "defdec": "Dec",
-    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
+    "display": "PWMM ePWM_Measure(Pulse, volatile uint8_t *)",
     "location": {
       "column": "6",
       "line": "8",
@@ -46879,7 +46865,7 @@
     "ID": "c:@F@ePWM_Measure",
     "What": "Function",
     "defdec": "Dec",
-    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
+    "display": "PWMM ePWM_Measure(Pulse, volatile uint8_t *)",
     "location": {
       "column": "6",
       "line": "8",
@@ -47989,7 +47975,7 @@
     "defdec": "Def",
     "display": "ucPWM_Measure",
     "location": {
-      "column": "9",
+      "column": "18",
       "line": "5",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
@@ -48003,7 +47989,7 @@
     "defdec": "Def",
     "display": "usClockCounter",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "7",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
@@ -48017,7 +48003,7 @@
     "defdec": "Def",
     "display": "usClockUncapture",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "8",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
@@ -48031,7 +48017,7 @@
     "defdec": "Def",
     "display": "usClockUnStop",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
@@ -48045,7 +48031,7 @@
     "defdec": "Def",
     "display": "usSysTick",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
@@ -48138,27 +48124,13 @@
     "scope": null
   },
   {
-    "ID": "c:@F@vDetectBoot",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vDetectBoot(void)",
-    "location": {
-      "column": "6",
-      "line": "24",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
-    },
-    "name": "vDetectBoot",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@SystemInit",
     "What": "Function",
     "defdec": "Def",
     "display": "int SystemInit(void)",
     "location": {
       "column": "5",
-      "line": "37",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "SystemInit",
@@ -48172,7 +48144,7 @@
     "display": "IsAction",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "43",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "IsAction",
@@ -48186,7 +48158,7 @@
     "display": "u8CountBlinkAction",
     "location": {
       "column": "9",
-      "line": "54",
+      "line": "44",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "u8CountBlinkAction",
@@ -48200,7 +48172,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -48208,13 +48180,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2500@F@main@eCurrentState",
+    "ID": "c:main.c@2404@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "86",
+      "line": "77",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -48228,7 +48200,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "141",
+      "line": "132",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",
@@ -48645,7 +48617,7 @@
     "ID": "c:@F@ePWM_Measure",
     "What": "Function",
     "defdec": "Def",
-    "display": "PWMM ePWM_Measure(Pulse, uint8_t *)",
+    "display": "PWMM ePWM_Measure(Pulse, volatile uint8_t *)",
     "location": {
       "column": "6",
       "line": "16",
@@ -48857,7 +48829,7 @@
     "defdec": "Def",
     "display": "usLowTime",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "4",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
@@ -48871,7 +48843,7 @@
     "defdec": "Def",
     "display": "usHighTime",
     "location": {
-      "column": "10",
+      "column": "19",
       "line": "5",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
@@ -48885,7 +48857,7 @@
     "defdec": "Def",
     "display": "index",
     "location": {
-      "column": "9",
+      "column": "18",
       "line": "6",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
@@ -48936,7 +48908,7 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@1681@F@vSetPWM1@normPWM",
+    "ID": "c:timers.c@1708@F@vSetPWM1@normPWM",
     "What": "Variable",
     "defdec": "Def",
     "display": "normPWM",
@@ -48978,12 +48950,12 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@2504@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
+    "ID": "c:timers.c@2531@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
     "What": "Variable",
     "defdec": "Def",
     "display": "ReadSR1Reg",
     "location": {
-      "column": "11",
+      "column": "20",
       "line": "70",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },

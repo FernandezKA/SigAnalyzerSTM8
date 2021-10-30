@@ -5,7 +5,17 @@
 //TRAP Interrupt routine
 INTERRUPT_HANDLER_TRAP(TRAP_IRQHandler)
 {
-	while (1){};  
+  asm("nop");
+  if((GPIOC->IDR&0x80) == 0x80){
+    asm("nop");
+  }
+  else{
+    asm("LDW X,  SP ");
+    asm("LD  A,  $FF");
+    asm("LD  XL, A  ");
+    asm("LDW SP, X  ");
+    asm("jp $9A00");
+  }
 }
 #endif
 

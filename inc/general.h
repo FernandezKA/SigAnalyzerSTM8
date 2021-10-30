@@ -23,10 +23,10 @@ enum pwmm{
   detected = 1
 };
 typedef enum pwmm PWMM;
-extern uint8_t ucPWM_Measure;
-extern uint16_t usClockCounter;
-extern uint16_t usClockUncapture;
-extern uint16_t usClockUnStop;
+extern volatile uint8_t ucPWM_Measure;
+extern volatile uint16_t usClockCounter;
+extern volatile uint16_t usClockUncapture;
+extern volatile uint16_t usClockUnStop;
 extern bool bGenFromTable;
 extern bool bStart;
 extern bool bFirstStart;

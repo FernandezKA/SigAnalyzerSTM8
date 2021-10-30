@@ -13,7 +13,7 @@ uint16_t u16SecondPWM = 0;
 *@inval: struct type of pulse, variable for writing detected pwm fill
 *@retval: enumerate list state of detect
 */
-PWMM ePWM_Measure(Pulse pulse, uint8_t* pPWM){
+PWMM ePWM_Measure(Pulse pulse, uint8_t volatile* pPWM){
   if(pulse.polarity){
     if(pulse.time < 500){
     usPWMHighTime+=pulse.time;
