@@ -1,6 +1,6 @@
 #include "general.h"
 #define TEST
-//#define BOOTLOADER
+#define BOOTLOADER
 /*Block of variables*/
 //Useless
 volatile uint8_t ucPWM_Measure = 0;
