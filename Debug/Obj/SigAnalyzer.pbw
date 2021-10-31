@@ -46708,20 +46708,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@vDetectBoot",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vDetectBoot(void)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\general.h"
-    },
-    "name": "vDetectBoot",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:pwm_measure.h@33@macro@_pwm_measure_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -48488,6 +48474,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vTim2_DisablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_DisablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_DisablePWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vTim2_EnablePWM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vTim2_EnablePWM(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
+    },
+    "name": "vTim2_EnablePWM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@u16PWMOnes",
     "What": "Variable",
     "defdec": "Def",
@@ -48638,34 +48652,6 @@
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_measure.c"
     },
     "name": "vClearMeasure",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_DisablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_DisablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_DisablePWM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vTim2_EnablePWM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vTim2_EnablePWM(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\pwm_generate.c"
-    },
-    "name": "vTim2_EnablePWM",
     "origin": "project_file",
     "scope": null
   },
