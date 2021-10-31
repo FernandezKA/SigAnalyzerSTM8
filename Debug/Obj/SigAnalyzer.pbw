@@ -47962,7 +47962,7 @@
     "display": "ucPWM_Measure",
     "location": {
       "column": "18",
-      "line": "5",
+      "line": "6",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "ucPWM_Measure",
@@ -47976,7 +47976,7 @@
     "display": "usClockCounter",
     "location": {
       "column": "19",
-      "line": "7",
+      "line": "8",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "usClockCounter",
@@ -47990,7 +47990,7 @@
     "display": "usClockUncapture",
     "location": {
       "column": "19",
-      "line": "8",
+      "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "usClockUncapture",
@@ -48004,7 +48004,7 @@
     "display": "usClockUnStop",
     "location": {
       "column": "19",
-      "line": "9",
+      "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "usClockUnStop",
@@ -48018,7 +48018,7 @@
     "display": "usSysTick",
     "location": {
       "column": "19",
-      "line": "10",
+      "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "usSysTick",
@@ -48032,7 +48032,7 @@
     "display": "bStart",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bStart",
@@ -48046,7 +48046,7 @@
     "display": "bGenFromTable",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "13",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bGenFromTable",
@@ -48060,7 +48060,7 @@
     "display": "bFirstStart",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bFirstStart",
@@ -48074,7 +48074,7 @@
     "display": "bFirstDetect",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "15",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bFirstDetect",
@@ -48088,7 +48088,7 @@
     "display": "bFirstPWM",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "bFirstPWM",
@@ -48102,7 +48102,7 @@
     "display": "void vConfigOptionBytes(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "vConfigOptionBytes",
@@ -48116,7 +48116,7 @@
     "display": "int SystemInit(void)",
     "location": {
       "column": "5",
-      "line": "25",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "SystemInit",
@@ -48130,7 +48130,7 @@
     "display": "IsAction",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "44",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "IsAction",
@@ -48144,7 +48144,7 @@
     "display": "u8CountBlinkAction",
     "location": {
       "column": "9",
-      "line": "44",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "u8CountBlinkAction",
@@ -48158,7 +48158,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "46",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "main",
@@ -48166,13 +48166,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2413@F@main@eCurrentState",
+    "ID": "c:main.c@2462@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
     "location": {
       "column": "21",
-      "line": "77",
+      "line": "80",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "eCurrentState",
@@ -48186,7 +48186,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "132",
+      "line": "135",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\main.c"
     },
     "name": "assert_failed",

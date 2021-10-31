@@ -1,5 +1,6 @@
 #include "general.h"
 #define TEST
+//#define BOOTLOADER
 /*Block of variables*/
 //Useless
 volatile uint8_t ucPWM_Measure = 0;
@@ -47,7 +48,9 @@ void main(void)
 	SystemInit();
         bGenFromTable = FALSE;
         asm("RIM");
+#ifdef BOOTLOADER
         asm("trap");
+#endif
 	 while (1){//Detect new states always into the loop
            //This is a statical function, define rules at time
            if(usSysTick == 10000UL){//After 10 second at power on, enable PWM
