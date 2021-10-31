@@ -45813,7 +45813,7 @@
     "defdec": "Dec",
     "display": "usLowTime",
     "location": {
-      "column": "26",
+      "column": "17",
       "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45827,7 +45827,7 @@
     "defdec": "Dec",
     "display": "usLowTime",
     "location": {
-      "column": "26",
+      "column": "17",
       "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45841,7 +45841,7 @@
     "defdec": "Dec",
     "display": "usHighTime",
     "location": {
-      "column": "26",
+      "column": "17",
       "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -45855,7 +45855,7 @@
     "defdec": "Dec",
     "display": "usHighTime",
     "location": {
-      "column": "26",
+      "column": "17",
       "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\inc\\timers.h"
     },
@@ -48180,7 +48180,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2404@F@main@eCurrentState",
+    "ID": "c:main.c@2413@F@main@eCurrentState",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentState",
@@ -48829,7 +48829,7 @@
     "defdec": "Def",
     "display": "usLowTime",
     "location": {
-      "column": "19",
+      "column": "10",
       "line": "4",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
@@ -48843,7 +48843,7 @@
     "defdec": "Def",
     "display": "usHighTime",
     "location": {
-      "column": "19",
+      "column": "10",
       "line": "5",
       "path": "C:\\dev\\MCU\\STM8\\SigAnalyzer\\src\\timers.c"
     },
@@ -48908,7 +48908,7 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@1708@F@vSetPWM1@normPWM",
+    "ID": "c:timers.c@1690@F@vSetPWM1@normPWM",
     "What": "Variable",
     "defdec": "Def",
     "display": "normPWM",
@@ -48950,7 +48950,7 @@
     "scope": null
   },
   {
-    "ID": "c:timers.c@2531@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
+    "ID": "c:timers.c@2513@F@TIM1_CAP_COM_IRQHandler@ReadSR1Reg",
     "What": "Variable",
     "defdec": "Def",
     "display": "ReadSR1Reg",

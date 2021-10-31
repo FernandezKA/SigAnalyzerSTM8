@@ -1,8 +1,8 @@
 #include "timers.h"
 //variables
 enum edge Edge = error;
-volatile uint16_t usLowTime = 0;
-volatile uint16_t usHighTime = 0;
+uint16_t usLowTime = 0;
+uint16_t usHighTime = 0;
 volatile uint8_t index = 255;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING

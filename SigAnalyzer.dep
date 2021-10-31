@@ -693,6 +693,10 @@
             <name>$PROJ_DIR$\src\timers.c</name>
             <outputs>
                 <tool>
+                    <name>ICCSTM8</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
                     <file> 1</file>
                 </tool>

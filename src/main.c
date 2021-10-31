@@ -53,23 +53,23 @@ void main(void)
            if(usSysTick == 10000UL){//After 10 second at power on, enable PWM
             vTim2_EnablePWM(); 
            }
-           if(usClockUncapture >= 15000){//This case must be call after 15 Sec undetected rise or Edge
+           if(usClockUncapture >= 15000UL){//This case must be call after 15 Sec undetected rise or Edge
                     //bFirstDetect = TRUE;
                     //vTim2_EnablePWM();
                     usClockUncapture = 0;
                     vClearMeasure();
-                    vSetPWM1(10);
+                    vSetPWM1(10U);
                     //ucCurrentIndexGen = GEN_SIZE - 1;
            }
-           if(usClockUnStop >= 30000){//If stop signal not be receieved after 30 sec - terminate start respond answer
+           if(usClockUnStop >= 30000UL){//If stop signal not be receieved after 30 sec - terminate start respond answer
               bStart = FALSE;
               usClockUnStop = 0;  
               bGenFromTable = FALSE;
-              GPIOD->ODR&=~(1<<2); 
+              GPIOD->ODR&=~(1U<<2); 
             }
-           if(u16PWMOnes == 2000){
-             u8PWMFill = 9; 
-             vSetPWM1(10);
+           if(u16PWMOnes == 2000U){
+             u8PWMFill = 9U; 
+             vSetPWM1(10U);
            }
            //This part of code for Input Capture IRQ
            if(bNewSample){//This is true if be input capture IRQ
@@ -106,8 +106,8 @@ void main(void)
                 case pwm:
                   if(u8PWMMeasured > 0){
                     --u8PWMMeasured;//This is indicate of measured PWM
-                    if(u8PWMFill < 12){//If PWM fill less than 12%, set PWM 12%
-                      vSetPWM1(10);
+                    if(u8PWMFill < 12U){//If PWM fill less than 12%, set PWM 12%
+                      vSetPWM1(10U);
                     }
                     else{//If PWM more than 12%, set PWM fill 50%
                       vSetPWM1(50);

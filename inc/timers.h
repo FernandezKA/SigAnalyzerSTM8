@@ -7,8 +7,8 @@ enum edge{
   error = 2
 };
 extern enum edge Edge;
-extern volatile uint16_t usLowTime;
-extern volatile uint16_t usHighTime;
+extern uint16_t usLowTime;
+extern uint16_t usHighTime;
 extern volatile uint16_t usSysTick;
 void vTim1_Config(void);//This timer used for input capture
 void vTim2_Config(void);//This timer used for PWM generate
