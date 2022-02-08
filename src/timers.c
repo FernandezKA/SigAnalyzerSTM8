@@ -4,6 +4,7 @@ enum edge Edge = error;
 uint16_t usLowTime = 0;
 uint16_t usHighTime = 0;
 volatile uint8_t index = 255;
+uint16_t u8PartIndexInc = 0x00;
 void vTim1_Config(void){
   CLK->PCKENR1|=CLK_PCKENR1_TIM1;//ENABLE CLOCKING
   TIM1->PSCRH = (8000>>8);//set prescaler
@@ -132,8 +133,17 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
       ++u16CountSamples;
     }
   }
-  if(usSysTick%6000 == 0){//Every 6 second incremant value of AD8400
-  _AD8400_set(--index); 
+  if(usSysTick%7000 == 0){//Every 6 second incremant value of AD8400
+    ++u8PartIndexInc; 
+    if(u8PartIndexInc==100){
+      u8PartIndexInc = 0;
+      if(index == 0x00){
+        asm("nop");
+      }
+      else{
+      _AD8400_set(--index);  
+      }
+    }
   }
   ++usSysTick;
   if(usSysTick == 60000UL){

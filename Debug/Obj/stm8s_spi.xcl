@@ -1,26 +1,26 @@
-"C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\src\stm8s_spi.c"
+"C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\src\stm8s_spi.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\dev\MCU\STM8\SigAnalyzer\Debug\Obj\stm8s_spi.pbi.dep
+C:\dev\STM8\SigAnalyzerSTM8\Debug\Obj\stm8s_spi.pbi.dep
 -o
 stm8s_spi.pbi
 -I
-C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\src
+C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\src
 -I
-C:\dev\MCU\STM8\SigAnalyzer\inc
+C:\dev\STM8\SigAnalyzerSTM8\inc
 -I
-C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc
+C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\dev\MCU\STM8\SigAnalyzer\inc
+C:\dev\STM8\SigAnalyzerSTM8\inc
 -I
-C:\dev\MCU\STM8\SigAnalyzer\lib\SPL\inc
+C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

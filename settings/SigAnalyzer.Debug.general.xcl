@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8stlink.dll" 
 
-"C:\dev\MCU\STM8\SigAnalyzer\Debug\Exe\SigAnalyzer.out" 
+"C:\dev\STM8\SigAnalyzerSTM8\Debug\Exe\SigAnalyzer.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8bat.dll" 
 
