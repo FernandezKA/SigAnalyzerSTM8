@@ -14,9 +14,14 @@ bool bGenFromTable = FALSE;
 bool bFirstStart = FALSE;
 bool bFirstDetect = FALSE;
 bool bFirstPWM = FALSE;
+uint32_t* pOptionBytes = (uint32_t*) 0x00004800;
 void vConfigOptionBytes(void){
-  FLASH_Unlock (FLASH_MEMTYPE_DATA);
+  FLASH_DeInit();  
+  FLASH_Unlock(FLASH_MEMTYPE_DATA); 
+  //*(pOptionBytes + 0x03) = 0x01;
+  //*(pOptionBytes + 0x04) = 0xFE;
   FLASH_ProgramOptionByte(0x4803, (1<<0));
+  //FLASH_ProgramOptionByte(0x4804, 0xFE);
 #ifndef TEST
   FLASH_ProgramOptionByte(0x4800, 0xAA);
 #endif

@@ -37,7 +37,7 @@ void vTim2_Config(void){
   TIM2->CCR3H = 24U>>8;
   TIM2->CCR3L = 24U&0xFFU;
   //TIM2->CCER1|=TIM2_CCER1_CC2E;/*ENABLE CAPTURE/COMPARE FOR CHANNEL 2 AND 3*/
-  //TIM2->CCER2|=TIM2_CCER2_CC3E;
+  TIM2->CCER2|=TIM2_CCER2_CC3P;
   TIM2->CCMR1|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR2|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
   TIM2->CCMR3|=(1U<<6|1U<<5|1U<<3);/*MODE 1 WITH OUTPUT COMPARE PRELOAD*/
@@ -48,6 +48,8 @@ void vSetPWM1(uint8_t pwm){
   uint16_t normPWM = (pwm*244UL)/100UL;
   TIM2->CCR2H = normPWM>>8;
   TIM2->CCR2L = normPWM&0xFFU;
+  TIM2->CCR3H = (uint8_t) normPWM>>8;
+  TIM2->CCR3L = (uint8_t) normPWM&0xFFU;
 }
 
 void vTim4_Config(void){
@@ -133,7 +135,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
       ++u16CountSamples;
     }
   }
-  if(usSysTick%7000 == 0){//Every 6 second incremant value of AD8400
+  if(usSysTick%7000 == 0){//Every 6 second increment value of AD8400
     ++u8PartIndexInc; 
     if(u8PartIndexInc==100){
       u8PartIndexInc = 0;

@@ -10,17 +10,17 @@ stm8s_flash.pbi
 -I
 C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\src
 -I
-C:\dev\STM8\SigAnalyzerSTM8\inc
--I
 C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
+-I
+C:\dev\STM8\SigAnalyzerSTM8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\dev\STM8\SigAnalyzerSTM8\inc
--I
 C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
+-I
+C:\dev\STM8\SigAnalyzerSTM8\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -257,10 +257,7 @@ C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
--DSTM8S003=1
--DHSE_VALUE=((uint32_t)16000000)
--DHSI_VALUE=((uint32_t)16000000)
--DLSI_VALUE=((uint32_t)128000)
+-DSTM8S103=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8smn.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8smn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"

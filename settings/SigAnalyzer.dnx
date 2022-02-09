@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>1884330886</Checksum>
+        <Checksum>3623679636</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -79,9 +79,11 @@
     <watch_formats>
         <Fmt0>{W}1:PWM_1	3	0</Fmt0>
         <Fmt1>{W}1:ReadSReg	1	0</Fmt1>
-        <Fmt2>{W}1:u8PWMFill	3	0</Fmt2>
-        <Fmt3>{W}1:u8PWMMeasured	3	0</Fmt3>
-        <Fmt4>{W}1:ucPWM_Measure	3	0</Fmt4>
+        <Fmt2>{W}1:normPWM	3	0</Fmt2>
+        <Fmt3>{W}1:pwm	3	0</Fmt3>
+        <Fmt4>{W}1:u8PWMFill	3	0</Fmt4>
+        <Fmt5>{W}1:u8PWMMeasured	3	0</Fmt5>
+        <Fmt6>{W}1:ucPWM_Measure	3	0</Fmt6>
     </watch_formats>
     <DataSample>
         <LogEnabled>0</LogEnabled>
@@ -90,9 +92,10 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.9.3" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.48.2" 1 0 0 0 "" 0 ""</Bp1>
-        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.8.3" 1 0 0 0 "" 0 ""</Bp2>
-        <Count>3</Count>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$}.8.3" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\STM8\SigAnalyzerSTM8\src\main.c}.64.1" 0 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.34.5" 1 0 0 0 "" 0 ""</Bp3>
+        <Count>4</Count>
     </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
@@ -104,7 +107,8 @@
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\dev\STM8\SigAnalyzerSTM8\src\main.c" ""</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>
