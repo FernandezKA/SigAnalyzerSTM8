@@ -1,5 +1,5 @@
 #include "general.h"
-#define TEST
+//#define TEST
 //#define BOOTLOADER
 /*Block of variables*/
 //Useless
