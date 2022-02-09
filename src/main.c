@@ -125,6 +125,8 @@ void main(void)
                   u16PWMOnes = 0; 
                   u16CountSamples = 0;
                   vSetPWM1(10);
+//                  xNewSample.time = 0;
+//                  xNewSample.polarity = TRUE;
                 break;
               }
              bNewSample = FALSE;

@@ -1,27 +1,31 @@
-clocking.pbi: C:\dev\STM8\SigAnalyzerSTM8\inc\general.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\spi.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\uart.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\gpio.h \
+clocking.pbi: C:\dev\STM8\SigAnalyzerSTM8\src\clocking.c \
   C:\dev\STM8\SigAnalyzerSTM8\inc\clocking.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\timers.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\parser.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\pwm_measure.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\pwm_generate.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\sig_generate.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_flash.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_uart1.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_tim1.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_gpio.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_clk.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\dev\STM8\SigAnalyzerSTM8\inc\stm8s_conf.h \
-  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/general.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
-  C:\dev\STM8\SigAnalyzerSTM8\src\clocking.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/stm8s_conf.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc\stm8s_conf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_clk.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc/stm8s.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_gpio.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_tim1.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_uart1.h \
+  C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc\stm8s_flash.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/sig_generate.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/pwm_generate.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/pwm_measure.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/parser.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/timers.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/clocking.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/gpio.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/uart.h \
+  C:\dev\STM8\SigAnalyzerSTM8\inc/spi.h

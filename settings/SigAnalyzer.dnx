@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>3623679636</Checksum>
+        <Checksum>1854647677</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -76,6 +76,9 @@
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
+    <struct_types>
+        <Fmt0>Pulse-time	3	0</Fmt0>
+    </struct_types>
     <watch_formats>
         <Fmt0>{W}1:PWM_1	3	0</Fmt0>
         <Fmt1>{W}1:ReadSReg	1	0</Fmt1>
@@ -90,6 +93,14 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.9.3" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$}.8.3" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\STM8\SigAnalyzerSTM8\src\main.c}.64.1" 0 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.84.19" 1 0 0 0 "" 0 ""</Bp3>
+        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src}.34.5" 0 0 0 0 "" 0 ""</Bp4>
+        <Count>5</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -99,13 +110,6 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.9.3" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$}.8.3" 0 0 0 0 "" 0 ""</Bp1>
-        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\STM8\SigAnalyzerSTM8\src\main.c}.64.1" 0 0 0 0 "" 0 ""</Bp2>
-        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.34.5" 1 0 0 0 "" 0 ""</Bp3>
-        <Count>4</Count>
-    </Breakpoints>
     <Aliases>
         <A0>_ "C:\dev\STM8\SigAnalyzerSTM8\src\main.c" ""</A0>
         <Count>1</Count>
