@@ -806,7 +806,7 @@
                     <item>usSysTick</item>
                     <item>normPWM</item>
                     <item>pwm</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
