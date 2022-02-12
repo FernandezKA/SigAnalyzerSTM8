@@ -1,18 +1,22 @@
-"C:\dev\STM8\SigAnalyzerSTM8\src\pwm_generate.c"
+"C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\src\pwm_generate.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\dev\STM8\SigAnalyzerSTM8\Debug\Obj\pwm_generate.pbi.dep
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\Debug\Obj\pwm_generate.pbi.dep
 -o
 pwm_generate.pbi
 -I
-C:\dev\STM8\SigAnalyzerSTM8\src
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\src
 -I
 C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
 -I
 C:\dev\STM8\SigAnalyzerSTM8\inc
+-I
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\lib\SPL\inc
+-I
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
@@ -21,6 +25,10 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc
 -I
 C:\dev\STM8\SigAnalyzerSTM8\inc
+-I
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\lib\SPL\inc
+-I
+C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

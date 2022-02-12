@@ -38,7 +38,7 @@ bool bIsStart(Pulse pulse){
 bool bIsStop(Pulse pulse){
   bool bTempVal = FALSE;
   if(!pulse.polarity){
-    if(pulse.time > 600){
+    if(pulse.time > 600 && pulse.time < 1000){
       bTempVal = TRUE;
     }
   }
@@ -51,7 +51,7 @@ bool bIsStop(Pulse pulse){
 */
 bool bIsPWM(Pulse pulse){
   bool bIsPWM = FALSE;
-  if(pulse.time < 25){
+  if(pulse.time < (uint16_t) 35){
     bIsPWM = TRUE;
   }
   return bIsPWM;
@@ -62,13 +62,13 @@ bool bIsPWM(Pulse pulse){
 *@retval: enumerate state of current sample
 */
 State eGetParse(Pulse pulse){
-  State eTempState = mistake;
+  State eTempState = pwm;
   bool bStart = bIsStart(pulse);
   bool bStop = bIsStop(pulse);
   bool bPWM = bIsPWM(pulse);
   PWMM ePWM = ePWM_Measure(pulse, &ucPWM_Measure);
   if(!bStart&&!bStop){//This is a PWM
-    eTempState = mistake;
+    eTempState = pwm;
   }
   if(bStart&!bStop){
     eTempState = start;

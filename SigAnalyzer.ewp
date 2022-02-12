@@ -146,7 +146,7 @@
                 </option>
                 <option>
                     <name>IccOptLevel</name>
-                    <state>0</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>IccOptStrategy</name>
@@ -155,12 +155,12 @@
                 </option>
                 <option>
                     <name>IccOptLevelSlave</name>
-                    <state>0</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>IccOptAllowList</name>
                     <version>0</version>
-                    <state>000000</state>
+                    <state>100100</state>
                 </option>
                 <option>
                     <name>IccGenerateDebugInfo</name>
@@ -259,6 +259,8 @@
                     <name>CCIncludePath2</name>
                     <state>C:\dev\STM8\SigAnalyzerSTM8\lib\SPL\inc</state>
                     <state>C:\dev\STM8\SigAnalyzerSTM8\inc</state>
+                    <state>C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\lib\SPL\inc</state>
+                    <state>C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\inc</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

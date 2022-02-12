@@ -14,4 +14,5 @@ void vTim1_Config(void);//This timer used for input capture
 void vTim2_Config(void);//This timer used for PWM generate
 void vTim4_Config(void);//This timer used for definition freqency of sampling
 void vSetPWM1(uint8_t pwm);
+void vSetPWM2(volatile uint8_t pwm2);
 #endif

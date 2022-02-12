@@ -50,6 +50,10 @@ void vSetPWM1(uint8_t pwm){
   uint16_t normPWM = (pwm*625UL)/100UL;
   TIM2->CCR2H = normPWM>>8;
   TIM2->CCR2L = normPWM&0xFFU;
+}
+
+void vSetPWM2(volatile uint8_t pwm2){
+  uint16_t normPWM = (pwm*625UL)/100UL;
   TIM2->CCR3H = (uint8_t) normPWM>>8;
   TIM2->CCR3L = (uint8_t) normPWM&0xFFU;
 }

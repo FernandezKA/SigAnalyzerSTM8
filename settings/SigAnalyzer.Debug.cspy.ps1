@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\dev\STM8\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.general.xcl" --backend -f "C:\dev\STM8\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.general.xcl" --backend -f "C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\dev\STM8\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\dev\STM8\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\dev\STM8\SerialBootloader\SigAnalyzerSTM8\settings\SigAnalyzer.Debug.driver.xcl" 
 }

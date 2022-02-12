@@ -1,7 +1,21 @@
 #include "general.h"
-//#define TEST
+#include "uart.h"
+#define TEST
 //#define BOOTLOADER
 /*Block of variables*/
+
+static inline void send(volatile uint8_t data){
+  while((UART1->SR & UART1_SR_TXE) != UART1_SR_TXE) {asm("nop");}
+  UART1->DR = data;
+  return;
+}
+
+static inline void print(volatile uint8_t* data,volatile uint8_t size){
+  for(uint8_t i = 0; i < size; ++i){
+    send(data[i]);
+  }
+}
+
 //Useless
 volatile uint8_t ucPWM_Measure = 0;
 //Usefull
@@ -36,17 +50,24 @@ int SystemInit(void)
     GPIOC->DDR&=~(1<<7);
     GPIOC->CR1|=(1<<7);
     GPIOC->CR2&=~(1<<7);
+    vUart_Config();
     vSetPWM1(10);
 #ifdef DEBUG
     vUart_Config();
 #endif
     return 0;
 }
+
+static uint8_t countPWM = 0;
+
 bool IsAction = FALSE;
 uint8_t u8CountBlinkAction = 0;
 void main(void)
 {
 	SystemInit();
+        //UART1->DR = 0x55;
+        //send(0x55U);
+        print("Pump_1_2\n\r", 10);
         bGenFromTable = FALSE;
         asm("RIM");
 #ifdef BOOTLOADER
@@ -59,7 +80,7 @@ void main(void)
            }
            if(usClockUncapture >= 15000UL){//This case must be call after 15 Sec undetected rise or Edge
                     //bFirstDetect = TRUE;
-                    //vTim2_EnablePWM();
+                    vTim2_EnablePWM();
                     usClockUncapture = 0;
                     vClearMeasure();
                     vSetPWM1(10U);
@@ -81,6 +102,8 @@ void main(void)
               State eCurrentState = eGetParse(xNewSample);//This is example for detect FSM
               switch(eCurrentState){
                 case start:
+                  countPWM = 0;
+                  print("Start\n\r", 7);
                   vClearMeasure();
                   usClockUnStop = 0;
                   bStart = TRUE;
@@ -93,6 +116,8 @@ void main(void)
                 break;
                 
                 case stop:
+                  countPWM = 0;
+                  print("Stop\n\r", 6);
                   vClearMeasure();
                   bFirstStart = TRUE;
                   bStart = FALSE;
@@ -102,29 +127,39 @@ void main(void)
                   GPIOD->ODR&=~(1<<2);//Pull up sig gen out
                   u8PWMMeasured = 0;
                   u8PWMFill = 9;
-                  u16PWMOnes = 0; 
-                  u16CountSamples = 0;
+                  //u16PWMOnes = 0; 
+                  //u16CountSamples = 0;
                   vSetPWM1(10);
                 break;
                 
                 case pwm:
-                  if(u8PWMMeasured > 0){
-                    --u8PWMMeasured;//This is indicate of measured PWM
+                  print("PWM\n\r", 5);
+                  if(countPWM < 0x0A) {//Check valid PWM
+                    ++countPWM;
+                  }
+                  else{//PWM already detected
+                    if(u8PWMMeasured > 0){
+                      --u8PWMMeasured;//This is indicate of measured PWM
+                      vSetPWM2(u8PWMFill);
+                      TIM2->CCER2|=TIM2_CCER2_CC3E;
                     if(u8PWMFill < 12U){//If PWM fill less than 12%, set PWM 12%
                       vSetPWM1(10U);
                     }
                     else{//If PWM more than 12%, set PWM fill 50%
                       vSetPWM1(50);
+                      }
                     }
                   }
+
                 break;
                 
               case mistake:
+                  print("MST\n\r", 5);
                   u8PWMMeasured = 0;
-                  u8PWMFill = 9;
-                  u16PWMOnes = 0; 
-                  u16CountSamples = 0;
-                  vSetPWM1(10);
+                  //u8PWMFill = 9;
+                  //u16PWMOnes = 0; 
+                  //u16CountSamples = 0;
+                  //vSetPWM1(10);
 //                  xNewSample.time = 0;
 //                  xNewSample.polarity = TRUE;
                 break;
